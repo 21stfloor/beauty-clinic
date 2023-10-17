@@ -1,0 +1,47 @@
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Appointment</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body px-5">
+        </div>
+        <div class="modal-footer text-center">
+        
+        </div>
+    </div>
+    </div>
+</div>
+
+<script>
+    const exampleModal = document.getElementById('exampleModal')
+    if (exampleModal) {
+    exampleModal.addEventListener('show.bs.modal', event => {
+        // Button that triggered the modal
+        const button = event.relatedTarget
+        // Extract info from data-bs-* attributes
+        let data = String(button.getAttribute('data-bs-appointment'))
+        
+        data = data.replace(/'/g, '"');
+        // console.log(data);
+        const obj = JSON.parse(data);//JSON.parse(petData);
+        console.log(obj);
+        // If necessary, you could initiate an Ajax request here
+        // and then do the updating in a callback.
+
+        // Update the modal's content.
+        const modalBody = exampleModal.querySelector('.modal-body')
+        modalBody.textContent = `${obj[0].fields.status_description}`;
+
+        const modalFooter = exampleModal.querySelector('.modal-footer')
+        const dateString = obj[0].fields.date;
+        const appointmentDate = moment(dateString.split('T')[0]).format('MMMM DD, YYYY');
+        modalFooter.innerHTML = `Date of your appointment<br>${appointmentDate}`;
+        // const modalBodyInput = exampleModal.querySelector('.modal-body input')
+
+        // modalTitle.textContent = `New message to ${data}`
+        // modalBodyInput.value = data
+    })
+    }
+</script>

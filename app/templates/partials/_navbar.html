@@ -1,0 +1,98 @@
+{% load static %}
+<style>
+    .nav-link{
+        color:black;
+    }
+
+    .nav-link:hover{
+        color: brown;
+    }
+    .nav-item{
+        padding: 2px 8px;
+    }
+    .sidebar-icon{
+        max-width:50%;
+    }
+    body{
+        font-family: 'Lora', serif;
+    }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lora:ital,wght@0,400;0,500;1,400&family=Questrial&display=swap" rel="stylesheet">
+
+<nav class="navbar navbar-expand-lg bg-warning">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="{% url 'index' %}">
+            <img src="{% static 'logo/app_icon.png' %}" alt="Logo" class="img-fluid d-inline-block align-text-top w-50">            
+        </a>
+        
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav text-black">
+            <li class="nav-item mr-3">
+                <a href="{% url 'index' %}" class="nav-link align-middle px-0">
+                    <span class="ms-1 d-sm-inline">Home</span>
+                </a>
+            </li>
+
+            {% if user.is_authenticated %}
+                {% if user.is_superuser %}
+                <li class="nav-item mr-3">
+                    <a href="{% url 'admin:index' %}" class="nav-link align-middle px-0">
+                        <span class="ms-1  d-sm-inline">Admin</span>
+                    </a>
+                </li>
+                {% else %}
+                <li class="nav-item mr-3">
+                    <a href="{% url 'appointment' %}" class="nav-link align-middle px-0">
+                         <span class="ms-1  d-sm-inline">New Appointment</span>
+                    </a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a href="{% url 'appointment_list' %}" class="nav-link align-middle px-0">
+                        <span class="ms-1  d-sm-inline">My Appointments</span>
+                    </a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a href="{% url 'products' %}" class="nav-link align-middle px-0">
+                        <span class="ms-1  d-sm-inline">Products</span>
+                    </a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a href="{% url 'about' %}" class="nav-link align-middle px-0">
+                        <span class="ms-1  d-sm-inline">About</span>
+                    </a>
+                </li>
+                
+                {% endif %}
+            
+            {% else %}
+                <li class="nav-item mr-3">
+                    <a href="{% url 'login' %}" class="nav-link align-middle px-0">
+                        <span class="ms-1 d-sm-inline text-black">Sign in</span>
+                        
+                    </a>
+                </li>
+            {% endif %}
+        </ul>
+        
+      </div>
+      {% if user.is_authenticated %}
+        <form class="d-flex float-end">
+            <p class="mr-3 text-black">Signed in as:<br>{{ user.email }}</p>
+            <ul class="navbar-nav float-end justify-content-end">
+                <li class="nav-item mr-3 text-black">
+                    <a href="{% url 'logout' %}" style="color:red"><i class="bi bi-box-arrow-left"></i></a>
+                    <span class="ms-1 d-none d-sm-inline">
+                        <a href="{% url 'logout' %}" style="color:red">Log Out</a>
+                    </span>
+                </li>
+            </ul>
+        </form>
+        {% endif %}
+    </div>
+  </nav>
+

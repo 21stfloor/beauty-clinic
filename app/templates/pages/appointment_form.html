@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% load render_table from django_tables2 %}
+{% load django_bootstrap5  %}
+{% load crispy_forms_tags %}
+
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/css/lightgallery-bundle.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/material_orange.css">
+    <style>
+        .flatpickr-months .flatpickr-month, .flatpickr-current-month .flatpickr-monthDropdown-months, .flatpickr-weekdays, .flatpickr-day.selected, span.flatpickr-weekday{
+            background: #fbcd91 !important;
+        }
+        
+        .flatpickr-calendar.inline{
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+        /* .bg-main{
+            background: white !important;
+            display: none;
+        } */
+    </style>
+    
+{% endblock %}
+
+
+{% block content %}
+    <h1 class="text-black" id="head-text">Book an Appointment</h1>
+    <div class="container-fluid bg-light p-4">
+        <div class="row mb-5">
+            <form method="post">
+                {% csrf_token %}
+                <div class="input-group mb-3 flex-nowrap">                            
+                    <div class="form-floating w-100">
+                      <input type="text" class="form-control" id="date" name="date" required>
+                      <label for="date">Appointment Date:</label>
+                    </div>
+                  </div>
+                {{ form|crispy }}
+                <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+        </div>
+        
+        
+    </div>
+
+    <p id="dateToday" hidden>{{ today }}</p>
+    <p id="minTime" hidden>{{ min_time }}</p>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+        $(document).ready(function(){
+            let today = $('#dateToday').text();
+            let minTime = $('#minTime').text();
+
+            const config = {
+                // inline: true,
+                enableTime: true,
+                enableSeconds: false,
+                time_24hr: false,
+                altInput: true,
+                altFormat: "F j, Y, h:i K",
+                dateFormat: "Y-m-d, h:i K",
+                defaultDate: today,
+                minTime: "09:00",
+                maxTime: "17:00",
+                minuteIncrement: 30,
+                minDate: today,
+                disable: [
+                    function(date) {
+                        // 0 = Sunday
+                        return (date.getDay() === 0);
+                    }
+                ]
+            };
+
+            $("input[name='date']").flatpickr(config);
+            $("input[name='date_of_death']").flatpickr();
+
+            const wedding_fields = $("[data-purpose_type='Wedding']");
+            const baptisim_fields = $("[data-purpose_type='Baptism']");
+            const funeral_fields = $("[data-purpose_type='Funeral']");
+
+            toggleFields(baptisim_fields, 'none');
+            toggleFields(funeral_fields, 'none');
+            toggleFields(wedding_fields, 'block');
+
+            document.getElementById('id_purpose').onchange = function(){
+                let purpose_type = this.options[this.selectedIndex].text;
+                console.log(purpose_type);
+
+                toggleFields(wedding_fields, 'none');
+                toggleFields(baptisim_fields, 'none');
+                toggleFields(funeral_fields, 'none');
+                
+
+                if(purpose_type == 'Wedding'){
+                    toggleFields(wedding_fields, 'block');
+                }
+
+                if(purpose_type == 'Baptism'){
+                    toggleFields(baptisim_fields, 'block');
+                }
+
+                if(purpose_type == 'Funeral'){
+                    toggleFields(funeral_fields, 'block');
+                }
+            };
+
+        });
+
+        function toggleFields(fields, display){
+            console.log(`display : ${display}`);
+            // $('#head-text').text(`Create Appointment for ${$(fields).attr('data-purpose_type')}`)
+            fields.each(function() {
+                let parent_id = `div_${$(this).attr('id')}`;
+                console.log(parent_id);
+                $(`#${parent_id}`).css('display', display);
+            });
+        }
+    </script>
+    
+
+
+{% endblock %}

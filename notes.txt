@@ -1,0 +1,25 @@
+Beauty Clinic web based
+total price 12k
+oct 2nd week
+
+beauty clinic siya, then yung data analytics niya ma vvisualize niya kung ilan naging customer nila last week kubg bumaba ba or tumaas, then sa inventory mga product sa beauty care
+
+Inventory (to be sold to customer)
+
+data analytics -> should indicate genders
+
+Appointment
+
+staff (admin) -> organize appointments
+
+
+client -> make an appointment
+email notifications -> notify 1 day before appointment
+						appointment status changed
+						forgot password
+
+client export Profile Information into pdf
+
+receipt 
+
+

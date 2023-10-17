@@ -1,0 +1,64 @@
+{% extends 'base.html' %} {% load static %} {% block mycss %} {{ block.super }}
+<link rel="stylesheet" href="{% static 'css/style.css' %}" />
+{% endblock mycss %} {% block content %}
+  
+  <div class="row">
+    <section id="login" class="py-5">
+      <div class="container h-100">
+        
+        <div class="row h-100">
+          <div class="col-8 mx-auto">
+            <div class="card">
+              <div class="card-header bg-warning text-black">
+                <h4><i class="fas fa-sign-in-alt"></i> Login</h4>
+              </div>
+              <div class="card-body" id="loginForm">
+                <form action="{% url 'login' %}" method="POST" >
+                  {% csrf_token %}
+                  <div class="form-group bg-white">
+                    {% for error in form.non_field_errors %}
+                    <p class="text-danger">{{ error }}</p>
+                    {% endfor %}
+                  </div>
+                  <div class="form-group">
+                    <label for="username">Email</label>
+                    <input
+                      type="text"
+                      name="username"
+                      class="form-control"
+                      required
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="password2">Password</label>
+                    <input
+                      type="password"
+                      name="password"
+                      class="form-control"
+                      required
+                    />
+                  </div>
+                  <div class="col text-center">
+                    <input
+                      type="submit"
+                      value="Login"
+                      class="btn btn-success btn-block mt-3 tomato"
+                    />
+                  </div>
+
+                  
+                  <p class="text-center h5">
+                    Don't have an account yet?<br>
+                    <a class="btn btn-lg" style="background-color:rgb(209, 178, 2);" href="{% url 'register'%}">Create an account </a> instead.
+                  </p> 
+                  <!-- <a href="{% url 'admin:index' %}" type="btn btn-primary">Login as Admin</a> -->
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+{% endblock %}

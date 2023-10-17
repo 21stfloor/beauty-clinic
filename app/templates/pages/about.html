@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% load render_table from django_tables2 %}
+{% load django_bootstrap5  %}
+{% load crispy_forms_tags %}
+
+{% block css %}
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/css/lightgallery-bundle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lg-fullscreen.min.css" integrity="sha512-JlgW3xkdBcsdFiSfFk5Cfj3sTgo3hA63/lPmZ4SXJegICSLcH43BuwDNlC9fqoUy2h3Tma8Eo48xlZ5XMjM+aQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lg-medium-zoom.min.css" integrity="sha512-ILbxmmqtYUE97Fmhl6ebHhHR6Q1G3GSC9dpbU64NITFIG8XGXqdYlmzGAb0I49htqaP8JNm2eLbEdBITqWbL5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lg-thumbnail.min.css" integrity="sha512-GRxDpj/bx6/I4y6h2LE5rbGaqRcbTu4dYhaTewlS8Nh9hm/akYprvOTZD7GR+FRCALiKfe8u1gjvWEEGEtoR6g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* .bg-main{
+            background: white !important;
+            display: none;
+        } */
+        .header{
+            background-image: url("/static/images/240596201_107596578311650_7952059424859367240_n.jpg") !important;
+            background-position-y: center;
+        }
+        h2 {
+            color: #333; /* Set your desired text color */
+            text-shadow: 2px 2px 4px rgba(255, 251, 0, 0.5); /* Add an outer glow */
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+{% endblock %}
+
+
+{% block content %}
+    
+    
+<div class="container my-5">
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to Our Beauty Clinic</h1>
+        <p class="lead">Discover a world of beauty and self-care</p>
+    </div>
+    
+    <h2>Our Services</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <!-- Add an image here if desired -->
+                <div class="card-body">
+                    <h5 class="card-title">Revitalize Your Skin</h5>
+                    <p class="card-text">Our experienced skincare specialists provide tailored treatments, from rejuvenating facials to advanced skin therapies, to leave your skin glowing and refreshed.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <!-- Add an image here if desired -->
+                <div class="card-body">
+                    <h5 class="card-title">Pamper Yourself</h5>
+                    <p class="card-text">Treat yourself to a day of relaxation and rejuvenation. Our spa services, including massages and body treatments, will help you unwind and destress.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <!-- Add an image here if desired -->
+                <div class="card-body">
+                    <h5 class="card-title">Expert Beauty Advice</h5>
+                    <p class="card-text">Our expert team is here to provide personalized beauty advice and guidance. We'll help you choose the best products and treatments for your unique needs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <h2>Discover Premium Products</h2>
+    <p>Browse our curated selection of premium beauty products. From skincare essentials to cosmetics, we offer the latest and most trusted brands to help you achieve that flawless look.</p>
+    
+    <h2>Book Your Appointment</h2>
+    <p>Ready for a beauty transformation? Our appointment services make scheduling your next visit easy. Whether you're seeking a spa day or a consultation, we're here to accommodate your schedule.</p>
+    
+    <h2>Experience the Difference</h2>
+    <p>W're committed to delivering an unparalleled beauty and wellness experience. Our skilled professionals are dedicated to helping you reveal your inner and outer beauty. Join us on your journey to self-care, and let us be your trusted partner in achieving your beauty goals.</p>
+    
+    <p><strong>Book your appointment today and step into a world of beauty, wellness, and confidence.</strong></p>
+</div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    
+
+
+{% endblock %}
