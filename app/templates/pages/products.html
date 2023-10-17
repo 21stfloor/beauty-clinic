@@ -39,14 +39,22 @@
                 <h2 class="text-black" id="head-text">Our Products</h2>
             </div>
         </div>
-        <div class="row mb-5" id="lightgallery">
-            {% for image in images %}
-                <div class="col-4 p-3" data-src="{% static image %}">
-                    <a href="{% static image %}">
-                        <img src="{% static image %}" class="img-fluid  rounded" />
-                    </a>
+        <div class="row mb-5" >
+            <section class="container my-5">
+                <div class="row p-5" id="lightgallery">
+                {% for product in products %}
+                <div class="col-lg-4" data-src="{{product.thumbnail.url}}">
+                    <div class="card mb-4 p-3">
+                        <img src="{{product.thumbnail.url}}" class="card-img-top" alt="{{ product.name }}">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ product.name }}</h5>
+                            <p class="card-text">{{ product.description }}</p>
+                        </div>
+                    </div>
                 </div>
-            {% endfor %}
+                {% endfor %}
+                </div>
+            </section>
         </div>
         
         

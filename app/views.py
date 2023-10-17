@@ -179,7 +179,7 @@ def index(request):
     return render(request, 'pages/landing.html', context)
 
 def products(request):
-    products = []
+    products = Product.objects.order_by('-id')[:3]
     
     return render(request, 'pages/products.html', {"products": products})
 
