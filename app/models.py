@@ -120,18 +120,6 @@ def validate_file_extension(value):
     if not ext.lower() in valid_extensions:
         raise ValidationError('Unsupported file extension.')
 
-
-class Order(models.Model):
-    customer = models.ForeignKey(CustomUser, on_delete=models.CASCADE, blank=False)
-    price = models.FloatField()
-    discount = models.FloatField()
-    quantity = models.SmallIntegerField()
-    # Field name made lowercase.
-    createdat = models.DateTimeField(db_column='createdAt')
-    # Field name made lowercase.
-    updatedat = models.DateTimeField(
-        db_column='updatedAt', blank=True, null=True)
-
 class Product(models.Model):
     name = models.CharField(unique=True, max_length=75, blank=False)
     description = models.TextField(blank=True, null=True)
@@ -142,6 +130,17 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+
+class Order(models.Model):
+    customer = models.ForeignKey(CustomUser, on_delete=models.CASCADE, blank=False)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, blank=True, default=None)
+    price = models.FloatField()
+    discount = models.FloatField()
+    quantity = models.SmallIntegerField()
+    # Field name made lowercase.
+    date = models.DateTimeField(auto_now_add=True, null=True)
+
+
     
 
 

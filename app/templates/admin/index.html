@@ -1,0 +1,226 @@
+{% extends "admin/base_site.html" %}
+{% load i18n static %}
+
+{% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% static "admin/css/dashboard.css" %}">{% endblock %}
+
+{% block coltype %}colMS{% endblock %}
+
+{% block bodyclass %}{{ block.super }} dashboard{% endblock %}
+
+{% block breadcrumbs %}{% endblock %}
+
+{% block nav-sidebar %}{% endblock %}
+
+{% block content %}
+<div id="content-main">
+  {% include "admin/app_list.html" with app_list=app_list show_changelinks=True %}
+</div>
+{% endblock %}
+
+{% block sidebar %}
+<div id="content-related">
+    <div class="module" id="recent-actions-module">
+        <h2>{% translate 'Recent actions' %}</h2>
+        <h3>{% translate 'My actions' %}</h3>
+            {% load log %}
+            {% get_admin_log 10 as admin_log for_user user %}
+            {% if not admin_log %}
+            <p>{% translate 'None available' %}</p>
+            {% else %}
+            <ul class="actionlist">
+            {% for entry in admin_log %}
+            <li class="{% if entry.is_addition %}addlink{% endif %}{% if entry.is_change %}changelink{% endif %}{% if entry.is_deletion %}deletelink{% endif %}">
+                {% if entry.is_deletion or not entry.get_admin_url %}
+                    {{ entry.object_repr }}
+                {% else %}
+                    <a href="{{ entry.get_admin_url }}">{{ entry.object_repr }}</a>
+                {% endif %}
+                <br>
+                {% if entry.content_type %}
+                    <span class="mini quiet">{% filter capfirst %}{{ entry.content_type.name }}{% endfilter %}</span>
+                {% else %}
+                    <span class="mini quiet">{% translate 'Unknown content' %}</span>
+                {% endif %}
+            </li>
+            {% endfor %}
+            </ul>
+            {% endif %}
+
+        
+    </div>
+    
+</div>
+{% endblock %}
+
+{% block rightbar %}
+
+<div class="row mr-auto p-5">
+                   
+    <div class="col-8 p-5">
+        <canvas id="myChart"></canvas>
+    </div>
+    <div class="col p-5">
+        <canvas id="myPieChart"></canvas>
+    </div>
+
+</div>
+
+
+{% endblock %}
+
+
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- <script>
+    const chartDataURL = "{% url 'chart-data' %}";
+    // Fetch data from the Django REST API
+    fetch(chartDataURL)
+      .then(response => response.json())
+      .then(data => {
+        const services = Array.from(new Set(data.map(item => item.service)));
+        const months = Array.from(new Set(data.map(item => item.month)));
+  
+        const dataset = services.map(service => {
+          const serviceData = data.filter(item => item.service === service);
+          const counts = months.map(month => {
+            const count = serviceData.find(item => item.month === month);
+            return count ? count.count : 0;
+          });
+  
+          return {
+            label: service,
+            data: counts,
+            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+            borderColor: 'rgba(75, 192, 192, 1)',
+            borderWidth: 1,
+          };
+        });
+  
+        // Create the Chart
+        new Chart(document.getElementById('appointment-chart'), {
+          type: 'bar',
+          data: {
+            labels: months,
+            datasets: dataset,
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true,
+              },
+            },
+          },
+        });
+      });
+  </script> -->
+<script>
+    // Function to make the AJAX call and create the chart
+    function fetchDataAndCreateChart() {
+        const chartDataURL = "{% url 'chart-data' %}";
+
+        fetch(chartDataURL)
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+
+                // Extract labels and data for the chart
+                const labels = data.map(item => item.label);
+                const chartData = data.map(item => item.data[0]);
+                const backgroundColors = data.map(item => item.backgroundColor);
+                const borderColor = data.map(item => item.borderColor);
+
+                // Find the maximum value in the "data" field
+                const maxDataValue = Math.max(...data.map(item => Math.max(...item.data))) + 5;
+                console.log(maxDataValue);
+                // Calculate the step size to ensure whole numbers
+                const stepSize = Math.ceil(maxDataValue / 10); // Adjust the divisor as needed
+
+                // Create the chart using Chart.js
+                var ctx = document.getElementById('myChart').getContext('2d');
+                var myChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+                        datasets: data
+                    },
+                    options: {
+                        responsive: true,
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                stepSize: stepSize, // Set the step size to ensure whole numbers
+                                max: maxDataValue
+                            }
+                        },
+                        plugins: {
+                            title: {
+                                display: true,
+                                text: 'Services Availed'
+                            },
+                            legend: {
+                                display: true,
+                                labels: {
+                                    color: 'rgb(255, 99, 132)',
+                                },
+                            }
+                        }
+                    }
+                });
+            })
+            .catch(error => console.error('Error:', error));
+    }
+
+
+    // Call the function to fetch data and create the chart
+    fetchDataAndCreateChart();
+</script>
+<script>
+
+const chartDataURL = "{% url 'gender-data' %}";
+
+fetch(chartDataURL)
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+
+        var pieData = {
+            labels: ['Male', 'Female', 'Other'],
+            datasets: [{
+                data: data,
+                backgroundColor: [                    
+                    'rgba(54, 162, 235, 0.6)',
+                    'rgba(255, 99, 132, 0.6)',
+                    'rgba(255, 206, 86, 0.6)',
+                ],
+                borderColor: [                    
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(255, 206, 86, 1)',
+                ],
+                borderWidth: 1,
+            }],
+        };
+
+        var pieCtx = document.getElementById('myPieChart').getContext('2d');
+        var myPieChart = new Chart(pieCtx, {
+            type: 'pie',
+            data: pieData,
+            options: {
+                responsive: true,
+                plugins:{
+                    title: {
+                        display: true,
+                        text: 'Customers'
+                    },
+                }
+            }
+        });
+
+    })
+    .catch(error => console.error('Error:', error));
+    
+</script>
+
+
+{% endblock %}

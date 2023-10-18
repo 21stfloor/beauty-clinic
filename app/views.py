@@ -1,9 +1,16 @@
-
+import random
+from rest_framework.generics import ListAPIView
+from django.db.models import Count
+from django.db.models import F, Sum
+from rest_framework.response import Response
+from rest_framework.views import APIView
+from django.db.models.functions import ExtractMonth, TruncMonth
 from itertools import product
 from django.views.generic.edit import CreateView
 from django.utils.timezone import get_current_timezone
 from datetime import datetime
 from django.utils.timezone import make_aware
+from app import models
 from app.context_processors import SCHEDULE_DATEFORMAT
 from django_tables2 import SingleTableView
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -11,9 +18,9 @@ from django.contrib.auth import login
 from django.shortcuts import render, redirect
 from app.context_processors import CONTEXT
 from app.forms import AppointmentForm, NewUserForm
-from app.models import Appointment, CustomUser, Customer, Product, Service
+from app.models import Appointment, CustomUser, Customer, Gender, Product, Service
 from app.tables import AppointmentTable
-from .serializers import CustomUserSerializer, CustomerImageSerializer, CustomerSerializer
+from .serializers import GenderDistributionSerializer, ServiceAppointmentCountSerializer, CustomUserSerializer, CustomerImageSerializer, CustomerSerializer
 from rest_framework import viewsets, mixins, generics
 from rest_framework.decorators import api_view, action
 from django.shortcuts import render
@@ -35,6 +42,7 @@ import time
 import os
 from agora_token_builder import RtcTokenBuilder
 from django.templatetags.static import static
+from calendar import month_name
 
 query_watch = None
 
@@ -185,3 +193,70 @@ def products(request):
 
 def about(request):
     return render(request, 'pages/about.html')
+
+def generate_random_color():
+    return f"rgba({random.randint(0, 255)}, {random.randint(0, 255)}, {random.randint(0, 255)}, 1)"
+
+class ServiceAppointmentCount(APIView):
+    def get(self, request):
+        queryset = (
+            Appointment.objects
+            .values('date', 'service__name')
+            .annotate(count=Count('service'))
+        )
+        # Number of unique colors to generate
+        num_colors = 12
+
+        # List to store unique colors
+        unique_colors = set()
+
+        # Generate unique colors
+        while len(unique_colors) < num_colors:
+            color = generate_random_color()
+            unique_colors.add(color)
+
+        # Define a list of random background colors
+        background_colors = list(unique_colors)
+
+        # Group the data by service__name and create a dictionary with label, data, and random backgroundColor
+        service_data = {}
+        for item in queryset:
+            service_name = item['service__name']
+            # month = item['date__month']
+            date = item['date']
+            month = date.month
+            count = item['count']
+
+            if service_name not in service_data:
+                # Get a random background color for the service
+                random_color = random.choice(background_colors)
+
+                service_data[service_name] = {
+                    "label": service_name,
+                    "data": [0] * 12,  # Initialize data array for 12 months
+                    "backgroundColor": random_color,
+                }
+            
+            if month is not None and 1 <= month <= 12:
+                service_data[service_name]["data"][month - 1] = count  # Subtract 1 to align with array index
+
+        # Convert the dictionary values to a list
+        result = list(service_data.values())
+
+        return Response(result, status=status.HTTP_200_OK)
+    
+
+class GenderDistributionView(APIView):
+    def get(self, request):
+        gender_data = CustomUser.objects.values('gender').annotate(count=Count('gender'))
+
+        gender_counts = [0] * (len(Gender) + 1)  # Initialize with 0 values for all gender choices
+
+        for entry in gender_data:
+            gender = entry['gender']
+            gender_counts[gender] = entry['count']
+
+        # # Convert the list to exclude the first index (0 value)
+        # gender_counts = gender_counts[1:]
+
+        return Response(gender_counts)

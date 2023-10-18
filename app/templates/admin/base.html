@@ -100,8 +100,10 @@
             {% endfor %}</ul>
           {% endif %}
         {% endblock messages %}
+        {% block rightbar %}{% endblock %}
         <!-- Content -->
         <div id="content" class="{% block coltype %}colM{% endblock %}">
+          
           {% block pretitle %}{% endblock %}
           {% block content_title %}{% if title %}<h1>{{ title }}</h1>{% endif %}{% endblock %}
           {% block content_subtitle %}{% if subtitle %}<h2>{{ subtitle }}</h2>{% endif %}{% endblock %}
@@ -110,7 +112,8 @@
             {{ content }}
           {% endblock %}
           {% block sidebar %}{% endblock %}
-          <br class="clear">
+          <!-- <br class="clear"> -->
+          
         </div>
         <!-- END Content -->
         {% block footer %}<div id="footer"></div>{% endblock %}
@@ -118,5 +121,7 @@
     </div>
 </div>
 <!-- END Container -->
+{% block scripts %}
+{% endblock %}
 </body>
 </html>

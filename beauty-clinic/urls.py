@@ -27,6 +27,7 @@ from django.contrib.auth.views import LogoutView
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'customer', views.CustomerViewSet)
 router.register(r'upload_customer_image', views.UploadCustomerImageViewSet)
+# router.register(r'chart-data', views.ChartDataView, basename='chartdata')
 
 urlpatterns = [
     path('', views.index, name='index'),
@@ -53,4 +54,6 @@ urlpatterns = [
     url(r'^api/customerlist', views.customer_list),
     url(r'^api/veterinarylist', views.veterinary_list),
     url(r'^chaining/', include('smart_selects.urls')),
+    path('chart-data/', views.ServiceAppointmentCount.as_view(), name='chart-data'),
+    path('gender-data/', views.GenderDistributionView.as_view(), name='gender-data'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -46,7 +46,7 @@ class UserChangeForm(forms.ModelForm):
 
     class Meta:
         model = CustomUser
-        fields = ('email', 'password', 'firstname', 'middlename', 'lastname', 'picture', 'is_active', 'is_superuser')
+        fields = ('email', 'password', 'firstname', 'middlename', 'lastname', 'gender', 'picture', 'is_active', 'is_superuser')
 
 
 class NewUserForm(UserCreationForm):
@@ -54,7 +54,7 @@ class NewUserForm(UserCreationForm):
 
     class Meta:
         model = CustomUser
-        fields = ("email", "password1", "password2")
+        fields = ("email", "firstname", "lastname", "gender", "password1", "password2")
 
     def save(self, commit=True):
         user = super(NewUserForm, self).save(commit=False)
