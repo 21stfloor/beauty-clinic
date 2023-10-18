@@ -4,22 +4,33 @@ from django.contrib import admin
 from django.apps import apps
 from app.forms import UserChangeForm, UserCreationForm
 from django import forms
-from app.models import (Appointment, CustomUser, Customer, Product, Purpose, Service, Status,)
+from app.models import (Appointment, CustomUser, Customer, Order, Product, Purpose, Service, Status,)
 from django.contrib.auth.models import Group, User
 from admin_interface.admin import Theme
+from django.utils.html import format_html
 # admin.site.unregister((Theme, Group))
 
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
-    list_display = [
-        field.name for field in Product._meta.get_fields()]
+    list_display = ('name', 'description', 'category', 'price', 'thumb')
 
+    def thumb(self, obj):
+        return format_html("<img src='{}'  width='48' height='48' />".format(obj.thumbnail.url))
+    thumb.allow_tags = True
+    thumb.__name__ = 'Thumbnail'
+    
 @admin.register(Service)
 class ServiceAdmin(admin.ModelAdmin):
-    list_display = ('name', 'description', 'thumbnail')
-    # list_display = [
-    #     field.name for field in Service._meta.get_fields()]
+    list_display = ('name', 'description', 'thumb')
 
+    def thumb(self, obj):
+        return format_html("<img src='{}'  width='48' height='48' />".format(obj.thumbnail.url))
+    thumb.allow_tags = True
+    thumb.__name__ = 'Thumbnail'
+
+@admin.register(Order)
+class OrderAdmin(admin.ModelAdmin):
+    list_display =('customer', 'product', 'date', 'price', 'quantity', 'discount')
 
 @admin.register(CustomUser)
 class CustomUserAdmin(BaseUserAdmin):
@@ -70,7 +81,7 @@ models = app_config.get_models()
 #     except admin.sites.AlreadyRegistered: 
 #         pass 
 
-# admin.site.unregister((         Category, Brand, Product, ProductCategory, ProductMeta, Order, OrderItem, Item, Transaction ))
+admin.site.unregister((         Group ))
 
 
 admin.site.site_header = "Web based Beauty Clinic Appointment"

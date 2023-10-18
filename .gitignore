@@ -8,7 +8,7 @@ media
 
 myenv/
 
-beauty-clinic/static
+beauty_clinic/static
 
 # Backup files # 
 *.bak 

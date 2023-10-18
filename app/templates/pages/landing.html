@@ -27,7 +27,11 @@
                       <p class="card-text">{{ service.description }}</p>
                   </div>
                   <div class="card-footer">
-                    <a href="#" class="btn btn-info">More info</a>
+                    {% if user.is_authenticated %}
+                    <a href="{% url 'services' %}" class="btn btn-info">More info</a>
+                    {% else %}
+                    <a href="{% url 'login' %}" class="btn btn-info">More info</a>
+                    {% endif %}
                   </div>
               </div>
           </div>

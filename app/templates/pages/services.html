@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% load render_table from django_tables2 %}
+{% load django_bootstrap5  %}
+{% load crispy_forms_tags %}
+
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/css/lightgallery-bundle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lg-fullscreen.min.css" integrity="sha512-JlgW3xkdBcsdFiSfFk5Cfj3sTgo3hA63/lPmZ4SXJegICSLcH43BuwDNlC9fqoUy2h3Tma8Eo48xlZ5XMjM+aQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lg-medium-zoom.min.css" integrity="sha512-ILbxmmqtYUE97Fmhl6ebHhHR6Q1G3GSC9dpbU64NITFIG8XGXqdYlmzGAb0I49htqaP8JNm2eLbEdBITqWbL5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lg-thumbnail.min.css" integrity="sha512-GRxDpj/bx6/I4y6h2LE5rbGaqRcbTu4dYhaTewlS8Nh9hm/akYprvOTZD7GR+FRCALiKfe8u1gjvWEEGEtoR6g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .bg-main{
+            background: white !important;
+            display: none;
+        }
+        .header{
+            background-image: url("/static/images/240596201_107596578311650_7952059424859367240_n.jpg") !important;
+            background-position-y: center;
+        }
+        h2 {
+            color: #333; /* Set your desired text color */
+            text-shadow: 2px 2px 4px rgba(255, 251, 0, 0.5); /* Add an outer glow */
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.8.1/css/justifiedGallery.min.css" integrity="sha512-CRFv/YVJyElHXTiMgnhWKd2f04Hd/BUJkwcyqYmlpL1ugSYW23nNRazLk960mlz7dugTrETCGGjcsnspPOS6qA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+{% endblock %}
+
+
+{% block content %}
+    
+    
+    <div class="container-fluid bg-light p-4">
+        <div class="row header p-4">
+            <div class="col">
+                <h2 class="text-black" id="head-text">Our Services</h2>
+            </div>
+        </div>
+        <div class="row mb-5" >
+            <section class="container my-5">
+                <div class="row p-5" id="lightgallery">
+                {% for service in services %}
+                <div class="col-lg-4" >
+                    <div class="card mb-4 p-3 h-100 entry">
+                        <img src="{{service.thumbnail.url}}" class="card-img-top thumbnail" alt="{{ service.name }}" data-src="{{service.thumbnail.url}}">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ service.name }}</h5>
+                            <p class="card-text">{{ service.description }}</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="{% url 'appointment' %}?service={{service.id}}" class="btn btn-info w-100">₱{{ service.price }}<br>Book now</a>
+                          </div>
+                    </div>
+                </div>
+                {% endfor %}
+                </div>
+            </section>
+        </div>
+        
+        
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js" integrity="sha512-jEJ0OA9fwz5wUn6rVfGhAXiiCSGrjYCwtQRUwI/wRGEuWRZxrnxoeDoNc+Pnhx8qwKVHs2BRQrVR9RE6T4UHBg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/fullscreen/lg-fullscreen.min.js" integrity="sha512-11B0rPDzvnSOYzAT37QdnYgt0z9Xg+wX5tckB1QKl5Znl8RPvrB5npo38K2jCt+Ad44udCfBiKt9D4jRdkSE1A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/pager/lg-pager.es5.min.js" integrity="sha512-8HOl3Wy4i/c6mO3//QLqwMjxpCpyWlZe+8Z3QPD241qm1nI1D23aYG3mqFhp3yBpGpSXFeNUFYHlIfVCNfJ3Uw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/zoom/lg-zoom.min.js" integrity="sha512-BLW2Jrofiqm6m7JhkQDIh2olT0EBI58+hIL/AXWvo8gOXKmsNlU6myJyEkTy6rOAAZjn0032FRk8sl9RgXPYIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/thumbnail/lg-thumbnail.min.js" integrity="sha512-VBbe8aA3uiK90EUKJnZ4iEs0lKXRhzaAXL8CIHWYReUwULzxkOSxlNixn41OLdX0R1KNP23/s76YPyeRhE6P+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js" integrity="sha512-8dQZtymfQeDiZ4bBCFhrKZhDcZir15MqnEDBRiR6ReIVHLcdnCyJrhPIS0QifLGuMkFZsw9QMNeD9JtiLwieTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            // lightGallery(document.getElementById('animated-thumbnails'), {
+            //     thumbnail: true,
+            // });
+            const container = document.getElementById('lightgallery');
+
+            lightGallery(container, {
+                    plugins: [lgZoom, lgThumbnail],
+                    // licenseKey: 'your_license_key',
+                    speed: 500,
+                    // ... other settings
+                    selector: '.thumbnail',
+                    thumbnail: true,
+                });
+
+                
+
+
+            // Add a click event listener to the parent container
+            container.addEventListener("click", function (event) {
+                // Check if the clicked element is a child element
+                if (event.target.classList.contains("entry")) {
+                    // Prevent the click event from propagating to the child
+                    event.stopPropagation();
+                }
+            });
+
+
+        });
+    </script>
+    
+
+
+{% endblock %}

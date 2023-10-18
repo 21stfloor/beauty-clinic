@@ -133,7 +133,7 @@
   "model": "admin_interface.theme",
   "pk": 1,
   "fields": {
-    "name": "beauty-clinic",
+    "name": "beauty_clinic",
     "active": true,
     "title": "Django administration",
     "title_color": "#F5DD5D",

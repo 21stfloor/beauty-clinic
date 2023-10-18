@@ -3,7 +3,7 @@
 
 {% block title %}
 {% get_admin_interface_theme as theme %}
-{% if title %}{{ title }} | {% endif %}{% if theme.title %}{% trans theme.title %}{% else %}{{ site_title|default:_('beauty-clinic administration') }}{% endif %}
+{% if title %}{{ title }} | {% endif %}{% if theme.title %}{% trans theme.title %}{% else %}{{ site_title|default:_('beauty_clinic administration') }}{% endif %}
 {% endblock %}
 
 {% block extrastyle %}

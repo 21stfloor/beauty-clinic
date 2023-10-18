@@ -6,6 +6,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.db.models.functions import ExtractMonth, TruncMonth
 from itertools import product
+from django.views.generic import ListView
 from django.views.generic.edit import CreateView
 from django.utils.timezone import get_current_timezone
 from datetime import datetime
@@ -17,10 +18,10 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth import login
 from django.shortcuts import render, redirect
 from app.context_processors import CONTEXT
-from app.forms import AppointmentForm, NewUserForm
-from app.models import Appointment, CustomUser, Customer, Gender, Product, Service
-from app.tables import AppointmentTable
-from .serializers import GenderDistributionSerializer, ServiceAppointmentCountSerializer, CustomUserSerializer, CustomerImageSerializer, CustomerSerializer
+from app.forms import AppointmentForm, NewUserForm, OrderForm
+from app.models import Appointment, CustomUser, Customer, Gender, Order, Product, Service
+from app.tables import AppointmentTable, OrderTable
+from .serializers import GenderDistributionSerializer, ProductSerializer, ServiceAppointmentCountSerializer, CustomUserSerializer, CustomerImageSerializer, CustomerSerializer, ServiceSerializer
 from rest_framework import viewsets, mixins, generics
 from rest_framework.decorators import api_view, action
 from django.shortcuts import render
@@ -77,8 +78,8 @@ class CreateAppointmentView(LoginRequiredMixin, CreateView):
         return reverse('appointment_list')
     
     def form_valid(self, form):
-        user = Customer.objects.filter(email=self.request.user.email).first()
-        form.instance.user = user
+        # user = CustomUser.objects.filter(email=self.request.user.email).first()
+        form.instance.customer = self.request.user
         return super(CreateAppointmentView, self).form_valid(form)
 
     # def post(self, request, *args, **kwargs):
@@ -186,13 +187,37 @@ def index(request):
     }
     return render(request, 'pages/landing.html', context)
 
-def products(request):
-    products = Product.objects.order_by('-id')[:3]
+# def products(request):
+#     products = Product.objects.order_by('-id')
     
-    return render(request, 'pages/products.html', {"products": products})
+#     return render(request, 'pages/products.html', {"products": products})
+
+
+def services(request):
+    services = Service.objects.order_by('-id')
+    
+    return render(request, 'pages/services.html', {"services": services})
 
 def about(request):
     return render(request, 'pages/about.html')
+
+class OrdertListView(LoginRequiredMixin, SingleTableView):
+    model = Order
+    table_class = OrderTable
+    template_name = 'pages/orders.html'
+    per_page = 8
+
+
+    def get_table_data(self):
+
+        return Order.objects.filter(customer__email=self.request.user.email)
+    
+    def get_context_data(self, **kwargs):
+        context = super(OrdertListView, self).get_context_data(**kwargs)
+        
+        context['form'] = OrderForm()
+            
+        return context
 
 def generate_random_color():
     return f"rgba({random.randint(0, 255)}, {random.randint(0, 255)}, {random.randint(0, 255)}, 1)"
@@ -260,3 +285,46 @@ class GenderDistributionView(APIView):
         # gender_counts = gender_counts[1:]
 
         return Response(gender_counts)
+    
+class ServiceDetailView(generics.RetrieveAPIView):
+    queryset = Service.objects.all()
+    serializer_class = ServiceSerializer
+
+class ProductDetailView(generics.RetrieveAPIView):
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
+
+
+# class CreateOrderView(LoginRequiredMixin, CreateView):
+#     model = Order
+#     form_class = OrderForm
+#     template_name = 'pages/products.html'
+
+#     def get_success_url(self):
+#         return reverse('orders')
+    
+#     def form_valid(self, form):
+#         # user = CustomUser.objects.filter(email=self.request.user.email).first()
+#         form.instance.customer = self.request.user
+#         return super(CreateOrderView, self).form_valid(form)
+
+
+class ProductsAndOrderView(LoginRequiredMixin, ListView):
+    model = Product
+    template_name = 'pages/products.html'
+    context_object_name = 'products'
+
+    def get_queryset(self):
+        return Product.objects.order_by('-id')
+
+class CreateOrderView(LoginRequiredMixin, CreateView):
+    model = Order
+    form_class = OrderForm
+    template_name = 'pages/products.html'
+
+    def get_success_url(self):
+        return reverse('orders')
+    
+    def form_valid(self, form):
+        form.instance.customer = self.request.user
+        return super(CreateOrderView, self).form_valid(form)

@@ -32,17 +32,30 @@
     <h1 class="text-black" id="head-text">Book an Appointment</h1>
     <div class="container-fluid bg-light p-4">
         <div class="row mb-5">
-            <form method="post">
-                {% csrf_token %}
-                <div class="input-group mb-3 flex-nowrap">                            
-                    <div class="form-floating w-100">
-                      <input type="text" class="form-control" id="date" name="date" required>
-                      <label for="date">Appointment Date:</label>
+            <div class="col">
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="input-group mb-3 flex-nowrap">                            
+                        <div class="form-floating w-100">
+                            <input type="text" name="customer_id" value="{{user.id}}" hidden/>
+                        </div>
                     </div>
-                  </div>
-                {{ form|crispy }}
-                <button type="submit" class="btn btn-success">Submit</button>
-            </form>
+                    {{ form|crispy }}
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="{% static 'logo/logo.png' %}" class="card-img-top" alt="Service Thumbnail" id="service-thumbnail">
+                    <div class="card-body">
+                        <h5 class="card-title" id="service-name"></h5>
+                        <p class="card-text" id="service-description"></p>
+                        <p class="card-text" id="service-price"></p>
+                    </div>
+                </div>
+                  
+            </div>
         </div>
         
         
@@ -54,7 +67,32 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script>
+        function getServiceInfo(selectedOption){
+            $.ajax({
+                url: '/service/' + selectedOption + '/',
+                type: 'GET',
+                dataType: 'json',
+                success: function(data) {
+                    // Process the data (the service details) received from the API
+                    console.log(data);
+                    
+                    $("#service-thumbnail").attr('src', data.thumbnail);
+                    $("#service-name").text(data.name);
+                    $("#service-description").text(data.description);
+                    $("#service-price").text(`₱${data.price}`);
+                },
+                error: function(error) {
+                console.log(error);
+                }
+            });
+        }
+
         $(document).ready(function(){
+            $('form').on('change', 'select[name="service"]', function(){
+                var selectedOption = $(this).val();
+                getServiceInfo(selectedOption);
+            });
+
             let today = $('#dateToday').text();
             let minTime = $('#minTime').text();
 
@@ -82,49 +120,34 @@
             $("input[name='date']").flatpickr(config);
             $("input[name='date_of_death']").flatpickr();
 
-            const wedding_fields = $("[data-purpose_type='Wedding']");
-            const baptisim_fields = $("[data-purpose_type='Baptism']");
-            const funeral_fields = $("[data-purpose_type='Funeral']");
-
-            toggleFields(baptisim_fields, 'none');
-            toggleFields(funeral_fields, 'none');
-            toggleFields(wedding_fields, 'block');
-
-            document.getElementById('id_purpose').onchange = function(){
-                let purpose_type = this.options[this.selectedIndex].text;
-                console.log(purpose_type);
-
-                toggleFields(wedding_fields, 'none');
-                toggleFields(baptisim_fields, 'none');
-                toggleFields(funeral_fields, 'none');
-                
-
-                if(purpose_type == 'Wedding'){
-                    toggleFields(wedding_fields, 'block');
-                }
-
-                if(purpose_type == 'Baptism'){
-                    toggleFields(baptisim_fields, 'block');
-                }
-
-                if(purpose_type == 'Funeral'){
-                    toggleFields(funeral_fields, 'block');
-                }
-            };
 
         });
-
-        function toggleFields(fields, display){
-            console.log(`display : ${display}`);
-            // $('#head-text').text(`Create Appointment for ${$(fields).attr('data-purpose_type')}`)
-            fields.each(function() {
-                let parent_id = `div_${$(this).attr('id')}`;
-                console.log(parent_id);
-                $(`#${parent_id}`).css('display', display);
-            });
-        }
     </script>
     
+    <script>
+        // Function to get URL parameter by name
+        function getUrlParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
 
+
+        $(document).ready(function(){
+            // Get the 'service' parameter from the URL
+            const serviceParam = getUrlParameter('service');
+            console.log(serviceParam);
+            // Set the selected option based on the 'service' parameter
+            if (serviceParam) {
+                const serviceSelect = document.getElementById('service');
+                // const optionToSelect = serviceSelect.querySelector(`[value="${serviceParam}"]`);
+                $(`option[value="${serviceParam}"]`).attr('selected', true);
+                getServiceInfo(serviceParam);
+                // if (optionToSelect) {
+                //     optionToSelect.selected = true;
+                // }
+            }
+
+        });
+    </script>
 
 {% endblock %}

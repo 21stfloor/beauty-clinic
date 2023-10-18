@@ -5,7 +5,7 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.contrib.auth.forms import ReadOnlyPasswordHashField
 from django.core.exceptions import ValidationError
 from django import forms
-from app.models import Appointment, CustomUser, Purpose
+from app.models import Appointment, CustomUser, Order, Purpose, Service
 from crispy_forms.layout import Div
 Div.template = 'bootstrap5/floating_field.html'
 
@@ -54,7 +54,7 @@ class NewUserForm(UserCreationForm):
 
     class Meta:
         model = CustomUser
-        fields = ("email", "firstname", "lastname", "gender", "password1", "password2")
+        fields = ("email", "firstname", "lastname", "gender", "phone_number", "password1", "password2")
 
     def save(self, commit=True):
         user = super(NewUserForm, self).save(commit=False)
@@ -65,42 +65,24 @@ class NewUserForm(UserCreationForm):
     
 class AppointmentForm(forms.ModelForm):
     # purpose = forms.ChoiceField(choices=Purpose.choices)
+    date = forms.DateTimeField(
+        input_formats=['%Y-%m-%d, %I:%M %p'],  # Format for input
+        widget=forms.DateTimeInput(attrs={'type': 'datetime-local'}),
+    )
     
     class Meta:
         model = Appointment
         fields = ('date', 'service', 'payment_method', )
-        exclude = ('date', 'status')
-        # widgets = {
-        #     'godparents': forms.Textarea(attrs={'cols': 80, 'rows': 10}),
-        #     'date_of_death': forms.DateInput(format='%d/%m/%Y')
-        # }
+        exclude = ('status', )
 
-    # def __init__(self, *args, **kwargs):
-    #     super(AppointmentForm, self).__init__(*args, **kwargs)
-    #     wedding_fields = ('name_of_husband', 'name_of_wife', 'name_of_officer', 'name_of_first_witness', 'name_of_second_witness', 'husband_birth_certificate', 'wife_birth_certificate')
-        
-    #     self.fields['number_of_attendees'].label = "Estimated number of attendees"
-
-    #     for field in wedding_fields:
-    #         self.fields[field].widget.attrs.update({
-    #             'data-purpose_type': 'Wedding'
-    #         })
-
-    #     baptism_fields = ('fathers_full_name', 'mothers_full_name', 'address', 'godparents')
-    #     for field in baptism_fields:
-    #         self.fields[field].widget.attrs.update({
-    #             'data-purpose_type': 'Baptism'
-    #         })
-
-    #     funeral_fields = ('deceased_full_name', 'age', 'date_of_death', 'place_of_burial_cemetery', 'death_certificate', 'gift_bearers_for_the_offering', 'prelude_music', 'placement_of_the_pall',
-    #                       'entrance_hymn', 'opening_collect', 'first_reading', 'responsorial_psalm', 'text_of_response', 'second_reading', )
-    #     for field in funeral_fields:
-    #         self.fields[field].widget.attrs.update({
-    #             'data-purpose_type': 'Funeral'
-    #         })
-        
+    service = forms.ModelChoiceField(
+        queryset=Service.objects.all(),  # Assuming 'User' is your user model
+        required=True  # Set 'required' to True
+    )
     
-    # def __init__(self, owner=None, **kwargs):
-    #     super(AppointmentForm, self).__init__(**kwargs)
-    #     if owner:
-    #         self.fields['pet'].queryset = Pet.objects.filter(owner__email=owner.email)
+class OrderForm(forms.ModelForm):
+    
+    class Meta:
+        model = Order
+        fields = ('id', 'product', 'price', 'discount', 'quantity')
+        

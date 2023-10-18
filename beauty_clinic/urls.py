@@ -1,4 +1,4 @@
-"""beauty-clinic URL Configuration
+"""beauty_clinic URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.0/topics/http/urls/
@@ -45,7 +45,15 @@ urlpatterns = [
         LogoutView.as_view(),
         name='logout',
     ),
-    path('products', views.products, name='products'),
+    # path('products', views.ProductsAndOrderView.as_view(), name='products'),
+    
+    path('products/', views.ProductsAndOrderView.as_view(), name='products'),
+
+    # URL pattern for creating an order
+    path('create-order/', views.CreateOrderView.as_view(), name='create_order'),
+    
+    path('services', views.services, name='services'),
+    path('orders', views.OrdertListView.as_view(), name='orders'),
     path('about', views.about, name='about'),
     path("accounts/register", views.register_request, name="register"),
     path('video_call/<str:message_gc_id>/',
@@ -56,4 +64,6 @@ urlpatterns = [
     url(r'^chaining/', include('smart_selects.urls')),
     path('chart-data/', views.ServiceAppointmentCount.as_view(), name='chart-data'),
     path('gender-data/', views.GenderDistributionView.as_view(), name='gender-data'),
+    path('service/<int:pk>/', views.ServiceDetailView.as_view(), name='service-detail'),
+    path('product/<int:pk>/', views.ProductDetailView.as_view(), name='product-detail'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

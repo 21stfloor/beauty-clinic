@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import Appointment, Customer, CustomUser
+from .models import Appointment, Customer, CustomUser, Product, Service
 
 
 class CustomerImageSerializer(serializers.ModelSerializer):
@@ -41,13 +41,6 @@ class CustomUserSerializer(serializers.ModelSerializer):
                 pass
         return data
 
-# class AppointmentSerializer(serializers.Serializer):
-#     label = serializers.CharField()
-#     data = serializers.ListField(child=serializers.IntegerField())
-#     backgroundColor = serializers.CharField()
-#     borderColor = serializers.CharField()
-#     borderWidth = serializers.IntegerField()
-
 class ServiceAppointmentCountSerializer(serializers.Serializer):
     service__name = serializers.CharField()
     month = serializers.IntegerField()
@@ -57,3 +50,13 @@ class ServiceAppointmentCountSerializer(serializers.Serializer):
 class GenderDistributionSerializer(serializers.Serializer):
     gender = serializers.CharField()
     count = serializers.IntegerField()
+
+class ServiceSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Service
+        fields = '__all__'
+    
+class ProductSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Product
+        fields = '__all__'
