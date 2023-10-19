@@ -124,6 +124,7 @@ class Product(models.Model):
     description = models.TextField(blank=True, null=True)
     category = models.CharField(max_length=75, blank=False)
     price = models.FloatField()
+    discount = models.FloatField(default=0)
     thumbnail = models.ImageField(
         upload_to='services/', blank=True, null=True, default='')
 

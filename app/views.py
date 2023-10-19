@@ -1,3 +1,6 @@
+from datetime import date
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.generics import CreateAPIView
 import random
 from rest_framework.generics import ListAPIView
 from django.db.models import Count
@@ -21,7 +24,7 @@ from app.context_processors import CONTEXT
 from app.forms import AppointmentForm, NewUserForm, OrderForm
 from app.models import Appointment, CustomUser, Customer, Gender, Order, Product, Service
 from app.tables import AppointmentTable, OrderTable
-from .serializers import GenderDistributionSerializer, ProductSerializer, ServiceAppointmentCountSerializer, CustomUserSerializer, CustomerImageSerializer, CustomerSerializer, ServiceSerializer
+from .serializers import GenderDistributionSerializer, OrderSerializer, ProductSerializer, ServiceAppointmentCountSerializer, CustomUserSerializer, CustomerImageSerializer, CustomerSerializer, ServiceSerializer
 from rest_framework import viewsets, mixins, generics
 from rest_framework.decorators import api_view, action
 from django.shortcuts import render
@@ -81,15 +84,6 @@ class CreateAppointmentView(LoginRequiredMixin, CreateView):
         # user = CustomUser.objects.filter(email=self.request.user.email).first()
         form.instance.customer = self.request.user
         return super(CreateAppointmentView, self).form_valid(form)
-
-    # def post(self, request, *args, **kwargs):
-        
-    #     user = Customer.objects.filter(email=request.user.email).first()
-    #     # owner = Customer.objects.filter(email=request.user.email).first()
-    #     date = make_aware(datetime.strptime(
-    #                 request.POST.get('date'), SCHEDULE_DATEFORMAT), timezone=get_current_timezone())
-    #     Appointment.objects.create(user=user, date=date, purpose=request.POST.get('purpose'))
-    #     return self.get(request, *args, **kwargs)
 
 
 class AppointmentListView(LoginRequiredMixin, SingleTableView):
@@ -295,20 +289,6 @@ class ProductDetailView(generics.RetrieveAPIView):
     serializer_class = ProductSerializer
 
 
-# class CreateOrderView(LoginRequiredMixin, CreateView):
-#     model = Order
-#     form_class = OrderForm
-#     template_name = 'pages/products.html'
-
-#     def get_success_url(self):
-#         return reverse('orders')
-    
-#     def form_valid(self, form):
-#         # user = CustomUser.objects.filter(email=self.request.user.email).first()
-#         form.instance.customer = self.request.user
-#         return super(CreateOrderView, self).form_valid(form)
-
-
 class ProductsAndOrderView(LoginRequiredMixin, ListView):
     model = Product
     template_name = 'pages/products.html'
@@ -317,14 +297,63 @@ class ProductsAndOrderView(LoginRequiredMixin, ListView):
     def get_queryset(self):
         return Product.objects.order_by('-id')
 
-class CreateOrderView(LoginRequiredMixin, CreateView):
-    model = Order
-    form_class = OrderForm
-    template_name = 'pages/products.html'
+class CreateOrderAPIView(CreateAPIView):
+    queryset = Order.objects.all()
+    serializer_class = OrderSerializer
+    permission_classes = [IsAuthenticated]
 
-    def get_success_url(self):
-        return reverse('orders')
+    def create(self, request, *args, **kwargs):
+        product_id = request.data.get('product_id')
+        quantity = request.data.get('quantity')
+        product = Product.objects.filter(id=product_id).first()
+
+        if product is None:
+            return Response({'message': 'Product not found.'}, status=status.HTTP_400_BAD_REQUEST)
+
+        # Calculate the price based on the product's price and the quantity
+        price = product.price * int(quantity)
+
+        # Create the Order object
+        order_data = {
+            'customer': request.user.id,
+            'product': product_id,
+            'quantity': quantity,
+            'price': price,
+            'discount': product.discount
+        }
+
+        serializer = self.get_serializer(data=order_data)
+        serializer.is_valid(raise_exception=True)
+        self.perform_create(serializer)
+
+        success_url = reverse('orders')
+
+        return Response({'message': 'Order created successfully'}, status=status.HTTP_302_FOUND, headers={'Location': success_url})
     
-    def form_valid(self, form):
-        form.instance.customer = self.request.user
-        return super(CreateOrderView, self).form_valid(form)
+
+def orders_by_product_month_ajax(request):
+    current_year = date.today().year
+    orders = Order.objects.filter(date__year=current_year)
+
+    data = orders.values('product__name', 'date').annotate(order_count=Count('id'))
+
+    # Initialize chart_data with default zero values for all months and products
+    chart_data = {}
+    for month in range(1, 13):
+        for product in data.values_list('product__name', flat=True).distinct():
+            if product not in chart_data:
+                chart_data[product] = [0] * 12
+
+    for entry in data:
+        product_name = entry['product__name']
+        d = entry['date']
+        month = d.month
+        order_count = entry['order_count']
+
+        # Update the chart_data with the order_count
+        if month is not None:
+            chart_data[product_name][month - 1] = order_count
+
+    labels = [datetime(current_year, month, 1).strftime('%B') if month is not None else '' for month in range(1, 13)]
+
+    return JsonResponse({'data': chart_data, 'labels': labels})

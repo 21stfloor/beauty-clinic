@@ -50,7 +50,7 @@ urlpatterns = [
     path('products/', views.ProductsAndOrderView.as_view(), name='products'),
 
     # URL pattern for creating an order
-    path('create-order/', views.CreateOrderView.as_view(), name='create_order'),
+    path('create-order/', views.CreateOrderAPIView.as_view(), name='create_order'),
     
     path('services', views.services, name='services'),
     path('orders', views.OrdertListView.as_view(), name='orders'),
@@ -66,4 +66,5 @@ urlpatterns = [
     path('gender-data/', views.GenderDistributionView.as_view(), name='gender-data'),
     path('service/<int:pk>/', views.ServiceDetailView.as_view(), name='service-detail'),
     path('product/<int:pk>/', views.ProductDetailView.as_view(), name='product-detail'),
+    path('get-order-data/', views.orders_by_product_month_ajax, name='get_order_data'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

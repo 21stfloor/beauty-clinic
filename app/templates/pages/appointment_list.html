@@ -26,8 +26,11 @@
 {% block content %}
     <div class="container-fluid bg-light p-4">
         <div class="row">
+            
             <h1>My Appointments</h1>
-            {% render_table table %}
+            <div class="table-responsive">
+                {% render_table table %}
+            </div>
         </div>
         
         

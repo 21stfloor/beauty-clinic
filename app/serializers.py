@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import Appointment, Customer, CustomUser, Product, Service
+from .models import Appointment, Customer, CustomUser, Order, Product, Service
 
 
 class CustomerImageSerializer(serializers.ModelSerializer):
@@ -60,3 +60,12 @@ class ProductSerializer(serializers.ModelSerializer):
     class Meta:
         model = Product
         fields = '__all__'
+
+class OrderSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Order
+        fields = ['customer', 'price', 'discount', 'payment_method', 'date', 'product', 'quantity']  # List the fields you want to include
+
+    def create(self, validated_data):
+        # You can perform additional actions here if needed
+        return Order.objects.create(**validated_data)

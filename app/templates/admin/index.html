@@ -63,6 +63,10 @@
         <canvas id="myPieChart"></canvas>
     </div>
 
+    <div class="col-8 p-5">
+        <canvas id="salesChart"></canvas>
+    </div>
+
 </div>
 
 
@@ -70,50 +74,9 @@
 
 
 {% block scripts %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-<!-- <script>
-    const chartDataURL = "{% url 'chart-data' %}";
-    // Fetch data from the Django REST API
-    fetch(chartDataURL)
-      .then(response => response.json())
-      .then(data => {
-        const services = Array.from(new Set(data.map(item => item.service)));
-        const months = Array.from(new Set(data.map(item => item.month)));
-  
-        const dataset = services.map(service => {
-          const serviceData = data.filter(item => item.service === service);
-          const counts = months.map(month => {
-            const count = serviceData.find(item => item.month === month);
-            return count ? count.count : 0;
-          });
-  
-          return {
-            label: service,
-            data: counts,
-            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-            borderColor: 'rgba(75, 192, 192, 1)',
-            borderWidth: 1,
-          };
-        });
-  
-        // Create the Chart
-        new Chart(document.getElementById('appointment-chart'), {
-          type: 'bar',
-          data: {
-            labels: months,
-            datasets: dataset,
-          },
-          options: {
-            scales: {
-              y: {
-                beginAtZero: true,
-              },
-            },
-          },
-        });
-      });
-  </script> -->
 <script>
     // Function to make the AJAX call and create the chart
     function fetchDataAndCreateChart() {
@@ -220,6 +183,73 @@ fetch(chartDataURL)
     })
     .catch(error => console.error('Error:', error));
     
+</script>
+
+<script>
+    
+    $(document).ready(function () {
+            $.ajax({
+                url: '/get-order-data/', // Replace with the URL for the new view
+                method: 'GET',
+                success: function (data) {
+                    createChart(data);
+                },
+                error: function (error) {
+                    console.error('Error:', error);
+                }
+            });
+        });
+
+        function createChart(data) {
+            var ctx = document.getElementById('salesChart').getContext('2d');
+
+            var chartData = data.data;
+            var labels = data.labels;
+
+            var datasets = [];
+
+            for (var product in chartData) {
+                datasets.push({
+                    label: product,
+                    data: chartData[product],
+                    fill: false,
+                    borderColor: getRandomColor()
+                });
+            }
+
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: datasets
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            suggestedMin: 0,  // Set the minimum value to zero
+                            stepSize: 1,      // Set the interval between ticks to 1
+                        }
+                    },
+                    plugins:{
+                        title: {
+                            display: true,
+                            text: 'Sales'
+                        },
+                    }
+                }
+            });
+        }
+
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
 </script>
 
 

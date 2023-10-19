@@ -73,20 +73,36 @@
             </div>
             <div class="modal-body">
                 <form id="order-form" action="{% url 'create_order' %}" method="POST">
-                    {% csrf_token %}
-                    <input type="text" name="product_id" hidden/>
+                    
+                    
                     <h2 id="product-name"></h2>
                     <img id="product-thumbnail" class="img-fluid w-25" src="{% static 'logo/logo.png' %}" alt="Product Image">
                     <p id="product-description"></p>
                     <p id="product-price" class="fw-bolder"></p>
+                    
+
+                    {% csrf_token %}
+                    <input type="text" name="product_id" hidden/>
+                    <input type="number" name="price" hidden/>
+                    <input type="number" name="discount" hidden/>
+                    
+
                     <label for="quantity" class="form-label">Quantity:</label>
                     <input type="number" class="form-control" id="quantity" name="quantity" value="1" min="1">
+                    
+                    <label for="id_payment_method" class="form-label requiredField">
+                        Payment method<span class="asteriskField">*</span> </label>
+                    <select name="payment_method" class="select form-select" id="id_payment_method">
+                        <option value="1" selected="TRUE">Cash</option>
+                        <option value="2">Gcash</option>
+                        <option value="3">Card</option>
+                    </select>
                     <p id="total-price" class="fw-bolder fs-3"></p>
                 </form>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-              <button type="submit" form="order-form" class="btn btn-primary" id="addToCart">Add to Cart</button>
+              <button type="submit" form="order-form" class="btn btn-primary" id="addToCart">Buy Now</button>
             </div>
           </div>
         </div>
@@ -124,6 +140,8 @@
                     var quantityInput = document.getElementById("quantity");
                     quantityInput.value = 1;
                     updateTotalPrice(data.price);
+                    $('input[name="discount"]').val(data.discount);
+                    $('input[name="price"]').val(data.price);
                 },
                 error: function(error) {
                 console.log(error);
@@ -135,6 +153,7 @@
             let quantity = $('#quantity').val();
             let total = `₱${basePrice * quantity}`;
             $('#total-price').text(`Total Price: ${total}`);
+            $('input[name="price"]').val(total);
         }
         
         $(document).ready(function(){

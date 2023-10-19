@@ -33,7 +33,7 @@ class OrderTable(tables.Table):
         orderable = False
         model = Order
         template_name = "django_tables2/bootstrap.html"
-        fields = ('id', 'date', 'product', 'price', 'discount', 'quantity')#("date", "service", "payment_method", "status", )
+        fields = ('id', 'date', 'product', 'price', 'discount', 'quantity', 'payment_method')#("date", "service", "payment_method", "status", )
         attrs = {'class': 'table table-hover shadow records-table'}
         # row_attrs = {'data-bs-toggle':"modal", 'data-bs-target':"#exampleModal", 'data-bs-appointment': lambda record: serializers.serialize('json', [ record, ])}
         # row_attrs = {
