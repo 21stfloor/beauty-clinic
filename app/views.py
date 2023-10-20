@@ -213,72 +213,10 @@ class OrdertListView(LoginRequiredMixin, SingleTableView):
             
         return context
 
-def generate_random_color():
-    return f"rgba({random.randint(0, 255)}, {random.randint(0, 255)}, {random.randint(0, 255)}, 1)"
+# def generate_random_color():
+#     return f"rgba({random.randrange(0, 255)}, {random.randrange(0, 255)}, {random.randrange(0, 255)}, 1)"
 
-class ServiceAppointmentCount(APIView):
-    def get(self, request):
-        queryset = (
-            Appointment.objects
-            .values('date', 'service__name')
-            .annotate(count=Count('service'))
-        )
-        # Number of unique colors to generate
-        num_colors = 12
-
-        # List to store unique colors
-        unique_colors = set()
-
-        # Generate unique colors
-        while len(unique_colors) < num_colors:
-            color = generate_random_color()
-            unique_colors.add(color)
-
-        # Define a list of random background colors
-        background_colors = list(unique_colors)
-
-        # Group the data by service__name and create a dictionary with label, data, and random backgroundColor
-        service_data = {}
-        for item in queryset:
-            service_name = item['service__name']
-            # month = item['date__month']
-            date = item['date']
-            month = date.month
-            count = item['count']
-
-            if service_name not in service_data:
-                # Get a random background color for the service
-                random_color = random.choice(background_colors)
-
-                service_data[service_name] = {
-                    "label": service_name,
-                    "data": [0] * 12,  # Initialize data array for 12 months
-                    "backgroundColor": random_color,
-                }
-            
-            if month is not None and 1 <= month <= 12:
-                service_data[service_name]["data"][month - 1] = count  # Subtract 1 to align with array index
-
-        # Convert the dictionary values to a list
-        result = list(service_data.values())
-
-        return Response(result, status=status.HTTP_200_OK)
-    
-
-class GenderDistributionView(APIView):
-    def get(self, request):
-        gender_data = CustomUser.objects.values('gender').annotate(count=Count('gender'))
-
-        gender_counts = [0] * (len(Gender) + 1)  # Initialize with 0 values for all gender choices
-
-        for entry in gender_data:
-            gender = entry['gender']
-            gender_counts[gender] = entry['count']
-
-        # # Convert the list to exclude the first index (0 value)
-        # gender_counts = gender_counts[1:]
-
-        return Response(gender_counts)
+   
     
 class ServiceDetailView(generics.RetrieveAPIView):
     queryset = Service.objects.all()
@@ -331,11 +269,104 @@ class CreateOrderAPIView(CreateAPIView):
         return Response({'message': 'Order created successfully'}, status=status.HTTP_302_FOUND, headers={'Location': success_url})
     
 
+# def generate_random_hex_color(used_colors):
+#     while True:
+#         color = "#{:02X}{:02X}{:02X}".format(random.randrange(0, 255), random.randrange(0, 255), random.randrange(0, 255))
+#         if color not in used_colors:
+#             return color
+        
+# def generate_unique_hex_colors(num_colors):
+#     used_colors = set()
+#     unique_colors = []
+
+#     while len(unique_colors) < num_colors:
+#         color = generate_random_hex_color(used_colors)
+#         used_colors.add(color)
+#         unique_colors.append(color)
+
+#     return unique_colors
+
+unique_colors = [
+    "#FF5733",
+    "#33FF57",
+    "#5733FF",
+    "#33FF33",
+    "#FF3357",
+    "#57FF33",
+    "#3357FF",
+    "#FF33FF",
+    "#57FF57",
+    "#335733",
+    "#AA5733",
+    "#33AA57",
+    "#5733AA",
+    "#33AA33",
+    "#AA3357",
+    "#57AA33",
+    "#3357AA",
+    "#AA33AA",
+    "#57AA57",
+    "#3357AA"
+]
+
+class ServiceAppointmentCount(APIView):
+    def get(self, request):
+        queryset = (
+            Appointment.objects
+            .values('date', 'service__name')
+            .annotate(count=Count('service'))
+        )
+        background_colors = list(unique_colors)
+
+        # Group the data by service__name and create a dictionary with label, data, and random backgroundColor
+        service_data = {}
+        for item in queryset:
+            service_name = item['service__name']
+            # month = item['date__month']
+            date = item['date']
+            month = date.month
+            count = item['count']
+
+            if service_name not in service_data:
+                # Get a random background color for the service
+                random_color = random.choice(background_colors)
+
+                service_data[service_name] = {
+                    "label": service_name,
+                    "data": [0] * 12,  # Initialize data array for 12 months
+                    "backgroundColor": random_color,
+                }
+            
+            if month is not None and 1 <= month <= 12:
+                service_data[service_name]["data"][month - 1] = count  # Subtract 1 to align with array index
+
+        # Convert the dictionary values to a list
+        result = list(service_data.values())
+
+        return Response(result, status=status.HTTP_200_OK)
+    
+
+class GenderDistributionView(APIView):
+    def get(self, request):
+        gender_data = CustomUser.objects.values('gender').annotate(count=Count('gender'))
+
+        gender_counts = [0] * (len(Gender) + 1)  # Initialize with 0 values for all gender choices
+
+        for entry in gender_data:
+            gender = entry['gender']
+            gender_counts[gender] = entry['count']
+
+        # # Convert the list to exclude the first index (0 value)
+        # gender_counts = gender_counts[1:]
+
+        return Response(gender_counts)
+    
+
 def orders_by_product_month_ajax(request):
     current_year = date.today().year
     orders = Order.objects.filter(date__year=current_year)
 
-    data = orders.values('product__name', 'date').annotate(order_count=Count('id'))
+    data = orders.values('product__name', 'date').annotate(quantity_sum=Sum('quantity'))
 
     # Initialize chart_data with default zero values for all months and products
     chart_data = {}
@@ -348,11 +379,12 @@ def orders_by_product_month_ajax(request):
         product_name = entry['product__name']
         d = entry['date']
         month = d.month
-        order_count = entry['order_count']
+        current_count = chart_data[product_name][month - 1]
+        quantity_sum = entry['quantity_sum']
 
-        # Update the chart_data with the order_count
+        # Update the chart_data with the quantity_sum
         if month is not None:
-            chart_data[product_name][month - 1] = order_count
+            chart_data[product_name][month - 1] = quantity_sum + current_count
 
     labels = [datetime(current_year, month, 1).strftime('%B') if month is not None else '' for month in range(1, 13)]
 

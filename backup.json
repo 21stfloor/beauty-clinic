@@ -1,9 +1,45 @@
 [
 {
   "model": "app.customer",
-  "pk": "40ih9vg1qrjhhapgvw58j1866",
+  "pk": "1rvgxry1cr003voriw71kkfc",
   "fields": {
-    "firstname": null,
+    "firstname": "",
+    "middlename": null,
+    "lastname": null,
+    "mobile": null,
+    "email": "user4@email.com",
+    "picture": ""
+  }
+},
+{
+  "model": "app.customer",
+  "pk": "6er6r0vp72tfdc4cwoqavrdmt",
+  "fields": {
+    "firstname": "",
+    "middlename": null,
+    "lastname": null,
+    "mobile": null,
+    "email": "user3@email.com",
+    "picture": ""
+  }
+},
+{
+  "model": "app.customer",
+  "pk": "6shfco07eu1bbmy2vrv7ag6xe",
+  "fields": {
+    "firstname": "",
+    "middlename": null,
+    "lastname": null,
+    "mobile": null,
+    "email": "user2@email.com",
+    "picture": ""
+  }
+},
+{
+  "model": "app.customer",
+  "pk": "9w3e67mh4cqu3qwvkmfjcwgik",
+  "fields": {
+    "firstname": "",
     "middlename": null,
     "lastname": null,
     "mobile": null,
@@ -12,133 +48,574 @@
   }
 },
 {
-  "model": "app.customuser",
-  "pk": "5dcwnauir1bnwu30bf2ykhf7i",
+  "model": "app.customer",
+  "pk": "ai0z1shgsr7ne9g6h7l7jpcx3",
   "fields": {
-    "password": "pbkdf2_sha256$320000$zOUuWyThT9p7ju7fiNAcMV$yzNT9Owd4T+O6jCdXPLQga7HWUfMwRJg7BdZP7zozoU=",
-    "last_login": "2023-03-13T12:37:58.414Z",
-    "is_superuser": true,
-    "email": "admin@email.com",
-    "firstname": null,
+    "firstname": "",
     "middlename": null,
     "lastname": null,
+    "mobile": null,
+    "email": "user1@email.com",
+    "picture": ""
+  }
+},
+{
+  "model": "app.customer",
+  "pk": "dp5fd3k7dsg9lp909dxs27vb0",
+  "fields": {
+    "firstname": "",
+    "middlename": null,
+    "lastname": null,
+    "mobile": null,
+    "email": "gayuser1@email.com",
+    "picture": ""
+  }
+},
+{
+  "model": "app.customuser",
+  "pk": "1ds3ge1n2z9lcdxt3ehc9zjrk",
+  "fields": {
+    "password": "pbkdf2_sha256$320000$H0ghcFNJoWBOSlDsdFLNyG$GPnuJ4UFDoQNYGvgurVeZ7a/3qwIv/MTfHwmmcKjMyY=",
+    "last_login": "2023-10-18T06:16:30.115Z",
+    "is_superuser": false,
+    "email": "gayuser1@email.com",
+    "firstname": "gay",
+    "middlename": null,
+    "lastname": "gay",
+    "gender": 2,
+    "phone_number": "",
     "picture": "",
-    "is_staff": true,
+    "is_staff": false,
     "is_active": true,
-    "date_joined": "2023-03-13T07:20:06.612Z",
+    "date_joined": "2023-10-18T06:16:29.521Z",
     "groups": [],
     "user_permissions": []
   }
 },
 {
   "model": "app.customuser",
-  "pk": "7x94emsio5whmikc0f0434zik",
+  "pk": "3bckm6v22w5fyradyhwl0fjfa",
   "fields": {
-    "password": "pbkdf2_sha256$320000$4sE7Ho9CbAxBhoPxLw4WfQ$VV5tl6kdfSGFOkHiNT39MVcU+TI+MTxl+w/rKQTeNiA=",
-    "last_login": "2023-03-13T12:57:52.802Z",
-    "is_superuser": false,
-    "email": "amiel.anbrs@gmail.com",
-    "firstname": null,
+    "password": "pbkdf2_sha256$320000$BhrhcfPQ786J8x4dxYpdPU$CqaVFPEb0OcuMAzGRcLoDvlmNkR8dZzn61zIyuOHH0U=",
+    "last_login": "2023-10-20T02:50:08.985Z",
+    "is_superuser": true,
+    "email": "admin@email.com",
+    "firstname": "",
     "middlename": null,
     "lastname": null,
+    "gender": 1,
+    "phone_number": "",
+    "picture": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-10-17T05:57:16.026Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app.customuser",
+  "pk": "3fnyfvzob0s3kfk6qop8koen6",
+  "fields": {
+    "password": "pbkdf2_sha256$320000$zZY7U2z5WJeSq3u6PE9wBB$baMIxu6j8N1WNT8UOisOJrijYzCOivlrqYuZwRBx7Zs=",
+    "last_login": "2023-10-20T02:39:56.751Z",
+    "is_superuser": false,
+    "email": "amiel.anbrs@gmail.com",
+    "firstname": "Amiel",
+    "middlename": null,
+    "lastname": "Danao",
+    "gender": 0,
+    "phone_number": "09954261220",
     "picture": "",
     "is_staff": false,
     "is_active": true,
-    "date_joined": "2023-03-13T09:28:55.902Z",
+    "date_joined": "2023-10-18T14:23:48.555Z",
     "groups": [],
     "user_permissions": []
+  }
+},
+{
+  "model": "app.customuser",
+  "pk": "camr8cxlfwtt28olmcsram7qh",
+  "fields": {
+    "password": "pbkdf2_sha256$320000$7jp1wKgxFQRuLxYQmzTbwH$MSVTCtMqFiPdIwLQnarf5lG02qyktXb1IlqfoZuiqm8=",
+    "last_login": "2023-10-18T09:25:28.705Z",
+    "is_superuser": false,
+    "email": "user2@email.com",
+    "firstname": "User2",
+    "middlename": null,
+    "lastname": "User2",
+    "gender": 2,
+    "phone_number": "+639954261220",
+    "picture": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-10-18T09:25:28.140Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app.customuser",
+  "pk": "cbroylwxmeb3lkgox88vyjiwi",
+  "fields": {
+    "password": "pbkdf2_sha256$320000$rpqD2C2e6Tir3gd1V5ll76$2EfkgXdsjcjB1G0Ll2oOgj2TTvd6sMcsCPie8PT1pn4=",
+    "last_login": "2023-10-18T09:42:32.434Z",
+    "is_superuser": true,
+    "email": "admin2@email.com",
+    "firstname": "admin2",
+    "middlename": "admin2",
+    "lastname": "admin2",
+    "gender": 0,
+    "phone_number": null,
+    "picture": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-10-18T09:42:15.669Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app.customuser",
+  "pk": "cxouk09s580qqpojzuyhjdomj",
+  "fields": {
+    "password": "pbkdf2_sha256$320000$M4N7rEQvGZhCmJBpE9AGIm$sotMWjtmr+mF1quTwebIED0CS40y0ndszu06Hwx+CU0=",
+    "last_login": "2023-10-20T04:38:33.398Z",
+    "is_superuser": false,
+    "email": "user1@email.com",
+    "firstname": "",
+    "middlename": null,
+    "lastname": null,
+    "gender": 0,
+    "phone_number": "",
+    "picture": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-10-17T10:03:19.967Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app.customuser",
+  "pk": "dvh34enad9wx9cmstol5tqmu3",
+  "fields": {
+    "password": "pbkdf2_sha256$320000$OkSK2qJcwoMkEFGwcw9soF$ftURewp0gmtEsaaTEaFfJhgdAjT7ItqVPZY0ptIaNPg=",
+    "last_login": "2023-10-20T02:39:22.099Z",
+    "is_superuser": false,
+    "email": "user4@email.com",
+    "firstname": "user 4",
+    "middlename": null,
+    "lastname": "user 4",
+    "gender": 1,
+    "phone_number": "+639954261220",
+    "picture": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-10-20T02:39:21.531Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app.customuser",
+  "pk": "el3aycpm8p714b4a7un0cbytv",
+  "fields": {
+    "password": "pbkdf2_sha256$320000$9My1IxJLb3S1knx65NX7Yt$l8rtFjQ3NAhlianetSWOwT4LM2SViUaS905MwPOvTnU=",
+    "last_login": "2023-10-18T14:18:51.610Z",
+    "is_superuser": false,
+    "email": "user3@email.com",
+    "firstname": "user3",
+    "middlename": null,
+    "lastname": "user3",
+    "gender": 1,
+    "phone_number": "09954261220",
+    "picture": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-10-18T14:18:50.723Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app.product",
+  "pk": 2,
+  "fields": {
+    "name": "D' Klenz Bar",
+    "description": "D' Klenz Bar Antibacterial Bar",
+    "category": "Soap",
+    "price": 999.0,
+    "discount": 0.0,
+    "thumbnail": "services/378230717_1098993521069464_4904998230878679290_n_1lRMARA.jpg"
+  }
+},
+{
+  "model": "app.product",
+  "pk": 3,
+  "fields": {
+    "name": "Brady Super Black",
+    "description": "Brady Super Black",
+    "category": "lotion",
+    "price": 999.0,
+    "discount": 0.0,
+    "thumbnail": "services/378242615_7195969153749366_4324117503439956019_n.jpg"
+  }
+},
+{
+  "model": "app.product",
+  "pk": 4,
+  "fields": {
+    "name": "Oat Milk Soap",
+    "description": "Oat Milk Soap",
+    "category": "Soap",
+    "price": 500.0,
+    "discount": 0.0,
+    "thumbnail": "services/378239475_171216029292753_1793676477415679488_n.jpg"
+  }
+},
+{
+  "model": "app.product",
+  "pk": 5,
+  "fields": {
+    "name": "Sunscreen SPF 150",
+    "description": "Sunscreen SPF 150",
+    "category": "lotion",
+    "price": 300.0,
+    "discount": 0.0,
+    "thumbnail": "services/378239475_171216029292753_1793676477415679488_n_kuPNmqR.jpg"
+  }
+},
+{
+  "model": "app.product",
+  "pk": 6,
+  "fields": {
+    "name": "Demace Skincare",
+    "description": "Demace Skincare - Complete underarm spray",
+    "category": "underarm spray",
+    "price": 500.0,
+    "discount": 0.0,
+    "thumbnail": "services/378253560_1550575692435683_2029781795155726903_n.jpg"
+  }
+},
+{
+  "model": "app.product",
+  "pk": 7,
+  "fields": {
+    "name": "Prolab",
+    "description": "Retinwhite\r\nRetinol Enhancer",
+    "category": "Moisturizer",
+    "price": 1200.0,
+    "discount": 0.0,
+    "thumbnail": "services/378255436_996135031445879_838604597686848371_n.jpg"
+  }
+},
+{
+  "model": "app.product",
+  "pk": 8,
+  "fields": {
+    "name": "Cera-Oat Soap",
+    "description": "Cera-Oat Soap",
+    "category": "soap",
+    "price": 300.0,
+    "discount": 0.0,
+    "thumbnail": "services/378301228_853708619683879_7431864709853618592_n.jpg"
+  }
+},
+{
+  "model": "app.product",
+  "pk": 9,
+  "fields": {
+    "name": "Ketoconazole",
+    "description": "Ketoconazole Zinc Pyrithione\r\nScalpex",
+    "category": "Vitamin",
+    "price": 2000.0,
+    "discount": 0.0,
+    "thumbnail": "services/378309413_1340567076546646_1671795623889130097_n.jpg"
+  }
+},
+{
+  "model": "app.product",
+  "pk": 10,
+  "fields": {
+    "name": "Vape Pure Cee 15%",
+    "description": "Vape Pure Cee 15% - Vitamin C serum",
+    "category": "serum",
+    "price": 600.0,
+    "discount": 0.0,
+    "thumbnail": "services/378357298_1303384887237995_1564406405983274253_n.jpg"
+  }
+},
+{
+  "model": "app.product",
+  "pk": 11,
+  "fields": {
+    "name": "illumina",
+    "description": "illumina - Whitening Body Soap",
+    "category": "soap",
+    "price": 500.0,
+    "discount": 0.0,
+    "thumbnail": "services/379291881_1070202000630261_8773331121911478990_n.jpg"
+  }
+},
+{
+  "model": "app.product",
+  "pk": 12,
+  "fields": {
+    "name": "Ahaglow",
+    "description": "Ahaglow - Skin repair Gel",
+    "category": "gel",
+    "price": 700.0,
+    "discount": 0.0,
+    "thumbnail": "services/379314871_1019463206175149_560199409990218967_n.jpg"
+  }
+},
+{
+  "model": "app.product",
+  "pk": 13,
+  "fields": {
+    "name": "Provamed Gluta",
+    "description": "Provamed Gluta Bright Skin Booster",
+    "category": "lotion",
+    "price": 1200.0,
+    "discount": 0.0,
+    "thumbnail": "services/379449397_302498362381716_4252366168110840907_n.jpg"
+  }
+},
+{
+  "model": "app.product",
+  "pk": 14,
+  "fields": {
+    "name": "Vitamin E cream",
+    "description": "Vitamin E cream - with evening primrose oil",
+    "category": "cream",
+    "price": 300.0,
+    "discount": 0.0,
+    "thumbnail": "services/379559966_152352734599750_4754679250034332635_n.jpg"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 1,
+  "fields": {
+    "customer": "3fnyfvzob0s3kfk6qop8koen6",
+    "product": 3,
+    "price": 999.0,
+    "discount": 0.0,
+    "quantity": 1,
+    "payment_method": 1,
+    "date": "2023-10-19T06:04:17.682Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 2,
+  "fields": {
+    "customer": "3fnyfvzob0s3kfk6qop8koen6",
+    "product": 2,
+    "price": 1998.0,
+    "discount": 0.0,
+    "quantity": 2,
+    "payment_method": 1,
+    "date": "2023-10-19T06:06:00.284Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 3,
+  "fields": {
+    "customer": "3fnyfvzob0s3kfk6qop8koen6",
+    "product": 3,
+    "price": 1998.0,
+    "discount": 0.0,
+    "quantity": 2,
+    "payment_method": 1,
+    "date": "2023-10-20T02:49:31.630Z"
+  }
+},
+{
+  "model": "app.service",
+  "pk": 1,
+  "fields": {
+    "name": "Skin Peeling",
+    "description": "Skin peeling, also known as exfoliation, is a natural and essential process that the skin undergoes to shed dead or damaged skin cells and make way for new, healthy skin cells. The shedding of skin cells is part of the skin's regeneration and renewal process, and it can occur naturally or be induced through various cosmetic treatments.",
+    "price": 500.0,
+    "thumbnail": "services/cosmetologist-cleaning-face-woman-beauty-salon.jpg"
+  }
+},
+{
+  "model": "app.service",
+  "pk": 2,
+  "fields": {
+    "name": "Diamond Peel",
+    "description": "A diamond peel, also known as microdermabrasion, is a non-invasive cosmetic procedure used to rejuvenate and refresh the skin's appearance. It is commonly performed in medical spas and dermatology clinics",
+    "price": 999.0,
+    "thumbnail": "services/young-woman-having-facial-skincare-treatment.jpg"
+  }
+},
+{
+  "model": "app.service",
+  "pk": 3,
+  "fields": {
+    "name": "Cauteri warts removal",
+    "description": "Cauterization is a medical procedure used to remove warts by burning or destroying the affected tissue. This method is typically performed by a healthcare professional, such as a dermatologist or a trained medical practitioner, as it involves the use of heat or chemicals to eliminate the war.",
+    "price": 999.0,
+    "thumbnail": "services/high-angle-hands-wearing-protective-gloves.jpg"
+  }
+},
+{
+  "model": "app.service",
+  "pk": 4,
+  "fields": {
+    "name": "Laser hair removal",
+    "description": "Laser hair removal is a popular and effective cosmetic procedure used to reduce or eliminate unwanted body and facial hair. It works by using concentrated beams of light (laser) to target and destroy the hair follicles, preventing or significantly reducing hair growth in the treated area. Laser hair removal is commonly performed in dermatology clinics, medical spas, and other specialized facilities.",
+    "price": 999.0,
+    "thumbnail": "services/laser-epilation-hair-removal-therapy.jpg"
   }
 },
 {
   "model": "app.appointment",
   "pk": 1,
   "fields": {
-    "user": "40ih9vg1qrjhhapgvw58j1866",
-    "status": 1,
-    "date": "2023-03-13T12:27:42.157Z",
-    "purpose": 1,
-    "officiant": null,
-    "number_of_attendees": 0,
-    "name_of_husband": null,
-    "name_of_wife": null,
-    "name_of_officer": null,
-    "name_of_first_witness": null,
-    "name_of_second_witness": null,
-    "husband_birth_certificate": "",
-    "wife_birth_certificate": "",
-    "fathers_full_name": null,
-    "mothers_full_name": null,
-    "address": null,
-    "godparents": null,
-    "deceased_full_name": null,
-    "age": 0,
-    "date_of_death": "2023-01-01",
-    "place_of_burial_cemetery": null,
-    "deacons": null,
-    "lectors_or_readers": null,
-    "gift_bearers_for_the_offering": null,
-    "prelude_music": null,
-    "placement_of_the_pall": null,
-    "entrance_hymn": null,
-    "opening_collect": null,
-    "first_reading": null,
-    "responsorial_psalm": null,
-    "musical_reading": null,
-    "text_of_response": null,
-    "second_reading": null,
-    "death_certificate": ""
+    "customer": "cxouk09s580qqpojzuyhjdomj",
+    "date": "2023-10-18T10:00:00Z",
+    "service": 1,
+    "payment_method": 1,
+    "status": 0,
+    "action_message": ""
   }
 },
 {
   "model": "app.appointment",
   "pk": 2,
   "fields": {
-    "user": "40ih9vg1qrjhhapgvw58j1866",
+    "customer": "cxouk09s580qqpojzuyhjdomj",
+    "date": "2023-10-01T09:35:12Z",
+    "service": 3,
+    "payment_method": 1,
+    "status": 0,
+    "action_message": ""
+  }
+},
+{
+  "model": "app.appointment",
+  "pk": 3,
+  "fields": {
+    "customer": "cxouk09s580qqpojzuyhjdomj",
+    "date": "2023-10-18T13:33:54.531Z",
+    "service": 1,
+    "payment_method": 1,
+    "status": 0,
+    "action_message": ""
+  }
+},
+{
+  "model": "app.appointment",
+  "pk": 4,
+  "fields": {
+    "customer": "3fnyfvzob0s3kfk6qop8koen6",
+    "date": "2023-10-18T14:24:04.609Z",
+    "service": 2,
+    "payment_method": 1,
+    "status": 0,
+    "action_message": ""
+  }
+},
+{
+  "model": "app.appointment",
+  "pk": 5,
+  "fields": {
+    "customer": "3fnyfvzob0s3kfk6qop8koen6",
+    "date": "2023-10-18T14:34:52.093Z",
+    "service": 3,
+    "payment_method": 1,
+    "status": 0,
+    "action_message": ""
+  }
+},
+{
+  "model": "app.appointment",
+  "pk": 6,
+  "fields": {
+    "customer": "3fnyfvzob0s3kfk6qop8koen6",
+    "date": "2023-10-20T01:00:00Z",
+    "service": 2,
+    "payment_method": 1,
+    "status": 0,
+    "action_message": ""
+  }
+},
+{
+  "model": "app.appointment",
+  "pk": 7,
+  "fields": {
+    "customer": "3fnyfvzob0s3kfk6qop8koen6",
+    "date": "2023-10-27T01:30:00Z",
+    "service": 1,
+    "payment_method": 1,
+    "status": 0,
+    "action_message": ""
+  }
+},
+{
+  "model": "app.appointment",
+  "pk": 8,
+  "fields": {
+    "customer": "3fnyfvzob0s3kfk6qop8koen6",
+    "date": "2023-10-19T01:00:00Z",
+    "service": 3,
+    "payment_method": 1,
+    "status": 0,
+    "action_message": ""
+  }
+},
+{
+  "model": "app.appointment",
+  "pk": 9,
+  "fields": {
+    "customer": "cxouk09s580qqpojzuyhjdomj",
+    "date": "2023-10-23T03:00:00Z",
+    "service": 1,
+    "payment_method": 2,
+    "status": 0,
+    "action_message": ""
+  }
+},
+{
+  "model": "app.appointment",
+  "pk": 10,
+  "fields": {
+    "customer": "cxouk09s580qqpojzuyhjdomj",
+    "date": "2023-10-20T02:30:00Z",
+    "service": 4,
+    "payment_method": 1,
     "status": 1,
-    "date": "2023-03-13T12:30:03.685Z",
-    "purpose": 1,
-    "officiant": null,
-    "number_of_attendees": 0,
-    "name_of_husband": null,
-    "name_of_wife": null,
-    "name_of_officer": null,
-    "name_of_first_witness": null,
-    "name_of_second_witness": null,
-    "husband_birth_certificate": "",
-    "wife_birth_certificate": "",
-    "fathers_full_name": null,
-    "mothers_full_name": null,
-    "address": null,
-    "godparents": null,
-    "deceased_full_name": null,
-    "age": 0,
-    "date_of_death": "2023-01-01",
-    "place_of_burial_cemetery": null,
-    "deacons": null,
-    "lectors_or_readers": null,
-    "gift_bearers_for_the_offering": null,
-    "prelude_music": null,
-    "placement_of_the_pall": null,
-    "entrance_hymn": null,
-    "opening_collect": null,
-    "first_reading": null,
-    "responsorial_psalm": null,
-    "musical_reading": null,
-    "text_of_response": null,
-    "second_reading": null,
-    "death_certificate": ""
+    "action_message": "accepted"
+  }
+},
+{
+  "model": "app.appointment",
+  "pk": 11,
+  "fields": {
+    "customer": "3fnyfvzob0s3kfk6qop8koen6",
+    "date": "2023-10-21T02:30:00Z",
+    "service": 4,
+    "payment_method": 1,
+    "status": 0,
+    "action_message": ""
   }
 },
 {
   "model": "admin_interface.theme",
   "pk": 1,
   "fields": {
-    "name": "beauty_clinic",
+    "name": "Beauty-Clinic",
     "active": true,
-    "title": "Django administration",
+    "title": "Beauty Clinic",
     "title_color": "#F5DD5D",
     "title_visible": true,
-    "logo": "",
+    "logo": "admin-interface/logo/app_icon.png",
     "logo_color": "#FFFFFF",
     "logo_max_width": 400,
     "logo_max_height": 100,
@@ -146,25 +623,25 @@
     "favicon": "",
     "env_name": "",
     "env_color": "#E74C3C",
-    "env_visible_in_header": false,
-    "env_visible_in_favicon": false,
+    "env_visible_in_header": true,
+    "env_visible_in_favicon": true,
     "language_chooser_active": true,
     "language_chooser_display": "code",
-    "css_header_background_color": "#FBCD91",
-    "css_header_text_color": "#B7993F",
-    "css_header_link_color": "#FFFFFF",
-    "css_header_link_hover_color": "#F0E7C2",
-    "css_module_background_color": "#B79B45",
+    "css_header_background_color": "#FD9BBA",
+    "css_header_text_color": "#75848E",
+    "css_header_link_color": "#638C2B",
+    "css_header_link_hover_color": "#C9F0DD",
+    "css_module_background_color": "#F67D9A",
     "css_module_background_selected_color": "#FFFFCC",
-    "css_module_text_color": "#FFFFFF",
-    "css_module_link_color": "#FFFFFF",
+    "css_module_text_color": "#3E3E3E",
+    "css_module_link_color": "#414E32",
     "css_module_link_selected_color": "#FFFFFF",
-    "css_module_link_hover_color": "#F0E3CC",
+    "css_module_link_hover_color": "#C9F0DD",
     "css_module_rounded_corners": true,
-    "css_generic_link_color": "#3C2C0C",
-    "css_generic_link_hover_color": "#664414",
-    "css_save_button_background_color": "#4B3A0D",
-    "css_save_button_background_hover_color": "#3C300D",
+    "css_generic_link_color": "#627284",
+    "css_generic_link_hover_color": "#5B697A",
+    "css_save_button_background_color": "#F68D8D",
+    "css_save_button_background_hover_color": "#FDC3C3",
     "css_save_button_text_color": "#FFFFFF",
     "css_delete_button_background_color": "#BA2121",
     "css_delete_button_background_hover_color": "#A41515",
@@ -178,8 +655,8 @@
     "list_filter_sticky": true,
     "foldable_apps": true,
     "recent_actions_visible": true,
-    "form_submit_sticky": true,
-    "form_pagination_sticky": true
+    "form_submit_sticky": false,
+    "form_pagination_sticky": false
   }
 }
 ]
