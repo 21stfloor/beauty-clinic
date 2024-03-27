@@ -23,9 +23,6 @@ load_dotenv(os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env'))
 
 
 
-
-
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -39,11 +36,8 @@ SECRET_KEY = 'django-insecure-cmf%aiq(sw8)t+f&h8zpyp_$f0!(jh@c!dw+1z@xk!339zs7dx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    '10.0.2.2',
-    '127.0.0.1',
-    'beautyclinic.pythonanywhere.com'
-]
+ALLOWED_HOSTS = ['beautyclinic22.pythonanywhere.com', '127.0.0.1']
+
 
 
 # Application definition
@@ -131,15 +125,15 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'beautyclinic$default',
-            'USER': 'beautyclinic',
+            'NAME': 'beautyclinic22$default',
+            'USER': 'beautyclinic22',
             'PASSWORD': 'notCommonPassword123$',
-            'HOST': 'beautyclinic.mysql.pythonanywhere-services.com',
+            'HOST': 'beautyclinic22.mysql.pythonanywhere-services.com',
             'PORT': '3306',
             'OPTIONS': {
                     'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-                    
-                    
+
+
             }
         }
     }

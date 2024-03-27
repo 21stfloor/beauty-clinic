@@ -1,0 +1,1011 @@
+id,Skin Care Clinic,Location,Services,Product,Rep_Name,Order_Date,Order_ID,Ship_Date,Units_Sold,Unit_Price,Total_Revenue
+1,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Prolab,Eric Chapman,1/1/2015,329530894,2/13/2015,73,1200,673088.14
+2,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Cameron Harris,1/6/2015,515616118,2/5/2015,75,1200,53238.9
+3,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Robert Jones,1/7/2015,386600577,1/29/2015,80,280,1117920.4
+4,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Pippa Payne,1/10/2015,256994950,2/19/2015,88,500,6263026.44
+5,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Isaac Robertson,1/13/2015,967328870,1/15/2015,65,600,242247.72
+6,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Kylie Nolan,1/13/2015,480863702,1/28/2015,91,333,2999637.9
+7,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Prolab,Karen Payne,1/14/2015,131482589,1/20/2015,73,1200,1151598.5
+8,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Stephanie Ellison,1/25/2015,546986377,2/10/2015,76,300,652889.82
+9,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Wendy Nolan,1/27/2015,812613904,1/29/2015,73,1200,444464.15
+10,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Owen Clarkson,2/12/2015,936042296,3/17/2015,72,1200,216893.95
+11,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Una Terry,2/12/2015,403961122,3/20/2015,80,280,4340521.6
+12,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Amanda Hamilton,2/17/2015,521445310,4/4/2015,88,500,4083129.7
+13,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Elizabeth Dickens,2/20/2015,921992242,3/4/2015,65,600,559687.04
+14,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Laser Hair Removal,Brady Super Black,Warren Short,2/22/2015,607757937,4/5/2015,80,280,74024.22
+15,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Alexander Hodges,2/23/2015,607521903,4/5/2015,91,280,3411402.54
+16,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Natalie Churchill,2/24/2015,731972110,4/15/2015,88,500,3691058.28
+17,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Karen Clark,2/27/2015,220003211,3/18/2015,76,300,411050.52
+18,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Kimberly Oliver,2/27/2015,494525372,3/2/2015,88,500,6617209.54
+19,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Jennifer Taylor,2/28/2015,157542073,3/15/2015,88,500,6051184.85
+20,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Joanne Clarkson,3/2/2015,670613467,3/21/2015,73,1200,392980.9
+21,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Laser Hair Removal,Brady Super Black,Charles Smith,3/7/2015,769205892,3/17/2015,80,280,37058.76
+22,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Eric Clarkson,3/11/2015,600124156,4/21/2015,76,300,1362386.82
+23,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Prolab,Michelle Lambert,3/11/2015,531405103,4/19/2015,73,1200,529042.04
+24,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Laser Hair Removal,Demace Skincare,Ella Mackenzie,3/23/2015,861462724,4/19/2015,88,500,44951.94
+25,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Angela Cornish,3/25/2015,732211148,4/14/2015,76,300,977274.9
+26,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Eric Grant,3/27/2015,320368897,4/2/2015,88,500,2038938.51
+27,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Steven Harris,3/27/2015,160299813,4/6/2015,76,500,1055652.4
+28,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Bernadette Dickens,4/3/2015,393693625,4/9/2015,66,1200,73405.15
+29,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Anthony Paige,4/4/2015,989928519,4/11/2015,88,500,457149.42
+30,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Bella Simpson,4/7/2015,126767909,5/22/2015,65,900,250906.88
+31,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Stephanie Lyman,4/9/2015,221975171,5/17/2015,76,500,1283773.7
+32,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Amy Hemmings,4/10/2015,161442649,5/12/2015,76,500,683335.4
+33,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Liam Wallace,4/11/2015,907513463,4/19/2015,65,900,246535.68
+34,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Sophie Piper,4/14/2015,611816871,5/16/2015,88,500,5901916.23
+35,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Mary Hemmings,4/16/2015,559352862,6/4/2015,65,600,310328.81
+36,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Dan Lee,4/17/2015,151839911,5/22/2015,80,280,725314.8
+37,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Sebastian Bell,4/17/2015,852176702,5/13/2015,88,500,4596361.06
+38,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Owen Hill,4/18/2015,534085166,4/25/2015,76,300,995431.92
+39,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Justin Welch,4/22/2015,942700612,6/6/2015,66,1200,233216.75
+40,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Wendy Parr,4/30/2015,375630986,6/2/2015,87,700,1636600.08
+41,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Joanne Wallace,5/2/2015,211114585,5/14/2015,88,500,1531645.92
+42,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Laser Hair Removal,Demace Skincare,Maria Sharp,5/4/2015,624295365,6/23/2015,88,500,16112.91
+43,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Megan Knox,5/6/2015,181045520,5/27/2015,76,500,873607.9
+44,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Jacob Brown,5/15/2015,409873998,6/3/2015,80,280,4231658.8
+45,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Laser Hair Removal,Demace Skincare,Leonard Paterson,5/18/2015,109966123,6/5/2015,88,500,2556.42
+46,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Prolab,Abigail Baker,5/18/2015,411448562,6/30/2015,66,1200,867049.68
+47,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Ella Edmunds,5/18/2015,453089320,6/16/2015,80,280,3520771.6
+48,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Eric Oliver,5/22/2015,325412309,7/7/2015,76,300,852617.04
+49,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Brandon Arnold,5/22/2015,901180875,5/26/2015,76,500,1707721.4
+50,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Lillian Henderson,5/24/2015,958840644,6/2/2015,76,300,169211.22
+51,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Angela Rees,5/28/2015,985092818,7/17/2015,66,1200,460786.95
+52,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Stephen Underwood,5/31/2015,304750287,6/1/2015,80,280,540816.4
+53,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Prolab,Ruth Mackay,6/1/2015,620441138,6/22/2015,66,1200,181020.5
+54,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Isaac Piper,6/3/2015,909053695,6/27/2015,76,300,1227353.52
+55,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Molly Hughes,6/8/2015,706399714,7/19/2015,65,900,899155.84
+56,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Christopher Parr,6/9/2015,363276517,7/9/2015,76,300,68508.42
+57,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Kimberly Payne,6/12/2015,285662829,7/13/2015,65,600,231622.82
+58,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Zoe Walsh,6/16/2015,496897733,7/21/2015,65,600,158229.28
+59,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Liam Paige,6/20/2015,953293836,7/22/2015,88,500,6306968.85
+60,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Lily Peters,6/22/2015,944635236,7/27/2015,88,500,4827419.73
+61,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Colin Smith,6/24/2015,977499377,8/12/2015,76,300,403268.94
+62,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Robert Davies,6/28/2015,448685348,7/22/2015,65,900,526729.6
+63,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Anna Baker,6/28/2015,450849997,7/21/2015,63,900,588800.64
+64,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Prolab,Carolyn Reid,6/29/2015,167787253,7/16/2015,66,1200,128177.92
+65,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Diana Ince,7/2/2015,817824685,7/27/2015,87,700,345393.84
+66,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Rose Fraser,7/2/2015,551725089,8/10/2015,91,280,2771395.41
+67,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,James Duncan,7/11/2015,464626681,7/27/2015,88,500,1480218.05
+68,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Amelia Graham,7/16/2015,551057326,8/22/2015,65,600,732545.99
+69,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Christopher Short,7/16/2015,492689454,8/16/2015,65,600,540480.49
+70,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Prolab,Wanda Bailey,7/17/2015,976871955,8/31/2015,66,1200,1074568.5
+71,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Hannah Henderson,7/18/2015,207580077,7/18/2015,91,280,2705580.57
+72,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Amelia Smith,7/19/2015,147047555,9/3/2015,65,600,285564.62
+73,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Alexander Mackenzie,7/19/2015,770714795,8/26/2015,76,300,74764.2
+74,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Owen Slater,7/19/2015,531693494,8/6/2015,66,1200,416373.75
+75,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Prolab,William Springer,7/21/2015,211201774,9/9/2015,66,1200,1233250.3
+76,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Julian Mackenzie,7/26/2015,363832271,9/12/2015,65,600,401212.57
+77,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Gordon Hughes,7/26/2015,496941077,7/29/2015,65,600,389279.99
+78,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Laser Hair Removal,Demace Skincare,Victoria Bell,7/26/2015,314004981,8/9/2015,88,500,92432.31
+79,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Laser Hair Removal,Prolab,Tim Blake,7/29/2015,658348691,8/22/2015,66,1200,82682.46
+80,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Maria Peters,7/29/2015,178377473,9/1/2015,80,280,2060523.6
+81,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Kimberly MacDonald,8/2/2015,489148938,9/1/2015,91,280,3753133.44
+82,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Sally Gray,8/6/2015,251466166,9/8/2015,87,700,837828.96
+83,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Gabrielle Peters,8/6/2015,717110955,8/9/2015,88,500,5294034.94
+84,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Robert Welch,8/7/2015,238714301,9/13/2015,63,900,1062310.88
+85,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Thomas Powell,8/9/2015,683184659,8/23/2015,66,1200,397488.65
+86,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Prolab,Paul Cornish,8/12/2015,248121345,9/14/2015,66,1200,535358.5
+87,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Cameron Graham,8/12/2015,283504188,9/2/2015,76,300,617033.52
+88,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Deirdre Parr,8/15/2015,280749452,10/1/2015,87,700,2260759.68
+89,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Theresa Hemmings,8/23/2015,950427091,9/14/2015,88,500,880435.92
+90,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Rose Paige,8/27/2015,880999934,9/16/2015,63,900,689884.64
+91,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Sebastian Ferguson,8/30/2015,778708636,9/2/2015,65,600,494057.85
+92,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Donna Lawrence,8/31/2015,651621711,10/16/2015,80,280,3585040
+93,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Diane Quinn,9/1/2015,366630351,10/12/2015,88,500,1903486.83
+94,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Carolyn Arnold,9/4/2015,262056386,10/24/2015,66,1200,339884.35
+95,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Luke Parr,9/4/2015,133276879,10/17/2015,66,1200,400715.25
+96,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Prolab,Peter Mackay,9/5/2015,737816321,9/21/2015,66,1200,785706
+97,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Connor Hudson,9/7/2015,887180173,10/18/2015,87,700,1323116.24
+98,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Prolab,Joseph Parr,9/14/2015,151854932,10/19/2015,66,1200,940382.24
+99,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Laser Hair Removal,Prolab,Emily Mills,9/16/2015,536028802,9/22/2015,69,1200,15758.37
+100,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Ian Piper,9/19/2015,807678210,10/30/2015,76,300,1340567.88
+101,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Boris Simpson,9/26/2015,272021179,11/8/2015,65,600,366722.51
+102,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Neil Mackay,9/30/2015,331604564,11/17/2015,65,600,654984.22
+103,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Anthony Welch,10/3/2015,164569461,10/5/2015,76,300,1314476.7
+104,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Prolab,Paul Skinner,10/3/2015,694722020,10/3/2015,69,1200,391158.34
+105,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Katherine Dowd,10/6/2015,494468724,10/23/2015,76,500,645692.3
+106,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Prolab,Fiona Rutherford,10/6/2015,423821055,10/22/2015,69,1200,1066557.38
+107,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Colin Scott,10/15/2015,494745099,10/30/2015,89,280,2152772.8
+108,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Ava Jackson,10/16/2015,166066348,12/5/2015,87,700,402831.84
+109,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Laser Hair Removal,Prolab,Eric Nash,10/19/2015,674808442,10/24/2015,69,1200,90211.77
+110,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Theresa MacDonald,10/19/2015,504270160,11/25/2015,76,500,740725.7
+111,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Emma Poole,10/19/2015,306889617,10/21/2015,87,700,1100767.36
+112,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Deirdre Miller,10/20/2015,861601769,12/2/2015,76,500,1227000.5
+113,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Victor North,10/21/2015,699368035,12/7/2015,63,900,808453.44
+114,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Wanda Roberts,10/24/2015,719362294,12/3/2015,65,600,338689.12
+115,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Joshua Vance,10/25/2015,191256368,11/9/2015,63,900,640817.92
+116,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Isaac Scott,10/26/2015,444604098,10/31/2015,87,700,1809424.64
+117,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Ian Murray,10/31/2015,794969689,11/13/2015,91,280,3397058.28
+118,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Christian Wallace,11/1/2015,888248336,11/7/2015,65,600,104287.48
+119,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Brandon Anderson,11/3/2015,139540803,12/4/2015,91,280,877109.31
+120,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Laser Hair Removal,Prolab,Alan Wallace,11/5/2015,430081975,12/9/2015,69,1200,90211.77
+121,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Colin Payne,11/8/2015,940870702,11/21/2015,76,500,700202.8
+122,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Max Ferguson,11/11/2015,432995069,12/13/2015,63,900,187743.04
+123,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Sally Quinn,11/12/2015,247776305,11/30/2015,76,500,281809
+124,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Jane Knox,11/13/2015,409774005,11/27/2015,65,600,7273.97
+125,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Katherine Mills,11/14/2015,783596694,12/24/2015,87,700,645858.4
+126,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Laser Hair Removal,Cera-Oat Soap,Emily Hudson,11/16/2015,267888581,12/22/2015,76,300,28353.87
+127,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Alexander Powell,11/16/2015,841492497,12/31/2015,91,280,2187499.65
+128,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Alexandra Allan,11/17/2015,951380240,12/20/2015,63,900,525344.6
+129,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Angela Henderson,11/18/2015,841138446,12/8/2015,88,500,268949.73
+130,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Laser Hair Removal,Cera-Oat Soap,Kylie McDonald,11/21/2015,960905301,11/25/2015,76,300,19471.71
+131,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Amy Marshall,11/27/2015,693743550,1/9/2016,63,900,460331.28
+132,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Amanda Dickens,11/30/2015,547528827,12/15/2015,87,700,1225854.56
+133,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Benjamin Walker,12/1/2015,248093020,12/16/2015,91,280,2148685.77
+134,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Kylie Vaughan,12/9/2015,606055057,1/23/2016,88,500,2682435.78
+135,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Adam Hemmings,12/10/2015,533006703,1/23/2016,89,280,3227847.6
+136,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Edward Sanderson,12/13/2015,461768949,12/30/2015,65,600,535168.04
+137,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Fiona Baker,12/15/2015,729443109,1/12/2016,63,900,1121710.86
+138,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Chloe Forsyth,12/26/2015,716849601,12/31/2015,63,900,63600.96
+139,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Faith Cameron,12/28/2015,464840400,2/5/2016,76,300,832934.22
+140,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Chloe Vance,12/31/2015,867551982,1/3/2016,63,900,739279.2
+141,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Alexander Langdon,1/1/2016,462085664,1/15/2016,87,700,69180.88
+142,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Laser Hair Removal,Cera-Oat Soap,Diane Buckland,1/2/2016,692566382,1/14/2016,76,300,43272.54
+143,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Laser Hair Removal,Cera-Oat Soap,Katherine Scott,1/8/2016,714135205,2/6/2016,76,300,68407.56
+144,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Laser Hair Removal,Cera-Oat Soap,Sean Johnston,1/8/2016,221530139,1/26/2016,76,300,42414.18
+145,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Oliver Lawrence,1/9/2016,890695369,2/23/2016,69,1200,256609.6
+146,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Theresa Hunter,1/11/2016,759279143,2/18/2016,88,500,4184675.46
+147,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,John Burgess,1/14/2016,972678697,2/25/2016,91,280,2571841.44
+148,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Rachel Underwood,1/17/2016,379710948,1/30/2016,65,600,307468.26
+149,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Piers Jones,1/18/2016,373335015,2/28/2016,69,700,1782364.96
+150,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Michelle Murray,1/25/2016,960085189,2/13/2016,69,1200,445887.65
+151,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Bernadette Nash,1/26/2016,812295901,2/13/2016,88,500,3427318.23
+152,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Sonia Howard,1/26/2016,718781220,2/19/2016,77,500,1464179.57
+153,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Michelle Young,1/27/2016,801590669,3/15/2016,63,900,802880.16
+154,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Andrew Hamilton,1/28/2016,851299941,2/1/2016,63,900,811404
+155,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Victor Wright,1/29/2016,693159472,2/5/2016,63,900,15954.88
+156,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Natalie Mathis,2/1/2016,644670712,3/21/2016,65,300,189962.1
+157,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Lisa North,2/3/2016,347163522,3/22/2016,65,600,184382.88
+158,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Heather Rampling,2/4/2016,854095017,3/4/2016,78,1200,215897.5
+159,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Victoria Hart,2/10/2016,669978749,3/20/2016,78,1200,21589.75
+160,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Laser Hair Removal,Cera-Oat Soap,Blake Hardacre,2/14/2016,103617227,3/12/2016,65,300,13948.35
+161,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Joshua Lyman,2/16/2016,466970717,3/18/2016,63,900,641145.76
+162,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Christian Short,2/20/2016,127468717,3/9/2016,65,600,791228.13
+163,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Jonathan Mackenzie,2/21/2016,547143447,2/23/2016,77,500,494919.6
+164,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Tim Peters,2/21/2016,195833718,4/7/2016,69,700,103133.12
+165,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Dylan Lambert,2/23/2016,280571782,3/11/2016,77,500,4089598.8
+166,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Joanne North,2/27/2016,736967885,3/12/2016,89,280,1761478.8
+167,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Michelle Piper,2/28/2016,778490626,3/24/2016,77,500,1023121.37
+168,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Laser Hair Removal,Cera-Oat Soap,Benjamin Parsons,3/2/2016,821587932,3/11/2016,65,300,46472.73
+169,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Brandon Duncan,3/6/2016,280494105,4/14/2016,63,900,507473.64
+170,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Neil Nolan,3/6/2016,908136594,3/10/2016,91,280,2807256.06
+171,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Stewart Henderson,3/7/2016,427811324,4/16/2016,63,900,1191345.98
+172,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Boris Anderson,3/9/2016,905381858,4/8/2016,77,500,979683.82
+173,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Leonard Mitchell,3/13/2016,339256370,3/31/2016,63,900,257245.12
+174,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Jonathan Brown,3/16/2016,369837844,3/23/2016,65,300,319044.78
+175,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Robert Blake,3/17/2016,673130881,3/23/2016,65,300,494511.78
+176,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Vanessa Gill,3/19/2016,313044536,4/14/2016,69,700,1452287.92
+177,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Phil King,3/20/2016,115309941,4/6/2016,65,300,248552.82
+178,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Fiona Ball,3/20/2016,107005393,5/4/2016,78,1200,195921.05
+179,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Hannah Jackson,3/20/2016,661953580,4/24/2016,63,900,615137.12
+180,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Emma Walsh,3/21/2016,127589738,4/2/2016,65,600,449024.62
+181,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Nathan McGrath,3/31/2016,834460818,3/31/2016,91,280,1837330.95
+182,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Diana Parr,4/4/2016,968554103,4/8/2016,63,900,605083.36
+183,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Edward MacDonald,4/9/2016,479216182,4/26/2016,91,280,4038331.08
+184,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Evan Stewart,4/12/2016,742443025,4/15/2016,65,300,647702.1
+185,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Christian Turner,4/18/2016,296438443,4/19/2016,78,1200,74876.1
+186,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Chloe Bond,4/19/2016,186196649,5/28/2016,78,1200,407168.45
+187,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Anthony Rampling,4/22/2016,534633624,6/8/2016,89,280,3858290
+188,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Laser Hair Removal,Cera-Oat Soap,Joan Wright,4/28/2016,681006705,6/14/2016,65,300,36125.76
+189,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Stephanie Brown,5/2/2016,351855885,6/2/2016,65,600,67835.9
+190,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Gabrielle Harris,5/2/2016,860952031,5/13/2016,78,1200,175232.85
+191,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Christopher Rampling,5/12/2016,285341823,6/8/2016,77,500,5106137.61
+192,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Andrea Wright,5/12/2016,524363124,6/28/2016,63,900,1472197.36
+193,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Eric Baker,5/17/2016,770508801,6/25/2016,77,500,6207333.72
+194,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Harry Clarkson,5/17/2016,830923306,6/5/2016,69,700,1921237.28
+195,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Laser Hair Removal,Cera-Oat Soap,Madeleine Payne,5/20/2016,227486360,6/8/2016,65,300,66466.92
+196,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Wendy Scott,5/27/2016,562817418,6/2/2016,89,280,3950539.2
+197,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Dan Clark,6/3/2016,185177838,7/4/2016,65,600,579629.16
+198,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Rachel Thomson,6/7/2016,500160586,6/7/2016,91,280,3158690.43
+199,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Tracey Davies,6/20/2016,881974112,7/11/2016,69,700,1172756.32
+200,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Nicola Wilson,6/30/2016,393620669,8/2/2016,69,700,2542078.24
+201,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Lauren Randall,7/4/2016,835572326,8/8/2016,76,500,673461.8
+202,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Samantha Brown,7/11/2016,867374312,8/3/2016,89,280,1831430.8
+203,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Katherine Hughes,7/13/2016,392952907,8/13/2016,89,280,1028294.4
+204,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Paul Wallace,7/18/2016,177901113,8/13/2016,69,700,956534.16
+205,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Wanda Graham,7/20/2016,162866580,7/26/2016,56,900,723311.7
+206,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Tim Johnston,7/21/2016,277083623,9/2/2016,89,280,1773283.2
+207,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Jonathan Berry,7/25/2016,365560901,9/1/2016,77,500,4309673.23
+208,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Kevin Wilson,7/30/2016,435146415,8/12/2016,76,500,1717389.3
+209,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Joan Rutherford,8/1/2016,590768182,9/7/2016,69,700,73520.64
+210,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Steven Wright,8/3/2016,775278842,9/22/2016,91,280,461125.77
+211,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Elizabeth Mitchell,8/4/2016,432037627,8/18/2016,89,280,3668108
+212,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Neil Payne,8/6/2016,304832684,9/6/2016,56,900,865817.2
+213,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Keith Welch,8/6/2016,612573039,8/9/2016,56,900,309262.4
+214,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Diamond Peel,Ketoconazole,Ryan North,8/7/2016,716202867,9/20/2016,90,2000,85826.67
+215,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Michelle Sanderson,8/12/2016,505244338,9/19/2016,56,900,289940.92
+216,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Ruth Taylor,8/12/2016,630048596,9/3/2016,77,500,2758525.56
+217,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Paul Walsh,8/12/2016,812984693,8/22/2016,56,900,993573.76
+218,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Diamond Peel,Ketoconazole,Jack MacLeod,8/16/2016,645713555,8/31/2016,90,2000,91853.85
+219,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Jacob Lee,8/17/2016,254927718,9/7/2016,69,700,1948296.96
+220,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Kylie Dyer,8/23/2016,147599017,8/28/2016,65,600,546283.32
+221,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Deirdre Cameron,8/25/2016,885129249,9/3/2016,65,600,675825.37
+222,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Joanne Young,8/26/2016,708215034,9/13/2016,65,300,827136.18
+223,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Joshua Greene,8/31/2016,476436126,10/15/2016,77,500,4488139.32
+224,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Edward Forsyth,9/2/2016,183022201,10/15/2016,93,280,3877590.99
+225,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Donna Campbell,9/4/2016,980612885,9/4/2016,78,1200,189752.55
+226,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Bella Gray,9/10/2016,777840888,10/23/2016,65,600,756738.07
+227,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Diamond Peel,Ketoconazole,Andrea Bond,9/13/2016,733563411,9/20/2016,90,2000,61288.77
+228,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Diamond Peel,Ketoconazole,Sally Pullman,9/17/2016,765955483,10/7/2016,90,2000,19630.32
+229,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Eric Sharp,9/17/2016,364818465,10/16/2016,77,500,4393062.66
+230,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Rachel Lewis,9/17/2016,460379779,11/4/2016,65,300,833391.96
+231,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Heather Springer,9/20/2016,644772422,10/26/2016,78,1200,63725.35
+232,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Christian Lee,9/22/2016,773315894,11/4/2016,89,280,93123.6
+233,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Rachel Davidson,9/23/2016,806298053,10/24/2016,78,1200,17366.7
+234,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Wendy Mills,9/30/2016,887927329,10/2/2016,77,500,4091552.43
+235,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Anna Bower,10/3/2016,750253188,11/21/2016,77,500,3639398.42
+236,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Kylie May,10/3/2016,899853074,10/26/2016,76,500,1105843.2
+237,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Michael Newman,10/5/2016,681298100,11/20/2016,93,280,43454.67
+238,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Sarah Young,10/6/2016,234073007,11/20/2016,93,280,2640609.51
+239,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Liam Rampling,10/7/2016,957276809,11/4/2016,76,500,1714509.5
+240,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Tracey Lee,10/13/2016,773160541,11/21/2016,76,500,872168
+241,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Sophie Roberts,10/15/2016,573025262,11/14/2016,89,280,4268820.8
+242,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Heather Lyman,10/19/2016,221007430,11/10/2016,77,500,6424186.65
+243,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Amy Arnold,10/22/2016,579913604,10/23/2016,65,600,668306.21
+244,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Diamond Peel,Ketoconazole,Ruth Rampling,10/25/2016,594003999,11/16/2016,90,2000,73128.54
+245,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Leonard Skinner,10/26/2016,489784085,11/1/2016,65,300,1045173
+246,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Julian Hughes,10/28/2016,373048341,12/12/2016,78,1200,101970.05
+247,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Nicholas MacDonald,10/28/2016,759504878,12/8/2016,89,280,1410407.2
+248,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Evan Vaughan,11/7/2016,185941302,12/8/2016,56,900,464953.08
+249,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Thomas Nash,11/8/2016,106753051,11/14/2016,78,1200,448639.75
+250,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Diamond Peel,Ketoconazole,Deirdre Kelly,11/12/2016,731640803,12/30/2016,90,2000,71159.91
+251,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Michelle Slater,11/15/2016,414887797,11/17/2016,56,900,368710.72
+252,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Paul Graham,11/18/2016,823739278,12/29/2016,72,600,131748.76
+253,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Luke Hamilton,11/19/2016,141940200,1/2/2017,76,500,434849.8
+254,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Lauren Ross,11/20/2016,769464671,12/24/2016,78,1200,26097.5
+255,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Gordon Hudson,11/22/2016,687875735,12/2/2016,56,900,718078.88
+256,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Lauren Howard,12/1/2016,257890164,12/29/2016,56,900,468264.8
+257,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Lucas Duncan,12/8/2016,312559163,12/16/2016,67,1200,97604.65
+258,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Sam Anderson,12/14/2016,207395112,1/26/2017,93,280,707509.53
+259,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Jason Clark,12/15/2016,608414113,12/23/2016,67,1200,100166.95
+260,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Rose Jones,12/23/2016,585823476,1/6/2017,69,700,1797171.2
+261,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Sean Clarkson,12/28/2016,792729079,1/17/2017,69,700,1277931.68
+262,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Christian Greene,1/1/2017,556738889,1/25/2017,69,700,67393.92
+263,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Luke Harris,1/3/2017,165835034,1/5/2017,58,900,481745.62
+264,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Frank Walker,1/3/2017,232389438,1/8/2017,65,300,1228879.32
+265,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Emma Duncan,1/5/2017,876286971,2/15/2017,77,500,1097967.61
+266,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Deirdre Arnold,1/5/2017,433627212,2/13/2017,93,280,3705459.87
+267,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Claire Langdon,1/7/2017,364554107,1/18/2017,65,300,1299371.28
+268,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,D' Klenz Bar,Diane Powell,1/10/2017,202230287,2/19/2017,58,900,582462.4
+269,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Una Henderson,1/12/2017,521396386,2/14/2017,65,300,249010.56
+270,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Stephen King,1/13/2017,670878255,2/15/2017,65,300,1012978.62
+271,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Diamond Peel,Ketoconazole,Jonathan Morrison,1/14/2017,402614009,3/2/2017,90,2000,12007.71
+272,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Jane Burgess,1/26/2017,888647449,2/28/2017,89,280,4102247.6
+273,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Rose Poole,1/27/2017,626523101,2/16/2017,93,280,406280.07
+274,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Olivia Black,1/28/2017,686583554,2/22/2017,67,1200,198625.7
+275,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Diamond Peel,Ketoconazole,Jessica Poole,1/31/2017,469839179,2/22/2017,90,2000,43934.97
+276,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,John McDonald,1/31/2017,945717132,2/13/2017,69,700,1932469.6
+277,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Sally Underwood,2/1/2017,249237573,2/21/2017,69,700,967766.48
+278,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Alexandra Ince,2/2/2017,720786225,2/15/2017,65,300,841631.28
+279,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Faith Sanderson,2/3/2017,238414323,2/27/2017,86,700,242771.28
+280,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Mary Dickens,2/8/2017,576264083,3/14/2017,86,700,2094061.84
+281,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Rebecca Powell,2/13/2017,851652705,3/27/2017,72,700,198452.48
+282,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Christian White,2/27/2017,343699395,4/2/2017,77,500,4652244.24
+283,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Christopher Harris,3/1/2017,151868665,4/19/2017,58,900,25882.08
+284,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Nicola Kerr,3/4/2017,419306790,3/12/2017,58,900,162071.12
+285,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Faith Paterson,3/7/2017,248178422,3/22/2017,58,900,56231.9
+286,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Bella Coleman,3/10/2017,276595246,3/15/2017,77,500,6209287.35
+287,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Victor Dyer,3/14/2017,442214143,5/3/2017,77,500,6580454.69
+288,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Olivia Bower,3/16/2017,668365561,5/4/2017,67,1200,146003.65
+289,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Austin Parsons,3/17/2017,235702931,4/3/2017,76,500,1766963
+290,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Anna Knox,3/17/2017,526834189,5/2/2017,72,700,87314.72
+291,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Carol Hodges,3/17/2017,410452497,3/26/2017,67,1200,41281.5
+292,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Kimberly Dickens,3/23/2017,745783555,5/9/2017,72,700,304016.96
+293,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Anna Grant,3/24/2017,361137616,4/18/2017,77,500,4884726.21
+294,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Adam Churchill,3/25/2017,479447925,4/4/2017,93,280,3438403.5
+295,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Amy Sharp,3/25/2017,990708720,5/4/2017,78,300,241228.98
+296,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Steven Wilkins,3/28/2017,221062791,4/18/2017,67,1200,296420.15
+297,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Boris Gibson,3/29/2017,584534299,5/18/2017,78,300,845903.52
+298,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Neil Young,4/8/2017,305959212,4/23/2017,76,500,1848214.5
+299,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Diamond Peel,Vape Pure Cee 15%,Piers Sutherland,4/9/2017,131209647,5/3/2017,72,600,62557.65
+300,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Julian Ogden,4/12/2017,959853875,5/4/2017,58,900,145894.82
+301,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Colin Pullman,4/22/2017,369681203,5/9/2017,77,500,3834533.26
+302,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Diamond Peel,Vape Pure Cee 15%,Donna Ince,4/23/2017,627122199,4/29/2017,72,600,76972.5
+303,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Wanda Ellison,4/27/2017,509914386,6/11/2017,78,300,587890.74
+304,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Yvonne Russell,4/29/2017,133336961,6/13/2017,72,600,508769.25
+305,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Diamond Peel,Vape Pure Cee 15%,John Rutherford,4/30/2017,251529252,5/5/2017,72,600,18193.5
+306,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Joshua Powell,5/1/2017,328316819,5/30/2017,67,1200,241900.1
+307,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Alexander Gibson,5/6/2017,481065833,5/8/2017,72,600,565980.25
+308,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Piers Tucker,5/10/2017,567614495,6/28/2017,67,1200,407975.1
+309,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Una Watson,5/11/2017,274200570,6/26/2017,67,1200,42562.65
+310,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Adrian Fisher,5/12/2017,918334138,6/12/2017,93,280,1828471.26
+311,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Amelia Payne,5/13/2017,290455615,5/28/2017,72,600,92027.98
+312,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Stewart Wallace,5/14/2017,554154527,5/15/2017,77,500,3577747.74
+313,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Liam Wilkins,5/17/2017,208630645,6/28/2017,72,700,797634.72
+314,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Ella Abraham,5/17/2017,366653096,5/31/2017,58,900,1487295.24
+315,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Nicholas Clark,5/17/2017,958912742,6/28/2017,86,700,623904.32
+316,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Warren Peake,5/18/2017,563915622,6/10/2017,76,500,826708.3
+317,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Neil James,5/20/2017,207922542,7/1/2017,93,280,3271756.95
+318,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Eric Piper,5/23/2017,109724509,6/16/2017,72,600,717180.75
+319,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Carol Ellison,5/31/2017,261765420,7/17/2017,76,500,218042
+320,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,John Blake,6/5/2017,104845464,7/24/2017,76,500,1019654.9
+321,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Penelope Reid,6/14/2017,132082116,7/22/2017,77,500,3183114.48
+322,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Dan Miller,6/16/2017,640942227,7/4/2017,76,500,1625647.1
+323,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Grace Arnold,6/19/2017,555142009,7/10/2017,58,900,1188110.72
+324,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Megan Hunter,6/22/2017,384013640,7/19/2017,58,900,1082271.5
+325,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Joe Grant,6/23/2017,556480538,8/7/2017,88,700,416575.36
+326,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Benjamin Taylor,6/23/2017,816204202,7/1/2017,77,500,1213578.32
+327,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Diane Rutherford,6/25/2017,732568633,7/5/2017,67,1200,104057.85
+328,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Leah Avery,6/27/2017,927666509,7/17/2017,77,500,4002937.3
+329,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Piers Jackson,6/28/2017,343239343,7/13/2017,77,500,653814.84
+330,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Maria Rampling,6/28/2017,827539861,7/1/2017,93,280,2653266.21
+331,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Bernadette Baker,6/29/2017,594540441,7/30/2017,76,500,1354123.1
+332,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Julia Glover,7/3/2017,286210000,8/5/2017,78,300,725365.32
+333,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Brandon Jones,7/4/2017,165380990,7/27/2017,77,500,5857386.55
+334,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Tracey Kerr,7/7/2017,368547379,7/12/2017,93,280,90284.46
+335,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Maria Mills,7/8/2017,767401731,7/30/2017,86,700,20422.4
+336,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Frank Dickens,7/12/2017,643817985,8/19/2017,67,1200,422494.8
+337,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Mary Peters,7/12/2017,147119653,8/9/2017,88,700,527713.12
+338,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Kylie Clark,7/14/2017,286014306,8/15/2017,93,280,2887415.16
+339,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Vanessa Wilkins,7/19/2017,673573338,7/20/2017,99,500,2718150.54
+340,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Lucas Newman,7/22/2017,768662583,8/10/2017,58,900,492221.7
+341,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Julia Kerr,7/24/2017,905392587,8/16/2017,76,500,954653.7
+342,Skin Care Clinic,"Matatalaib, Tarlac",Diamond Peel,Vape Pure Cee 15%,Diana Piper,7/26/2017,499690234,8/28/2017,72,600,678277.27
+343,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Victor McLean,7/26/2017,404010903,9/4/2017,88,700,509135.52
+344,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Victor Reid,7/27/2017,414244067,8/7/2017,67,1200,136656
+345,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Piers Newman,7/29/2017,542669522,9/11/2017,88,700,745945.28
+346,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Molly Marshall,8/4/2017,356506621,9/3/2017,89,280,3097999.2
+347,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Brady Super Black,Sebastian Anderson,8/13/2017,845058763,9/22/2017,89,280,228218.4
+348,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Tracey Bailey,8/14/2017,946759974,9/14/2017,99,500,4017965.7
+349,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Colin Slater,8/14/2017,554045522,9/20/2017,67,1200,153595.65
+350,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Jasmine Mills,8/18/2017,355602824,9/15/2017,93,280,4064066.37
+351,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Chloe Skinner,8/25/2017,614028298,9/9/2017,58,900,535050.38
+352,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Jan Johnston,8/27/2017,247802054,9/8/2017,99,500,6007079.03
+353,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Jacob Robertson,8/28/2017,808890140,9/22/2017,76,900,1143433.32
+354,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Rose Ross,8/28/2017,632093942,9/5/2017,67,1200,450727.55
+355,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Tim Baker,8/31/2017,645948302,9/29/2017,78,300,1420824.96
+356,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Gavin Gill,9/3/2017,531023156,10/15/2017,78,300,62100.06
+357,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Joseph Anderson,9/4/2017,641146934,10/4/2017,76,900,1306428.8
+358,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Emily Pullman,9/6/2017,216552817,9/27/2017,99,500,1099972.42
+359,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Colin Walker,9/6/2017,551371467,9/15/2017,88,700,210364
+360,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Fiona Taylor,9/7/2017,517799222,10/23/2017,76,500,1470960.7
+361,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Amanda Hunter,9/7/2017,303691565,10/19/2017,78,300,1211180.04
+362,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Jasmine Arnold,9/11/2017,637448060,9/15/2017,72,600,318828.73
+363,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Gavin Glover,9/11/2017,226077878,10/23/2017,72,600,26398.79
+364,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Vanessa Robertson,9/12/2017,880444610,10/31/2017,76,900,305038.8
+365,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Evan Walsh,9/18/2017,251621949,10/20/2017,93,280,3957750.09
+366,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Alexandra Clarkson,9/26/2017,890010011,10/14/2017,72,600,212089.35
+367,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Diamond Peel,Vape Pure Cee 15%,Natalie Mills,9/28/2017,675548303,11/6/2017,72,600,80331.3
+368,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Julia Forsyth,9/30/2017,531734263,10/12/2017,99,500,561346.8
+369,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Zoe Pullman,10/2/2017,645597255,10/25/2017,76,900,836391.74
+370,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Edward King,10/2/2017,795315158,10/26/2017,76,500,58418.8
+371,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Joanne Allan,10/3/2017,418973767,10/27/2017,72,600,204570.19
+372,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Bella Jones,10/6/2017,175033080,11/5/2017,78,300,767935.14
+373,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Katherine Davies,10/7/2017,312117135,10/16/2017,88,700,136709.28
+374,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Una Underwood,10/9/2017,585931193,11/21/2017,76,900,1373598.96
+375,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Leah Sanderson,10/11/2017,849630105,11/9/2017,86,300,1435764.8
+376,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Alison Peters,10/18/2017,981086671,11/21/2017,67,1200,199432.35
+377,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Felicity Lambert,10/21/2017,205300843,12/3/2017,82,300,846856.4
+378,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Connor Terry,10/28/2017,430390107,11/13/2017,76,500,175256.4
+379,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Dorothy Ogden,11/3/2017,478919208,11/27/2017,76,900,260515.46
+380,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Theresa Jackson,11/4/2017,512019383,12/12/2017,72,600,553230.37
+381,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Gabrielle McDonald,11/6/2017,723608338,11/23/2017,99,500,429029.34
+382,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Ian Parsons,11/6/2017,407681453,12/24/2017,88,700,93543.68
+383,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Stephen Campbell,11/9/2017,473527753,12/29/2017,86,700,1592947.2
+384,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Sebastian Abraham,11/10/2017,529612958,12/11/2017,99,500,2070300.46
+385,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Brandon Mills,11/18/2017,654693591,12/1/2017,88,700,790859.36
+386,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Karen Arnold,11/24/2017,266820847,12/10/2017,76,500,1454916.1
+387,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Cera-Oat Soap,Liam Forsyth,11/26/2017,480456435,12/16/2017,78,300,1005654.78
+388,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Una Smith,11/27/2017,735968816,12/6/2017,76,500,1724177.4
+389,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Vanessa Bond,11/27/2017,584204280,1/1/2018,88,700,861563.52
+390,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Neil Short,11/29/2017,899659097,12/3/2017,82,300,3486232.8
+391,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Faith Miller,12/4/2017,156619393,12/5/2017,93,280,2537246.46
+392,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Heather Davies,12/8/2017,642140424,1/16/2018,72,600,202363.48
+393,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Lauren Peters,12/8/2017,529970014,1/3/2018,76,900,1349411.54
+394,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Cauteri Warts Removal,Vape Pure Cee 15%,Christopher Robertson,12/14/2017,433228528,12/21/2017,72,600,7501.32
+395,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Sam Reid,12/18/2017,775171554,1/5/2018,93,280,3942140.16
+396,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,William Edmunds,12/21/2017,859909617,1/29/2018,67,1200,247689
+397,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Felicity Hughes,12/22/2017,832713305,2/9/2018,78,300,1102695.66
+398,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Max Sharp,12/22/2017,703815782,1/7/2018,93,280,1512475.65
+399,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Cauteri Warts Removal,Vape Pure Cee 15%,Adrian Burgess,12/26/2017,193775498,1/31/2018,72,600,12418.23
+400,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Oliver Nash,12/27/2017,858611428,1/9/2018,78,300,161277.06
+401,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Dan Fraser,12/30/2017,739474999,1/1/2018,82,300,2596968
+402,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Lauren Hill,1/1/2018,262770926,2/8/2018,88,700,941010.08
+403,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Eric Duncan,1/5/2018,256158959,1/18/2018,99,500,1291349.43
+404,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Richard Ross,1/6/2018,810871112,1/8/2018,99,500,2367799.56
+405,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Faith Thomson,1/7/2018,382537782,1/27/2018,99,500,190456.95
+406,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Adam McGrath,1/11/2018,300476777,2/28/2018,86,700,1687400.8
+407,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Elizabeth Smith,1/14/2018,671898782,2/6/2018,99,500,5770511.45
+408,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Emily Lee,1/14/2018,576455485,2/13/2018,99,500,3236431.61
+409,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Sean Wright,1/14/2018,416386401,2/16/2018,76,900,1054386.64
+410,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Dylan Peake,1/16/2018,619670808,2/25/2018,64,600,262925.41
+411,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Penelope Rampling,1/24/2018,671939122,2/14/2018,86,700,146275.44
+412,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Bernadette Gibson,2/2/2018,576654183,2/3/2018,99,500,2433839.34
+413,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Matt Hudson,2/4/2018,247857415,2/15/2018,82,300,2348638.4
+414,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Nathan Davidson,2/4/2018,278910958,2/4/2018,99,500,3211037.35
+415,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Kimberly Lyman,2/4/2018,328856265,2/12/2018,99,500,3081525.72
+416,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Alexandra Hill,2/5/2018,467986953,2/17/2018,67,1200,312885.3
+417,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Victoria Berry,2/5/2018,428392827,2/5/2018,99,500,6557065.24
+418,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,William Slater,2/5/2018,806662833,3/27/2018,93,280,3507171.57
+419,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Emily Watson,2/7/2018,253407227,2/15/2018,82,300,3359882
+420,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Ava Allan,2/8/2018,353061807,3/5/2018,78,300,1173187.62
+421,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Una Scott,2/12/2018,707520663,3/15/2018,64,600,812559.66
+422,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Edward Clarkson,2/15/2018,875304210,3/12/2018,67,1200,39003.9
+423,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Kylie Wright,2/17/2018,612943828,3/1/2018,93,280,1077507.06
+424,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Justin Ferguson,2/19/2018,232155120,3/30/2018,64,600,712195.22
+425,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Katherine Campbell,2/20/2018,423159730,4/11/2018,76,500,251365.4
+426,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Cauteri Warts Removal,Vape Pure Cee 15%,Joseph Oliver,2/23/2018,447601306,3/11/2018,64,600,37581.24
+427,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Peter Peake,2/25/2018,559299647,3/26/2018,86,700,2054748.72
+428,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Chloe Arnold,2/26/2018,607080304,4/5/2018,99,500,4950544.16
+429,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Cauteri Warts Removal,Vape Pure Cee 15%,Katherine Hill,3/2/2018,695557582,4/3/2018,64,600,91434
+430,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Adrian Graham,3/5/2018,403836238,4/3/2018,88,700,324780.16
+431,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Olivia Hodges,3/13/2018,749282443,3/25/2018,99,500,5326897.8
+432,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Owen Abraham,3/20/2018,749912869,4/25/2018,64,600,387236.74
+433,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Piers Hemmings,3/21/2018,560600841,4/14/2018,99,500,2072305.27
+434,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,John Harris,3/22/2018,693473613,4/21/2018,67,1200,147427.15
+435,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Victoria Simpson,3/27/2018,935644042,5/15/2018,76,500,1382098.3
+436,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Sebastian May,3/28/2018,975002133,4/7/2018,64,600,298559.69
+437,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Dylan Lyman,4/3/2018,248335492,4/4/2018,67,1200,324842.7
+438,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Joanne Scott,4/8/2018,265929067,5/23/2018,86,700,810514
+439,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Warren Harris,4/9/2018,887313640,4/21/2018,78,300,713921.82
+440,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Una Mitchell,4/11/2018,782857692,5/28/2018,88,700,419963.04
+441,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Molly Rees,4/13/2018,605825459,5/14/2018,64,600,496182.83
+442,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Stewart Sharp,4/16/2018,332877862,5/7/2018,67,1200,228281.95
+443,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Cauteri Warts Removal,Vape Pure Cee 15%,Jan Mathis,4/18/2018,243102395,4/18/2018,64,600,77028.48
+444,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Gavin Rampling,4/21/2018,978349959,5/21/2018,67,1200,206360.05
+445,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Cauteri Warts Removal,Illumina,Oliver Walsh,4/22/2018,967644727,4/30/2018,45,500,60019.89
+446,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Julia May,4/24/2018,786519229,6/7/2018,78,300,1124972.34
+447,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Rose Graham,4/25/2018,538957345,4/25/2018,76,900,1280238.6
+448,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Cauteri Warts Removal,Illumina,Ian Chapman,5/4/2018,827964293,6/1/2018,45,500,17615.04
+449,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Max Lyman,5/10/2018,641801393,5/24/2018,64,600,175637.77
+450,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Blake Marshall,5/10/2018,785261380,5/26/2018,76,500,1058737.9
+451,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Alexandra Ogden,5/11/2018,622791612,5/31/2018,76,500,1384978.1
+452,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Jack Simpson,5/17/2018,166435849,6/7/2018,64,600,75273.33
+453,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Tim Duncan,5/18/2018,351182544,6/22/2018,78,300,240160.92
+454,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Trevor Short,5/26/2018,345437037,6/30/2018,76,900,208135.06
+455,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Emily Wallace,6/2/2018,969616687,6/28/2018,93,280,4210462.2
+456,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Lily Graham,6/6/2018,960486018,7/4/2018,86,700,2045303.36
+457,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,William Brown,6/12/2018,194225251,6/19/2018,82,300,1933735.6
+458,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Max Johnston,6/14/2018,813209140,7/10/2018,76,900,849024.66
+459,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Bella Wright,6/18/2018,213865458,7/13/2018,78,300,976054.26
+460,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Michael Butler,6/21/2018,400304734,7/29/2018,64,600,647383.33
+461,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Anne Jones,6/21/2018,296320855,7/13/2018,67,1200,321758.45
+462,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Caroline Sanderson,6/23/2018,641018617,6/30/2018,86,700,129682.24
+463,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Luke Wright,6/25/2018,989691627,7/10/2018,67,1200,28470
+464,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Fiona Stewart,6/25/2018,195840156,7/25/2018,99,500,1543035.43
+465,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Gordon North,6/28/2018,887400329,8/17/2018,78,300,50656.56
+466,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Demace Skincare,Madeleine Sharp,6/28/2018,585917890,7/23/2018,99,500,3327316.33
+467,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Cameron Parr,7/3/2018,441395747,8/19/2018,78,300,1169525.7
+468,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Isaac MacDonald,7/13/2018,799003732,7/14/2018,67,1200,86121.75
+469,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Emily Lambert,7/16/2018,376456248,8/1/2018,78,300,95209.92
+470,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Nicola Blake,7/20/2018,714306008,8/17/2018,78,300,1201720.08
+471,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Chloe Martin,7/22/2018,447970378,9/2/2018,93,280,1369033.05
+472,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Cauteri Warts Removal,Illumina,Gavin Blake,7/24/2018,333281266,7/28/2018,45,500,39074.04
+473,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Austin Carr,7/28/2018,714818418,8/24/2018,90,2000,6354579.43
+474,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Michael Lambert,7/31/2018,142553031,9/11/2018,78,300,528689.7
+475,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Jennifer Lambert,8/2/2018,817740142,8/19/2018,86,700,1617198.8
+476,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Alan Carr,8/3/2018,329110324,9/2/2018,67,1200,470371.85
+477,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Stephen Springer,8/3/2018,306125295,8/15/2018,93,280,3430809.48
+478,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Angela Gray,8/3/2018,487014758,8/30/2018,82,300,3210796.8
+479,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Robert Carr,8/9/2018,336116683,9/4/2018,88,700,355269.28
+480,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Emily Sanderson,8/13/2018,254291713,8/15/2018,67,1200,447168.8
+481,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Lisa Peters,8/14/2018,445178306,9/22/2018,86,700,1789002.24
+482,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Natalie Mackenzie,8/16/2018,629925000,8/18/2018,82,300,3349389.2
+483,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Paul Mitchell,8/16/2018,829352176,8/26/2018,67,1200,123085.3
+484,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Jack Stewart,8/17/2018,860287702,9/11/2018,77,500,1461087.1
+485,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Ella Brown,8/17/2018,434355056,9/28/2018,86,700,1064007.04
+486,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Andrea Hart,8/18/2018,105558288,8/19/2018,90,2000,3840836.58
+487,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Sally Campbell,8/19/2018,637521445,9/12/2018,79,300,857194.44
+488,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Stephanie Short,8/21/2018,884493243,10/2/2018,93,280,25735.29
+489,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Diane Arnold,8/22/2018,801093709,10/5/2018,93,280,120238.65
+490,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Yvonne Taylor,8/25/2018,603123080,9/29/2018,64,600,521192.21
+491,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Jason Black,8/26/2018,663065516,9/9/2018,90,2000,3124830.52
+492,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Leah Manning,8/30/2018,419124829,9/19/2018,67,1200,341924.7
+493,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Molly Underwood,9/8/2018,872412145,9/25/2018,88,700,545853.6
+494,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Andrea Burgess,9/11/2018,402084004,10/5/2018,86,700,1135230.16
+495,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Cauteri Warts Removal,Illumina,Molly Blake,9/12/2018,171131217,10/8/2018,45,500,3592.05
+496,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Justin Abraham,9/15/2018,257915914,10/6/2018,78,900,293484.3
+497,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Virginia Churchill,9/20/2018,547748982,10/14/2018,79,300,1518323.58
+498,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Amanda Reid,9/21/2018,599622905,10/22/2018,79,300,91090.26
+499,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Cauteri Warts Removal,Illumina,Robert Churchill,9/24/2018,854545199,11/9/2018,45,500,72484.77
+500,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Justin Vance,9/25/2018,151807725,9/29/2018,86,700,544767.52
+501,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Edward Churchill,9/28/2018,109694898,10/16/2018,90,2000,8687.51
+502,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Julia Ferguson,9/30/2018,159050118,10/1/2018,93,280,2244032.91
+503,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Donna Clarkson,9/30/2018,718327605,11/10/2018,78,900,1225701.36
+504,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Tim Miller,10/3/2018,405785882,10/22/2018,90,2000,6456747.15
+505,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Julia Reid,10/8/2018,751940190,10/10/2018,78,900,718998.02
+506,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Lauren Skinner,10/9/2018,849312102,11/23/2018,64,600,750281.4
+507,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Joan Forsyth,10/12/2018,663857305,11/13/2018,87,300,3927804.8
+508,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Jason Ross,10/13/2018,769651782,11/3/2018,88,700,647046.88
+509,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Hannah Cornish,10/14/2018,185342633,11/24/2018,67,1200,278009.55
+510,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Gavin Duncan,10/14/2018,607300031,10/14/2018,87,300,1061958.8
+511,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Kevin Duncan,10/18/2018,444358193,10/21/2018,90,2000,2886258.13
+512,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Cauteri Warts Removal,Illumina,Adrian Roberts,10/19/2018,957547605,11/21/2018,45,500,79025.1
+513,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Faith Sutherland,10/22/2018,285509622,10/28/2018,90,2000,4882121.37
+514,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Elizabeth Jackson,10/23/2018,858877503,11/6/2018,67,1200,464725.3
+515,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Edward Poole,10/25/2018,742141759,10/28/2018,67,1200,241662.85
+516,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Samantha MacLeod,10/26/2018,540431916,11/15/2018,79,300,712243.44
+517,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Owen Burgess,10/26/2018,879107797,11/2/2018,90,2000,4159929.48
+518,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Simon Ferguson,10/31/2018,108989799,12/9/2018,77,500,279340.6
+519,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Dan King,11/3/2018,908627116,11/24/2018,87,300,791332
+520,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Sally Kerr,11/5/2018,995529830,12/17/2018,64,600,674599.42
+521,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Diana Carr,11/9/2018,327585113,11/23/2018,86,700,2187494.32
+522,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Joe McGrath,11/11/2018,167161977,12/24/2018,90,2000,3874629.46
+523,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Megan Vance,11/13/2018,860886800,11/23/2018,79,300,669826.2
+524,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Ruth Parsons,11/20/2018,572550618,11/25/2018,90,2000,6060160.26
+525,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Brian Baker,11/21/2018,780282342,12/27/2018,86,700,443931.92
+526,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Ryan Hughes,11/29/2018,109228837,12/7/2018,90,2000,1364284.95
+527,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Alison Vaughan,11/30/2018,865650832,12/31/2018,64,600,341059.29
+528,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Joseph Hamilton,12/8/2018,940904176,1/7/2019,89,2000,2154853.89
+529,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Nicholas Martin,12/9/2018,263080346,12/14/2018,88,700,19124
+530,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Anthony Hudson,12/9/2018,936574876,1/9/2019,89,2000,1415079.33
+531,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Leonard Rees,12/9/2018,703693473,1/12/2019,89,2000,4813093.11
+532,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Cauteri Warts Removal,Illumina,Melanie Nash,12/17/2018,367576634,1/5/2019,45,500,27514.17
+533,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Julian Duncan,12/18/2018,957553613,1/10/2019,93,280,104628.72
+534,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,James Mills,12/19/2018,986442506,1/1/2019,77,500,1874544.1
+535,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Olivia Rutherford,12/19/2018,450268065,1/4/2019,77,500,654331.7
+536,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Trevor Hemmings,12/24/2018,118598544,1/19/2019,78,900,739488
+537,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Colin Hart,12/26/2018,989119565,1/6/2019,67,1200,62396.75
+538,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Elizabeth Clark,12/29/2018,734945714,2/12/2019,64,700,1435694.72
+539,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Robert Howard,1/10/2019,468532407,2/11/2019,89,2000,5350169.62
+540,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Anne Hill,1/10/2019,952714908,2/25/2019,78,900,1289020.02
+541,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Emma May,1/11/2019,509819114,2/23/2019,78,900,871979.6
+542,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Anna Churchill,1/16/2019,858020055,1/17/2019,79,300,924024.48
+543,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Madeleine Roberts,1/19/2019,277568137,2/7/2019,93,280,3136752.15
+544,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Emily Grant,1/21/2019,306220996,1/30/2019,78,900,993995.12
+545,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Anna Roberts,1/24/2019,236911857,2/25/2019,64,700,1617964.64
+546,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Cauteri Warts Removal,Illumina,Angela Welch,1/28/2019,564646470,3/16/2019,45,500,2733.69
+547,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Liam Lee,1/29/2019,371123158,2/9/2019,89,2000,1633920.15
+548,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Caroline Payne,2/2/2019,979165780,2/10/2019,89,2000,3756179.28
+549,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Steven Dowd,2/2/2019,241281497,3/3/2019,78,900,1450012.72
+550,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Mary Morrison,2/4/2019,816696012,2/16/2019,89,2000,4788347.13
+551,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Justin Reid,2/9/2019,580823838,3/21/2019,79,300,1149842.88
+552,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Amy Miller,2/10/2019,713696610,3/28/2019,77,500,1551389.4
+553,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Thomas Mathis,2/10/2019,539065062,3/10/2019,89,2000,124298.22
+554,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Theresa Howard,2/12/2019,133362710,3/23/2019,77,500,790710.8
+555,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Anna Cornish,2/16/2019,469283854,2/16/2019,79,300,57370.08
+556,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Jacob Langdon,2/21/2019,270723140,3/9/2019,77,500,380133.6
+557,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Warren Jones,2/23/2019,160127294,3/23/2019,64,700,1041287.12
+558,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Alison McLean,2/24/2019,621442782,4/14/2019,89,2000,5068159.68
+559,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Alison Walker,2/25/2019,448621833,3/3/2019,87,300,2634130
+560,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Amanda Metcalfe,2/27/2019,317323625,3/24/2019,77,500,404611.9
+561,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Jessica Lyman,2/27/2019,377502095,3/3/2019,67,1200,5409.3
+562,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Victoria Ogden,3/2/2019,761439931,3/28/2019,77,500,1203550.7
+563,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Max Tucker,3/4/2019,251753699,3/24/2019,79,300,1276942.02
+564,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Lillian Slater,3/8/2019,167882096,3/31/2019,89,2000,5794466.58
+565,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,John Graham,3/10/2019,844997823,4/26/2019,88,700,271888.64
+566,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Lucas McLean,3/12/2019,418593108,3/25/2019,87,300,4309917.6
+567,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Lily Anderson,3/27/2019,964214932,3/31/2019,77,500,304436
+568,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Sophie Black,3/28/2019,386163699,4/19/2019,93,280,1381689.75
+569,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Cauteri Warts Removal,AhaGlow-Skin Repair Gel,Julia Sutherland,3/30/2019,805484378,5/1/2019,64,700,89400.06
+570,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Cauteri Warts Removal,AhaGlow-Skin Repair Gel,Neil Ferguson,3/30/2019,346215522,5/4/2019,64,700,16056.93
+571,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Lauren Bower,3/31/2019,406275975,5/10/2019,96,700,540280.32
+572,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Theresa Parsons,4/2/2019,985665738,5/19/2019,96,700,1010840
+573,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Piers Graham,4/5/2019,290878760,4/7/2019,87,300,2773596.8
+574,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Cameron Powell,4/5/2019,850038230,4/21/2019,89,2000,2711171.39
+575,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Thomas Hill,4/8/2019,294499957,4/8/2019,64,700,2026157.36
+576,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Jake Bell,4/10/2019,331457364,4/23/2019,89,2000,2977142.85
+577,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Keith Graham,4/10/2019,811546599,5/8/2019,77,500,725709.6
+578,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Rachel Vance,4/17/2019,192721068,5/20/2019,89,2000,6216247.54
+579,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Stephanie Burgess,4/17/2019,568944442,4/24/2019,96,700,235826.24
+580,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Wanda Walsh,4/18/2019,668599021,5/12/2019,89,2000,1408567.23
+581,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Owen Randall,4/18/2019,506365287,5/16/2019,87,300,1572171.2
+582,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Mary Sanderson,4/19/2019,668362987,5/13/2019,89,2000,1547045.05
+583,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Joe Dowd,4/23/2019,270611131,5/24/2019,67,1200,412909.9
+584,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Jan Vaughan,4/26/2019,224287021,5/17/2019,64,700,93943.04
+585,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Connor Turner,4/28/2019,778763139,5/9/2019,78,900,334772.38
+586,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Gordon Jones,5/5/2019,340827071,6/5/2019,93,280,3020310.51
+587,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Lily Allan,5/7/2019,219762027,5/28/2019,64,600,108047.06
+588,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Diane Bond,5/9/2019,452171361,5/27/2019,87,300,2802014.8
+589,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Andrea Poole,5/10/2019,641129338,5/14/2019,64,700,835531.44
+590,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Owen Vance,5/13/2019,251800048,5/22/2019,93,280,879640.65
+591,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Stewart Forsyth,5/16/2019,479880082,5/23/2019,64,700,1540614.8
+592,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Joshua Alsop,5/19/2019,647663629,5/20/2019,78,900,1065324.9
+593,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Evan Fisher,5/19/2019,285884702,6/10/2019,67,1200,402897.95
+594,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Claire Mackay,5/20/2019,350274455,6/14/2019,89,2000,1855948.5
+595,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Joanne Mathis,5/21/2019,133766114,6/12/2019,85,2000,2097547.41
+596,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Gavin Randall,5/25/2019,739998137,7/9/2019,78,900,115236.88
+597,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Gordon Quinn,6/1/2019,603426492,6/15/2019,78,900,949471.78
+598,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Richard Bell,6/2/2019,443121373,6/19/2019,78,900,1281162.96
+599,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Cera-Oat Soap,Jason Dyer,6/11/2019,277070748,7/2/2019,79,300,37534.68
+600,Skin Care Clinic,"Pura, Tarlac",Cauteri Warts Removal,Ketoconazole,Adam Clarkson,6/25/2019,444540584,8/2/2019,85,2000,5399833.32
+601,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Eric Coleman,6/26/2019,727131259,8/9/2019,78,900,485751.18
+602,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Jane Clarkson,6/27/2019,535654580,7/29/2019,85,2000,617998.29
+603,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Jasmine Langdon,6/28/2019,543723094,7/2/2019,67,600,702959.73
+604,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Jasmine Parsons,7/3/2019,744370782,7/14/2019,78,900,725776.66
+605,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Dylan Roberts,7/7/2019,560608565,8/24/2019,85,2000,3508068.27
+606,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Dylan Newman,7/8/2019,360945355,8/16/2019,64,700,154954.96
+607,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Deirdre Marshall,7/8/2019,641489398,7/28/2019,78,900,1513331.38
+608,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Gordon Mitchell,7/13/2019,370116364,8/17/2019,85,2000,688440.96
+609,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Rebecca Bond,7/13/2019,941909682,8/1/2019,77,500,177107.7
+610,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Rebecca Mackay,7/15/2019,386371409,7/19/2019,93,280,2000180.49
+611,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Carol Peters,7/15/2019,974655807,7/23/2019,87,300,510212.4
+612,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Natalie Graham,7/20/2019,680533778,7/25/2019,64,700,1001463.44
+613,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Simon Rampling,7/20/2019,281561410,8/2/2019,87,300,3992947.6
+614,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Cauteri Warts Removal,AhaGlow-Skin Repair Gel,Eric Quinn,7/22/2019,673803794,7/29/2019,64,700,22121.43
+615,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Adam Ross,7/26/2019,812344396,8/30/2019,67,1200,456184.3
+616,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Carl Young,7/27/2019,751929891,8/1/2019,74,900,249423.14
+617,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Lily Gill,7/29/2019,389678895,8/24/2019,93,280,1476193.11
+618,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Peter Buckland,7/30/2019,133812463,8/9/2019,77,500,1426735.2
+619,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Evan Ross,7/30/2019,431083619,8/10/2019,67,600,496673.21
+620,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Edward Blake,8/4/2019,633895957,8/22/2019,74,900,424435.3
+621,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Owen Johnston,8/5/2019,180412948,8/24/2019,77,500,1451213.5
+622,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Ella Short,8/5/2019,502715766,8/17/2019,67,600,295944.33
+623,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Isaac Dowd,8/5/2019,554707705,9/19/2019,67,1200,436160.4
+624,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Lillian Abraham,8/9/2019,647278249,9/16/2019,96,700,313961.44
+625,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Ian Parr,8/10/2019,298015153,8/14/2019,67,1200,387239.45
+626,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Lauren Ogden,8/10/2019,175257527,9/25/2019,93,280,612584.28
+627,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Stephen Parr,8/11/2019,798688733,9/18/2019,64,700,2195408
+628,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Deirdre Edmunds,8/11/2019,461823451,9/4/2019,74,900,412418.62
+629,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Jonathan Sharp,8/15/2019,781253516,9/1/2019,85,2000,6101973.37
+630,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Sebastian Taylor,8/17/2019,315254676,9/8/2019,67,1200,461166.55
+631,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Jack Dowd,8/17/2019,622758996,10/1/2019,93,280,2987403.09
+632,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Ian Dowd,8/18/2019,753585135,9/13/2019,77,500,296825.1
+633,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Tracey Newman,8/21/2019,308170640,10/10/2019,64,700,866675.6
+634,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Harry James,8/21/2019,106578814,10/2/2019,74,900,1216149.64
+635,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Katherine Bower,8/24/2019,947620856,9/3/2019,93,280,389826.36
+636,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Harry White,8/24/2019,496656548,9/29/2019,74,900,86889.84
+637,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Jennifer Reid,8/25/2019,498585164,9/29/2019,85,2000,858726.95
+638,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Oliver MacDonald,8/28/2019,367050921,8/31/2019,85,2000,1125887.82
+639,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Cauteri Warts Removal,AhaGlow-Skin Repair Gel,Edward Lyman,8/30/2019,933924853,9/13/2019,64,700,74388.09
+640,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Jonathan Marshall,9/3/2019,775076282,9/19/2019,77,500,236555
+641,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Edward Powell,9/6/2019,749690568,10/26/2019,67,1200,424867.3
+642,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Jan Dyer,9/8/2019,821912801,10/3/2019,96,700,122065.76
+643,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Faith Kerr,9/8/2019,275269162,9/15/2019,67,1200,337701.65
+644,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Stewart Blake,9/11/2019,337022197,9/22/2019,67,1200,57509.4
+645,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Amy Hudson,9/14/2019,494454562,9/22/2019,85,2000,5979679.96
+646,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Rachel McGrath,9/18/2019,749258840,11/5/2019,96,700,130698.88
+647,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Phil Wright,9/21/2019,738199555,9/21/2019,64,700,2171922.24
+648,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Tim Gray,9/24/2019,382206475,10/13/2019,85,2000,1461315.24
+649,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Boris Murray,9/24/2019,459112060,10/12/2019,85,2000,205782.36
+650,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Gavin Stewart,10/2/2019,642442548,11/2/2019,87,300,822373.2
+651,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Sue James,10/5/2019,903740775,10/23/2019,64,700,54421.89
+652,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Oliver Clark,10/8/2019,217140328,10/30/2019,64,700,51342.99
+653,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Amanda Robertson,10/11/2019,482649838,11/13/2019,64,700,1446927.04
+654,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Sean Stewart,10/14/2019,625283706,10/23/2019,67,1200,199242.55
+655,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Sunscreen SPF 150,Lauren Marshall,10/18/2019,686800706,10/31/2019,87,300,3692591.2
+656,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Samantha Clark,10/19/2019,410231912,10/24/2019,85,2000,3738302.38
+657,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Michael Skinner,10/21/2019,116699969,11/18/2019,74,900,457404.14
+658,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Dylan Manning,10/21/2019,110442054,11/20/2019,77,500,228944.1
+659,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Peter Pullman,10/22/2019,683927953,11/4/2019,67,1200,395448.3
+660,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Deirdre Jackson,10/23/2019,581990706,11/15/2019,67,1200,134663.1
+661,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Owen Tucker,10/23/2019,141259562,11/11/2019,67,1200,33120.1
+662,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Sean Tucker,10/23/2019,970611894,11/10/2019,99,500,1959967.6
+663,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,David Baker,10/27/2019,125870978,11/20/2019,99,500,3005312.8
+664,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Keith Hughes,10/31/2019,723680436,12/20/2019,85,2000,301803.24
+665,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Keith Duncan,11/3/2019,723090350,11/27/2019,64,700,1878350.24
+666,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Jane Arnold,11/13/2019,270001733,1/1/2020,99,500,3658489.6
+667,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Dorothy Marshall,11/16/2019,653939568,12/6/2019,74,900,632416.3
+668,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Piers MacLeod,11/24/2019,683458888,12/28/2019,77,500,1959909.6
+669,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,William Randall,11/28/2019,219034612,12/10/2019,93,280,2558340.96
+670,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Jonathan Lee,11/28/2019,372845780,12/9/2019,93,280,931111.23
+671,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Elizabeth Stewart,12/1/2019,532324779,1/3/2020,67,1200,265055.7
+672,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Christopher Bell,12/2/2019,351317298,1/14/2020,85,2000,221241
+673,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Diana Bond,12/4/2019,515007579,1/11/2020,67,1200,49442.9
+674,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Lauren Ince,12/6/2019,275632226,1/18/2020,67,1200,216182.2
+675,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Carolyn Parr,12/11/2019,700620734,1/5/2020,64,700,2067512.72
+676,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Edward Hardacre,12/11/2019,875370299,12/28/2019,85,2000,57827.82
+677,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Charles Rees,12/16/2019,971916091,1/19/2020,93,280,178881.36
+678,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Sue Russell,12/18/2019,807281672,1/26/2020,93,280,607943.49
+679,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Simon Paterson,12/20/2019,376547658,12/26/2019,67,1200,364178.75
+680,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Isaac Grant,12/22/2019,511349046,1/2/2020,85,2000,5470815.21
+681,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Rose Howard,12/22/2019,480177485,2/7/2020,93,280,1705701.27
+682,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Gabrielle Cameron,12/23/2019,436372077,1/3/2020,85,2000,701683.5
+683,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,David Bailey,12/30/2019,873522365,1/13/2020,55,500,1545064.8
+684,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Lucas Hodges,12/31/2019,864981782,2/11/2020,67,600,505581.78
+685,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Jack McGrath,1/1/2020,276225316,2/9/2020,74,900,9859.84
+686,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Isaac Bower,1/3/2020,573378455,1/17/2020,93,280,1806111.09
+687,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Bella Forsyth,1/3/2020,675079667,1/7/2020,96,700,1085150.4
+688,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Jasmine Pullman,1/13/2020,677284657,1/15/2020,77,500,501085.2
+689,Skin Care Clinic,"San Roque, Tarlac",Diamond Peel,Vitamin E Cream,Diane Duncan,1/14/2020,980459678,2/9/2020,96,700,946474.08
+690,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Vanessa Randall,1/21/2020,889740073,1/26/2020,55,500,1186998
+691,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Irene May,1/21/2020,960269725,2/22/2020,93,280,1690091.34
+692,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,David Wilkins,1/23/2020,138867890,2/22/2020,77,500,606815
+693,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Faith Scott,1/26/2020,743053281,2/23/2020,74,900,744571.98
+694,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Lisa Thomson,1/28/2020,299921452,2/23/2020,85,2000,1522319.06
+695,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Justin Scott,1/29/2020,266467225,3/7/2020,74,900,374057.68
+696,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Amelia Vaughan,2/3/2020,841291654,3/20/2020,67,600,470029.23
+697,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Jake Henderson,2/4/2020,666424071,3/4/2020,85,2000,5565891.87
+698,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Angela Edmunds,2/4/2020,184170186,2/17/2020,64,700,2273523.68
+699,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Alexander Mackay,2/6/2020,672327935,2/6/2020,67,600,460221.63
+700,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Alexander Clarkson,2/8/2020,977313554,3/29/2020,77,500,1574222.1
+701,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,David Nash,2/10/2020,850108611,2/25/2020,64,700,45567.72
+702,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Rose Cameron,2/13/2020,984673964,3/5/2020,64,700,1471178.64
+703,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Christian Wilson,2/17/2020,395563447,3/30/2020,81,2000,3253806.63
+704,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Ava Scott,2/18/2020,686458671,3/8/2020,67,600,590907.9
+705,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Dominic Wright,2/22/2020,544219195,3/9/2020,77,500,1112631.3
+706,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Stewart Hughes,2/22/2020,363329732,2/22/2020,81,2000,4035548.37
+707,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Brandon Allan,2/25/2020,720307290,3/28/2020,74,900,583733.34
+708,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Benjamin Nolan,3/2/2020,634153020,3/11/2020,81,2000,5747579.46
+709,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Diana Black,3/4/2020,679414975,4/17/2020,77,500,585010.8
+710,Skin Care Clinic,"Caturay, Gerona, Tarlac",Diamond Peel,Vitamin E Cream,Owen Howard,3/8/2020,680517470,3/25/2020,96,700,994120.16
+711,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Virginia Hemmings,3/9/2020,532846200,4/20/2020,67,600,807982.78
+712,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Robert Cameron,3/10/2020,775724732,3/20/2020,64,700,776306.48
+713,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Donna Hardacre,3/15/2020,768522679,3/27/2020,81,2000,273728.52
+714,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Gabrielle Lyman,3/17/2020,470897471,4/22/2020,55,500,3445573.2
+715,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Max Cornish,3/20/2020,869397771,4/17/2020,93,280,1255122.75
+716,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Jennifer Morgan,3/21/2020,652889430,4/15/2020,93,280,1411643.94
+717,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Phil Paige,3/23/2020,685871589,4/5/2020,74,900,539210
+718,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Alexander Bower,3/23/2020,401116263,3/31/2020,74,900,1243418.26
+719,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Liam Knox,3/26/2020,155128943,5/5/2020,64,700,1265422.96
+720,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Brandon Powell,3/30/2020,925405299,5/1/2020,77,500,1408427.9
+721,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Carl Vaughan,4/3/2020,901712167,4/17/2020,81,2000,3596632.83
+722,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Abigail Avery,4/5/2020,128090989,4/27/2020,81,2000,2556132.75
+723,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Jake Nolan,4/8/2020,243882596,5/11/2020,81,2000,6104646.45
+724,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Sonia Johnston,4/9/2020,358099639,4/29/2020,81,2000,5532680.16
+725,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Sophie Berry,4/18/2020,682489430,5/23/2020,67,1200,125457.8
+726,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Jack Walker,4/21/2020,650727784,6/6/2020,55,500,1603212.4
+727,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Carol Rees,4/27/2020,267066323,5/19/2020,77,500,1998375.5
+728,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Una Murray,5/8/2020,763568961,6/7/2020,81,2000,897017.82
+729,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Edward Springer,5/10/2020,517935693,6/16/2020,67,600,615917.28
+730,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Andrew Edmunds,5/13/2020,860232770,6/4/2020,67,1200,40237.6
+731,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Penelope Alsop,5/21/2020,954259860,6/4/2020,67,600,453846.69
+732,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Edward Hamilton,5/22/2020,590198266,6/1/2020,81,2000,249773.46
+733,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Dominic Ferguson,5/26/2020,360820043,7/2/2020,64,700,32878.92
+734,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Dominic Pullman,6/4/2020,795451629,6/19/2020,81,2000,446404.36
+735,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Joseph Hardacre,6/5/2020,179970920,6/25/2020,67,1200,296515.05
+736,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Jason Howard,6/9/2020,925333631,7/25/2020,64,700,52611.87
+737,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Skin Peeling,Provamed Gluta,Samantha Reid,6/10/2020,873105657,6/23/2020,93,280,2061.93
+738,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Bella Blake,6/13/2020,698002040,7/29/2020,74,900,488370.2
+739,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Justin Brown,6/15/2020,537578904,7/9/2020,67,1200,18932.55
+740,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Irene Vaughan,6/17/2020,576700961,7/23/2020,81,2000,5002000.95
+741,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Stephen Mackay,6/17/2020,636879432,7/3/2020,93,280,2376084.48
+742,Skin Care Clinic,"Caturay, Gerona, Tarlac",Diamond Peel,Vitamin E Cream,Madeleine Harris,6/18/2020,867360150,7/1/2020,96,700,1092581.44
+743,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Caroline Thomson,6/21/2020,935371100,7/6/2020,64,700,1518660.72
+744,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Emily Chapman,6/24/2020,953554761,7/28/2020,67,1200,327357.55
+745,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Sally Cornish,6/24/2020,433871400,7/1/2020,67,900,160838.64
+746,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Michelle Hudson,6/25/2020,215434443,6/30/2020,77,500,142755.8
+747,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Edward Skinner,6/25/2020,859686028,7/10/2020,77,500,1862613.5
+748,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Stephen Coleman,6/27/2020,505975615,7/4/2020,81,2000,1263820.14
+749,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Steven Blake,6/30/2020,499009597,7/9/2020,81,2000,4482929.64
+750,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Owen Marshall,7/12/2020,109956681,7/24/2020,64,700,1909494.4
+751,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Wendy Walker,7/14/2020,974337804,8/7/2020,81,2000,4719991.01
+752,Skin Care Clinic,"Caturay, Gerona, Tarlac",Diamond Peel,Vitamin E Cream,Ella Hemmings,7/22/2020,847999322,8/6/2020,96,700,76386.72
+753,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Paul Rutherford,7/25/2020,597918736,9/11/2020,55,500,2752611.2
+754,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Melanie Miller,7/26/2020,312927377,9/7/2020,81,2000,664234.2
+755,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Sebastian Roberts,8/1/2020,816632068,9/19/2020,81,2000,5490351.51
+756,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Diana Howard,8/3/2020,666678130,9/21/2020,67,1200,176941.05
+757,Skin Care Clinic,"Caturay, Gerona, Tarlac",Diamond Peel,Vitamin E Cream,Peter McGrath,8/5/2020,105117976,9/9/2020,96,700,611968
+758,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Bella May,8/8/2020,110667788,9/10/2020,81,2000,1207365.54
+759,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Richard Ellison,8/8/2020,644913613,9/7/2020,67,600,255324.52
+760,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Sophie Nash,8/9/2020,154119145,9/21/2020,93,280,2588295.15
+761,Skin Care Clinic,"Caturay, Gerona, Tarlac",Diamond Peel,Vitamin E Cream,Joan Parsons,8/10/2020,669355189,9/26/2020,96,700,648030.4
+762,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Heather MacDonald,8/12/2020,510978686,9/30/2020,64,700,2247229.84
+763,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Gabrielle Ball,8/19/2020,956433522,9/12/2020,81,2000,5722833.48
+764,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Benjamin Fraser,8/23/2020,928647124,8/30/2020,67,600,504764.48
+765,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Jack Lee,8/26/2020,262749040,8/30/2020,67,600,174493.55
+766,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Sally Dyer,8/31/2020,588200986,10/15/2020,81,2000,389423.58
+767,Skin Care Clinic,"Caturay, Gerona, Tarlac",Diamond Peel,Vitamin E Cream,Julian Parr,9/2/2020,835054767,10/9/2020,96,700,12785.76
+768,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Angela Butler,9/5/2020,229571187,9/18/2020,81,2000,2651075.91
+769,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Madeleine Dickens,9/8/2020,939787089,9/9/2020,64,700,699211.92
+770,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Jason Lawrence,9/8/2020,218629920,10/20/2020,66,700,1610050.96
+771,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Amy Slater,9/16/2020,430967319,10/5/2020,81,2000,1109996.47
+772,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Una Walsh,9/18/2020,925264966,10/18/2020,55,500,2325904
+773,Skin Care Clinic,"Caturay, Gerona, Tarlac",Diamond Peel,Vitamin E Cream,Karen Avery,9/19/2020,284870612,10/7/2020,96,700,917842.72
+774,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Diane Hodges,9/19/2020,212058293,10/6/2020,66,700,412532.48
+775,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Oliver Nolan,9/28/2020,474222981,10/26/2020,66,700,503667.44
+776,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Sebastian Burgess,9/30/2020,893779695,11/7/2020,81,2000,5293034.88
+777,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Luke Pullman,10/11/2020,473555219,11/6/2020,77,500,898497.6
+778,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Sonia Greene,10/15/2020,414715278,11/4/2020,81,2000,1551054.67
+779,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Stephen Baker,10/16/2020,948607051,11/27/2020,67,900,425359.66
+780,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Jake Fisher,10/17/2020,925504004,12/6/2020,93,280,2555387.73
+781,Skin Care Clinic,"Caturay, Gerona, Tarlac",Diamond Peel,Vitamin E Cream,Gavin Pullman,10/20/2020,509214437,11/2/2020,96,700,734580.16
+782,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Isaac Mitchell,10/23/2020,837067067,10/26/2020,67,900,863044.12
+783,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,Molly Parr,10/26/2020,659798800,12/2/2020,81,2000,5197958.22
+784,Skin Care Clinic,"Pura, Tarlac",Laser Hair Removal,Ketoconazole,James Churchill,10/26/2020,352176463,12/5/2020,81,2000,3709292.16
+785,Skin Care Clinic,"Gerona, Tarlac",Laser Hair Removal,Ketoconazole,Kimberly Jones,10/28/2020,210409057,12/4/2020,81,2000,2324819.7
+786,Skin Care Clinic,"Caturay, Gerona, Tarlac",Diamond Peel,Vitamin E Cream,Grace Roberts,10/31/2020,166013562,11/26/2020,94,700,650980.96
+787,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Stephanie Lewis,10/31/2020,802078616,12/9/2020,55,500,761165.2
+788,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Una Hunter,11/2/2020,635397565,11/21/2020,67,600,581427.22
+789,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Sebastian Marshall,11/8/2020,293258845,11/14/2020,67,1200,31506.8
+790,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Sonia Gray,11/8/2020,837855851,11/8/2020,55,500,3943544
+791,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Adam Davidson,11/13/2020,618474757,12/31/2020,66,700,2368743.12
+792,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Karen Skinner,11/15/2020,740760314,11/21/2020,67,1200,298602.85
+793,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Skin Peeling,Provamed Gluta,Phil Sharp,11/20/2020,282475936,11/28/2020,93,280,91079.46
+794,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Jennifer Mathis,11/24/2020,824200189,11/26/2020,67,900,1233404.36
+795,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Sonia Butler,12/1/2020,263506495,12/14/2020,77,500,1292413.1
+796,Skin Care Clinic,"Caturay, Gerona, Tarlac",Diamond Peel,Vitamin E Cream,Joe Edmunds,12/6/2020,310343015,12/28/2020,94,700,682890.72
+797,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,William Greene,12/10/2020,136931979,12/13/2020,81,2000,45584.7
+798,Skin Care Clinic,"Caturay, Gerona, Tarlac",Diamond Peel,Vitamin E Cream,Hannah Lambert,12/12/2020,770478332,1/24/2021,94,700,56279.2
+799,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Bernadette Langdon,12/14/2020,888670623,12/16/2020,81,2000,4063550.4
+800,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Lucas Dowd,12/16/2020,938025844,1/21/2021,67,900,238330.82
+801,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Olivia Gill,12/17/2020,642683303,1/20/2021,77,500,643018.2
+802,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Richard Howard,12/18/2020,567588317,12/26/2020,67,1200,40379.95
+803,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Leah Lambert,12/19/2020,808538234,1/16/2021,77,500,675930.2
+804,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Lillian Roberts,12/19/2020,737890565,1/15/2021,67,900,1089358.26
+805,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Irene Hill,12/20/2020,544485270,1/5/2021,55,500,1812631.2
+806,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Carl Burgess,12/24/2020,102928006,1/31/2021,67,600,616162.47
+807,Skin Care Clinic,"Caturay, Gerona, Tarlac",Diamond Peel,Vitamin E Cream,Sam King,12/29/2020,451010930,1/19/2021,94,700,329151.36
+808,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Claire Clark,1/1/2021,118002879,1/7/2021,67,600,697075.17
+809,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Harry Kelly,1/3/2021,123670709,2/1/2021,66,700,1471944.48
+810,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Nathan Kerr,1/3/2021,795000588,1/8/2021,67,600,588129.08
+811,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Dorothy Buckland,1/4/2021,659845149,1/29/2021,66,700,433465.44
+812,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Lillian Newman,1/6/2021,867222821,2/6/2021,93,280,3948468.51
+813,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Connor Metcalfe,1/6/2021,453569972,2/19/2021,55,500,126350.8
+814,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Skin Peeling,Provamed Gluta,Molly Forsyth,1/9/2021,793938434,2/8/2021,93,280,26870.4
+815,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Abigail Anderson,1/17/2021,746434152,2/5/2021,81,2000,3547177.16
+816,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Nicholas Short,1/17/2021,991831386,1/29/2021,55,500,1662671.6
+817,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Audrey McLean,1/19/2021,465418040,2/26/2021,81,2000,975901.68
+818,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Amelia Black,1/20/2021,357222878,3/9/2021,93,280,3815151.27
+819,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Jonathan Wilkins,1/24/2021,346045577,2/20/2021,81,2000,931881.51
+820,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Bernadette Hill,1/25/2021,289606320,2/14/2021,81,2000,6549714.27
+821,Skin Care Clinic,"Pinasling, Gerona, Tarlac",Skin Peeling,Provamed Gluta,Stewart Oliver,1/28/2021,561255729,2/1/2021,93,280,64349.01
+822,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Benjamin Quinn,2/13/2021,242024362,3/17/2021,66,700,2359297.76
+823,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Amanda Forsyth,2/18/2021,349157369,4/5/2021,66,700,581783.12
+824,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Adam Mills,2/18/2021,396820008,3/20/2021,67,900,1034358.84
+825,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Jan May,2/21/2021,708063542,3/19/2021,77,500,121774.4
+826,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Simon Kelly,2/24/2021,869589173,3/17/2021,55,500,4203678
+827,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Brandon Peake,2/27/2021,791975486,3/20/2021,67,1200,94947.45
+828,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Victoria Ball,3/1/2021,402646195,3/28/2021,81,2000,528782.52
+829,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Colin Greene,3/2/2021,431535089,3/19/2021,66,700,2470344.56
+830,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,William Johnston,3/8/2021,276661765,4/20/2021,81,2000,6160781.13
+831,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Heather Piper,3/9/2021,800084340,4/21/2021,81,2000,1036075.11
+832,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Amelia Henderson,3/9/2021,461408460,3/15/2021,81,2000,1506269.76
+833,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Andrew Berry,3/16/2021,823699796,4/19/2021,66,700,2534675.12
+834,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Olivia Randall,3/19/2021,234825313,3/23/2021,81,2000,5784698.43
+835,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Adam Allan,3/27/2021,877424657,4/10/2021,55,500,3632694.8
+836,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Max Parr,4/3/2021,745182311,5/5/2021,55,500,2124792
+837,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Jacob Morgan,4/4/2021,237660729,4/30/2021,67,1200,377037.7
+838,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Stephen Wilkins,4/16/2021,694687259,6/2/2021,67,1200,106857.4
+839,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Ian Ellison,4/16/2021,779897391,5/5/2021,81,2000,1193785.92
+840,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Jonathan Murray,4/19/2021,448817956,4/22/2021,67,1200,192741.9
+841,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Rachel Abraham,4/24/2021,769822585,5/15/2021,67,900,995997.9
+842,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Nicholas McLean,4/25/2021,405997025,5/12/2021,81,2000,1560950.37
+843,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Anne Randall,4/27/2021,991644704,5/18/2021,81,2000,5719722.93
+844,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Kevin Hill,4/30/2021,267614781,5/12/2021,93,280,852639.69
+845,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Penelope Newman,5/5/2021,312404668,6/21/2021,67,600,518004.74
+846,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Carolyn Edmunds,5/7/2021,711141002,6/14/2021,81,2000,855385.6
+847,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Adam Reid,5/8/2021,446970021,5/9/2021,67,900,1111851.02
+848,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Connor Black,5/15/2021,971377074,5/15/2021,81,2000,597159.57
+849,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,William Coleman,5/17/2021,370222795,6/11/2021,66,700,1533466.96
+850,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Grace Davidson,5/21/2021,724799668,5/27/2021,55,500,1391607.6
+851,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Zoe Dowd,5/22/2021,606017291,6/12/2021,67,600,231949.74
+852,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Victor Robertson,5/27/2021,359911954,6/23/2021,81,2000,732384
+853,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Natalie Chapman,5/29/2021,459212481,6/16/2021,81,2000,21489.93
+854,Skin Care Clinic,"Abagon, Gerona, Tarlac",Skin Peeling,Provamed Gluta,Dan Brown,5/31/2021,566935575,6/7/2021,93,280,71747.7
+855,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Nicola Young,6/2/2021,447917163,6/24/2021,67,1200,355732.65
+856,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Gavin Oliver,6/16/2021,681941401,7/28/2021,67,1200,22301.5
+857,Skin Care Clinic,"Caturay, Gerona, Tarlac",Diamond Peel,Vitamin E Cream,Rebecca Mackenzie,6/16/2021,902424991,7/4/2021,94,700,706276.64
+858,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Rebecca Howard,6/24/2021,366526925,7/14/2021,81,2000,353527.86
+859,Skin Care Clinic,"Caturay, Gerona, Tarlac",Diamond Peel,Vitamin E Cream,Anna Lyman,6/28/2021,914391076,8/4/2021,94,700,818944.32
+860,Skin Care Clinic,"Abagon, Gerona, Tarlac",Skin Peeling,Provamed Gluta,Jan Ellison,7/2/2021,292180383,8/15/2021,93,280,14209.59
+861,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Carolyn McLean,7/3/2021,212874114,8/17/2021,93,280,1280858.04
+862,Skin Care Clinic,"Abagon, Gerona, Tarlac",Skin Peeling,Provamed Gluta,Bernadette Cameron,7/3/2021,722088277,7/3/2021,98,280,7669.26
+863,Skin Care Clinic,"Caturay, Gerona, Tarlac",Diamond Peel,Vitamin E Cream,Madeleine Parsons,7/9/2021,837407815,7/20/2021,94,700,703326.08
+864,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Michael Pullman,7/12/2021,225666320,8/21/2021,55,500,3731064.8
+865,Skin Care Clinic,"Caturay, Gerona, Tarlac",Diamond Peel,Vitamin E Cream,Ian Short,7/14/2021,734526431,8/2/2021,94,700,169274.72
+866,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,William Hudson,7/15/2021,565798747,8/9/2021,98,280,538753.53
+867,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Alexander Edmunds,7/15/2021,784117686,7/17/2021,67,900,1032664.18
+868,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Victoria Forsyth,7/19/2021,458942115,7/29/2021,67,600,2043.25
+869,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,James Paige,7/24/2021,611809146,8/1/2021,81,2000,4528865.79
+870,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Alexander North,7/26/2021,332839667,7/27/2021,81,2000,2285095.89
+871,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,D' Klenz Bar,Felicity Arnold,7/29/2021,612911641,8/31/2021,67,900,466801.8
+872,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Colin Knox,7/30/2021,105390059,8/25/2021,77,500,1257855.5
+873,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Sarah MacDonald,7/31/2021,219607102,8/13/2021,67,1200,259883.65
+874,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Sean Bower,8/2/2021,994566810,9/1/2021,77,500,673667.5
+875,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Donna Simpson,8/4/2021,676121222,9/9/2021,77,500,1676249.3
+876,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Caroline Bond,8/5/2021,613542068,8/11/2021,98,280,4044659.43
+877,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Richard White,8/7/2021,689975583,8/12/2021,66,700,2032794.64
+878,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Tracey Wilkins,8/9/2021,579379737,8/26/2021,66,700,49524.32
+879,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Bernadette Poole,8/16/2021,606970441,9/16/2021,81,2000,3188975.37
+880,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,D' Klenz Bar,Joseph Brown,8/16/2021,461463820,8/20/2021,57,900,963491.24
+881,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Alan Lambert,8/17/2021,328236997,9/10/2021,66,700,376793.28
+882,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Kevin Springer,8/17/2021,334612929,10/3/2021,67,600,674762.88
+883,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,D' Klenz Bar,Sophie Parsons,8/18/2021,170214545,8/19/2021,57,900,1405181.26
+884,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Keith Parr,8/18/2021,469414317,8/19/2021,77,500,1847803.1
+885,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Madeleine Thomson,8/21/2021,421043574,9/7/2021,71,600,409058.65
+886,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Steven King,8/30/2021,635309588,10/14/2021,98,280,455641.2
+887,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,William Glover,9/4/2021,474178349,9/26/2021,67,1200,415946.7
+888,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Oliver Miller,9/14/2021,752716100,10/12/2021,67,1200,202896.2
+889,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Nathan Grant,9/20/2021,196587741,10/28/2021,81,2000,2302678.56
+890,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Katherine Rees,9/21/2021,352327525,10/27/2021,81,2000,266639.73
+891,Skin Care Clinic,"Caturay, Gerona, Tarlac",Skin Peeling,Vitamin E Cream,Natalie Pullman,9/23/2021,308168065,10/18/2021,94,700,287734.24
+892,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,D' Klenz Bar,Dan Terry,10/4/2021,823444449,10/30/2021,57,900,672625.96
+893,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,D' Klenz Bar,Sean Sanderson,10/7/2021,654480731,11/8/2021,57,900,654292.82
+894,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Andrea Dowd,10/13/2021,410067975,11/20/2021,77,500,1456561.7
+895,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Nicholas Dyer,10/15/2021,927232635,11/24/2021,71,600,620902.81
+896,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Connor Bond,10/15/2021,916881453,11/28/2021,77,500,915776.4
+897,Skin Care Clinic,"Abagon, Gerona, Tarlac",Skin Peeling,Provamed Gluta,Adam Peters,10/17/2021,941323029,10/27/2021,98,280,67717.14
+898,Skin Care Clinic,"Abagon, Gerona, Tarlac",Skin Peeling,Provamed Gluta,Sarah Ross,10/21/2021,252557933,11/4/2021,98,280,59338.8
+899,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Hannah Rutherford,10/30/2021,855445134,12/6/2021,98,280,1721311.2
+900,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Sean Glover,10/31/2021,246222341,12/9/2021,66,700,387259.76
+901,Skin Care Clinic,"Abagon, Gerona, Tarlac",Skin Peeling,Provamed Gluta,Anthony Miller,10/31/2021,792983996,12/2/2021,98,280,4114.53
+902,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Leah Turner,11/1/2021,884216010,11/2/2021,81,2000,5360193.67
+903,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Jessica Wallace,11/5/2021,947779643,12/5/2021,71,600,646729.49
+904,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Victoria MacLeod,11/5/2021,584072101,11/5/2021,66,700,2238550.32
+905,Skin Care Clinic,"Abagon, Gerona, Tarlac",Skin Peeling,Vitamin E Cream,Owen Allan,11/6/2021,245042169,12/15/2021,94,700,21253.74
+906,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Madeleine Peters,11/8/2021,901573550,12/23/2021,66,700,1149525.84
+907,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Benjamin Pullman,11/15/2021,596628272,12/30/2021,81,2000,674251.02
+908,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Molly Jackson,11/17/2021,702186715,12/22/2021,81,2000,1007751.16
+909,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Charles Howard,11/20/2021,107172334,12/23/2021,55,500,1543316
+910,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Julian May,11/24/2021,143657672,1/8/2022,81,2000,229225.92
+911,Skin Care Clinic,"Abagon, Gerona, Tarlac",Skin Peeling,Vitamin E Cream,Andrea Sharp,11/26/2021,195177543,12/23/2021,94,700,58097.91
+912,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Audrey Dyer,11/26/2021,962186753,1/12/2022,81,2000,866746.19
+913,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Boris Piper,12/3/2021,653148210,1/21/2022,55,500,4338772.8
+914,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,D' Klenz Bar,Olivia Mitchell,12/4/2021,817192542,12/22/2021,57,900,660609.28
+915,Skin Care Clinic,"Caturay, Gerona, Tarlac",Skin Peeling,Vitamin E Cream,Hannah King,12/5/2021,446991050,1/16/2022,94,700,375923.2
+916,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Oliver Welch,12/5/2021,825143039,12/20/2021,55,500,3067832.4
+917,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Neil Welch,12/8/2021,109653699,1/6/2022,71,600,639210.33
+918,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Theresa Campbell,12/9/2021,726708972,1/26/2022,98,280,3454857.21
+919,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Jan Tucker,12/10/2021,173571383,1/11/2022,71,600,203017.32
+920,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Amy Glover,12/10/2021,635122907,12/13/2021,66,700,1490069.36
+921,Skin Care Clinic,"Caturay, Gerona, Tarlac",Skin Peeling,Vitamin E Cream,Sam Blake,12/11/2021,801213872,1/28/2022,94,700,638632.32
+922,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Lucas Walsh,12/12/2021,613830459,1/16/2022,77,500,1013689.6
+923,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Ella Bell,12/12/2021,206435525,1/27/2022,66,700,1969229.92
+924,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,David Ellison,12/13/2021,973208701,12/28/2021,81,2000,1962040.72
+925,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,Connor Sharp,12/16/2021,677394092,12/29/2021,66,700,1230449.6
+926,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Pippa Kelly,12/17/2021,600370490,1/25/2022,71,600,149075.52
+927,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Ava Hodges,12/19/2021,169754493,1/20/2022,81,2000,1941908.22
+928,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Dylan Anderson,12/23/2021,326714789,1/21/2022,87,2000,682303.67
+929,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Rose Kelly,12/24/2021,827506387,1/30/2022,55,500,2791084.8
+930,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,D' Klenz Bar,Una Berry,12/27/2021,826916301,1/7/2022,57,900,271761.84
+931,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Emily Rampling,1/9/2022,917834603,1/13/2022,67,1200,308899.5
+932,Skin Care Clinic,"Maliwalo, Tarlac",Diamond Peel,Vape Pure Cee 15%,Sean Carr,1/11/2022,214743077,2/18/2022,71,600,498798.19
+933,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Neil Reid,1/12/2022,141812741,1/24/2022,87,2000,2862719.16
+934,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Leonard McGrath,1/13/2022,596870315,2/18/2022,87,2000,922346.1
+935,Skin Care Clinic,"Caturay, Gerona, Tarlac",Skin Peeling,Vitamin E Cream,Faith Dickens,1/13/2022,551136291,1/13/2022,94,700,254731.68
+936,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Stephanie Lambert,1/14/2022,586165082,1/27/2022,55,500,3553561.6
+937,Skin Care Clinic,"San Jose, Tarlac",Skin Peeling,Provamed Gluta,Wanda Clark,1/16/2022,936387765,2/28/2022,98,280,2870117.67
+938,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Yvonne Black,1/23/2022,607261836,2/22/2022,87,2000,753140.29
+939,Skin Care Clinic,"San Pascual, Tarlac",Skin Peeling,Provamed Gluta,Dorothy Mills,1/26/2022,760364902,2/24/2022,98,280,3259522.14
+940,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,D' Klenz Bar,Sarah Peake,1/29/2022,348286616,2/13/2022,57,900,709292.24
+941,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Penelope Tucker,1/30/2022,397877871,3/20/2022,67,1200,463064.55
+942,Skin Care Clinic,"Caturay, Gerona, Tarlac",Skin Peeling,Vitamin E Cream,Isaac Brown,2/1/2022,605373561,3/2/2022,94,700,256152.32
+943,Skin Care Clinic,"Maliwalo, Tarlac",Cauteri Warts Removal,Vape Pure Cee 15%,Leonard White,2/2/2022,276694810,2/16/2022,71,600,735406.54
+944,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Amelia James,2/3/2022,877259004,2/16/2022,77,500,1910747.3
+945,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,D' Klenz Bar,Melanie Clarkson,2/5/2022,947434604,2/19/2022,57,900,894780.48
+946,Skin Care Clinic,"San Pascual, Tarlac",Laser Hair Removal,Provamed Gluta,David Hart,2/9/2022,580854308,3/18/2022,98,280,2764223.28
+947,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Simon Thomson,2/10/2022,146263062,2/16/2022,87,2000,875877.45
+948,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Sue Ellison,2/13/2022,228836476,3/13/2022,87,2000,1015114.74
+949,Skin Care Clinic,"Caturay, Gerona, Tarlac",Skin Peeling,Vitamin E Cream,Adrian Bailey,2/16/2022,891271722,2/22/2022,94,700,651636.64
+950,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,D' Klenz Bar,Natalie Bell,2/17/2022,140635573,3/21/2022,57,900,931446.76
+951,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Jake Davidson,2/17/2022,866004025,3/4/2022,67,1200,412387.95
+952,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Mary Newman,2/17/2022,157244670,3/15/2022,55,500,457748.4
+953,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Sue Glover,2/18/2022,682831895,3/16/2022,67,1200,189183.15
+954,Skin Care Clinic,"San Pascual, Tarlac",Laser Hair Removal,Provamed Gluta,Julian Simpson,2/19/2022,531067359,2/20/2022,98,280,1471552.32
+955,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,D' Klenz Bar,Eric Buckland,2/25/2022,155710446,2/25/2022,57,900,1083966.16
+956,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,D' Klenz Bar,Phil Henderson,2/28/2022,522921168,3/2/2022,57,900,438916.94
+957,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Piers Dickens,2/28/2022,886628711,3/31/2022,67,1200,94567.85
+958,Skin Care Clinic,"San Pascual, Tarlac",Laser Hair Removal,Provamed Gluta,Neil Hodges,3/1/2022,738839423,3/31/2022,98,280,3315633.51
+959,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Samantha Pullman,3/2/2022,574441039,4/6/2022,55,500,3814132.8
+960,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Julian Springer,3/6/2022,866792809,3/18/2022,87,2000,321791.22
+961,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,AhaGlow-Skin Repair Gel,James Arnold,3/8/2022,298856723,4/3/2022,66,700,1838016
+962,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Ella Hart,3/8/2022,398511302,4/20/2022,87,2000,4814885.35
+963,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Dan Kerr,3/10/2022,903278148,4/3/2022,77,500,1837312.4
+964,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Mary Manning,3/13/2022,522371423,4/8/2022,87,2000,25480.86
+965,Skin Care Clinic,"Abagon, Gerona, Tarlac",Skin Peeling,Vitamin E Cream,Sophie Hill,3/14/2022,688344371,4/28/2022,94,700,48991.83
+966,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Abigail Ogden,3/20/2022,177950036,4/29/2022,87,2000,1254970.5
+967,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Felicity Payne,3/23/2022,141977107,4/18/2022,87,2000,1977073.56
+968,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Heather Payne,3/23/2022,630488908,4/30/2022,77,500,932643.8
+969,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Keith Metcalfe,3/27/2022,733528649,3/30/2022,87,2000,958660.14
+970,Skin Care Clinic,"Maliwalo, Tarlac",Cauteri Warts Removal,Vape Pure Cee 15%,Elizabeth Piper,3/30/2022,604041039,5/15/2022,71,600,655638.06
+971,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Sonia Lawrence,4/2/2022,798784863,5/2/2022,55,500,3080948.4
+972,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Madeleine Ross,4/4/2022,607190167,5/18/2022,67,1200,470656.55
+973,Skin Care Clinic,"San Pascual, Tarlac",Laser Hair Removal,Provamed Gluta,Theresa Hart,4/9/2022,919890248,5/18/2022,98,280,2033931.69
+974,Skin Care Clinic,"Abagon, Gerona, Tarlac",Laser Hair Removal,Vitamin E Cream,Olivia Churchill,4/15/2022,105966842,5/19/2022,94,700,63425.34
+975,Skin Care Clinic,"Paniqui, Tarlac",Skin Peeling,D' Klenz Bar,Adrian Mills,4/15/2022,954092919,5/11/2022,57,900,947777.12
+976,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Kimberly Abraham,5/3/2022,129268586,6/21/2022,77,500,473521.4
+977,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Isaac Parr,5/8/2022,228097045,6/17/2022,55,500,3427210.8
+978,Skin Care Clinic,"Abagon, Gerona, Tarlac",Laser Hair Removal,Vitamin E Cream,Tracey Churchill,5/15/2022,521787345,6/25/2022,94,700,68342.25
+979,Skin Care Clinic,"Maliwalo, Tarlac",Cauteri Warts Removal,Vape Pure Cee 15%,Rebecca Metcalfe,5/21/2022,692956054,6/23/2022,71,600,813213.5
+980,Skin Care Clinic,"Caturay, Gerona, Tarlac",Skin Peeling,Vitamin E Cream,Jane Howard,5/22/2022,958937633,7/5/2022,94,700,1072036.8
+981,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Ketoconazole,Trevor Bell,5/22/2022,927766072,6/20/2022,87,2000,832018.74
+982,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Kylie Marshall,5/29/2022,148871457,7/6/2022,77,500,663793.9
+983,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Pippa Vance,5/29/2022,866053378,6/22/2022,55,500,1440574
+984,Skin Care Clinic,"Gerona, Tarlac",Cauteri Warts Removal,Prolab,Amy Alsop,6/1/2022,944415509,6/23/2022,67,1200,113452.95
+985,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Max Rutherford,6/2/2022,721767270,7/18/2022,77,500,1199025.3
+986,Skin Care Clinic,"Tarlac, Tarlac",Diamond Peel,Oat Milk Soap,Joshua Murray,6/5/2022,629709136,6/6/2022,77,500,777957.4
+987,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Austin McGrath,6/9/2022,811701095,7/19/2022,87,2000,6021738.87
+988,Skin Care Clinic,"Caturay, Gerona, Tarlac",Skin Peeling,Vitamin E Cream,Adam Lewis,6/9/2022,763920438,7/10/2022,94,700,1080560.64
+989,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Adam Hunter,6/9/2022,869832932,7/25/2022,87,2000,1168804.23
+990,Skin Care Clinic,"Maliwalo, Tarlac",Cauteri Warts Removal,Vape Pure Cee 15%,Victor Howard,6/18/2022,109358012,7/10/2022,71,600,26235.33
+991,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Paul Peters,6/20/2022,674421346,6/29/2022,44,500,2237589.6
+992,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Eric Hughes,6/27/2022,408834159,7/18/2022,87,2000,1281581.28
+993,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Molly Gibson,7/2/2022,256243503,7/23/2022,87,2000,4559772.42
+994,Skin Care Clinic,"Maliwalo, Tarlac",Cauteri Warts Removal,Vape Pure Cee 15%,Sarah Vance,7/6/2022,377938973,7/11/2022,71,600,767935.08
+995,Skin Care Clinic,"Abagon, Gerona, Tarlac",Laser Hair Removal,Vitamin E Cream,Richard Paterson,7/8/2022,701816356,7/30/2022,94,700,17820.3
+996,Skin Care Clinic,"Maliwalo, Tarlac",Cauteri Warts Removal,Vape Pure Cee 15%,Nicholas Lawrence,7/9/2022,803517568,7/21/2022,71,600,617797.07
+997,Skin Care Clinic,"Ramos, Tarlac",Laser Hair Removal,Ketoconazole,Wendy Poole,7/18/2022,306859576,7/19/2022,87,2000,3624028.21
+998,Skin Care Clinic,"Abagon, Gerona, Tarlac",Laser Hair Removal,Vitamin E Cream,Julian Underwood,7/23/2022,987714517,9/11/2022,94,700,51594.9
+999,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Faith Ross,7/26/2022,461065137,8/19/2022,44,500,3617830
+1000,Skin Care Clinic,"San Pascual, Tarlac",Laser Hair Removal,Provamed Gluta,Pippa Marshall,7/26/2022,614994323,9/12/2022,98,280,3940874.49
+1087,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Faith Ross,7/26/2022,461065137,8/19/2022,44,500,3617830
+1088,Skin Care Clinic,"San Pascual, Tarlac",Laser Hair Removal,Provamed Gluta,Pippa Marshall,7/26/2022,614994323,9/12/2022,98,280,3940874.49
+1089,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Faith Ross,7/26/2022,461065137,8/19/2022,44,500,3617830
+1090,Skin Care Clinic,"San Pascual, Tarlac",Laser Hair Removal,Illumina,Pippa Marshall,7/26/2022,614994323,9/12/2022,45,500,3940874.49
+1091,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Faith Ross,7/26/2022,461065137,8/19/2022,44,500,3617830
+1092,Skin Care Clinic,"San Pascual, Tarlac",Laser Hair Removal,Illumina,Pippa Marshall,7/26/2022,614994323,9/12/2022,40,500,3940874.49
+1093,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Faith Ross,7/26/2022,461065137,8/19/2022,44,500,3617830
+1094,Skin Care Clinic,"San Pascual, Tarlac",Laser Hair Removal,Illumina,Pippa Marshall,7/26/2022,614994323,9/12/2022,40,500,3940874.49
+1095,Skin Care Clinic,"Moncada, Tarlac",Laser Hair Removal,Demace Skincare,Faith Ross,7/26/2022,461065137,8/19/2022,44,500,3617830
+1096,Skin Care Clinic,"San Pascual, Tarlac",Laser Hair Removal,Illumina,Pippa Marshall,7/26/2022,614994323,9/12/2022,40,500,3940874.49

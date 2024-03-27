@@ -26,13 +26,13 @@
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.8.1/css/justifiedGallery.min.css" integrity="sha512-CRFv/YVJyElHXTiMgnhWKd2f04Hd/BUJkwcyqYmlpL1ugSYW23nNRazLk960mlz7dugTrETCGGjcsnspPOS6qA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+
 {% endblock %}
 
 
 {% block content %}
-    
-    
+
+
     <div class="container-fluid bg-light p-4">
         <div class="row header p-4">
             <div class="col">
@@ -51,16 +51,18 @@
                             <p class="card-text">{{ product.description }}</p>
                         </div>
                         <div class="card-footer">
-                            <a href="#" data-product="{{product.id}}" class="btn btn-info w-100"  data-bs-toggle="modal" data-bs-target="#exampleModal">₱{{ product.price }}<br>Buy now</a>
-                          </div>
+                            {% if product.stock > 0 %}
+                                <a href="#" data-product="{{product.id}}" class="btn btn-info w-100"  data-bs-toggle="modal" data-bs-target="#exampleModal">₱{{ product.price }}<br>Buy now</a>
+                            {% else %}
+                                <button class="btn btn-secondary w-100" disabled>Out of stock</button>
+                            {% endif %}
+                        </div>
                     </div>
                 </div>
                 {% endfor %}
                 </div>
             </section>
         </div>
-        
-        
     </div>
 
 
@@ -73,23 +75,25 @@
             </div>
             <div class="modal-body">
                 <form id="order-form" action="{% url 'create_order' %}" method="POST">
-                    
-                    
+
+
                     <h2 id="product-name"></h2>
                     <img id="product-thumbnail" class="img-fluid w-25" src="{% static 'logo/logo.png' %}" alt="Product Image">
                     <p id="product-description"></p>
-                    <p id="product-price" class="fw-bolder"></p>
-                    
+                    <p id="product-price" class="fw-bolder">Price: </p>
+                    <p id="product-stock" class="fw-bolder">Stock: </p>
+
 
                     {% csrf_token %}
                     <input type="text" name="product_id" hidden/>
                     <input type="number" name="price" hidden/>
+                    <input type="number" name="stock" hidden/>
                     <input type="number" name="discount" hidden/>
-                    
+
 
                     <label for="quantity" class="form-label">Quantity:</label>
                     <input type="number" class="form-control" id="quantity" name="quantity" value="1" min="1">
-                    
+
                     <label for="id_payment_method" class="form-label requiredField">
                         Payment method<span class="asteriskField">*</span> </label>
                     <select name="payment_method" class="select form-select" id="id_payment_method">
@@ -108,7 +112,17 @@
         </div>
       </div>
 
-    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const quantityInput = document.getElementById('quantity');
+            const productStockText = document.getElementById('product-stock').textContent;
+            const stockValue = parseInt(productStockText.split(': ')[1].trim());
+
+            quantityInput.setAttribute('max', stockValue);
+        });
+    </script>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js" integrity="sha512-jEJ0OA9fwz5wUn6rVfGhAXiiCSGrjYCwtQRUwI/wRGEuWRZxrnxoeDoNc+Pnhx8qwKVHs2BRQrVR9RE6T4UHBg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/fullscreen/lg-fullscreen.min.js" integrity="sha512-11B0rPDzvnSOYzAT37QdnYgt0z9Xg+wX5tckB1QKl5Znl8RPvrB5npo38K2jCt+Ad44udCfBiKt9D4jRdkSE1A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -117,8 +131,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/thumbnail/lg-thumbnail.min.js" integrity="sha512-VBbe8aA3uiK90EUKJnZ4iEs0lKXRhzaAXL8CIHWYReUwULzxkOSxlNixn41OLdX0R1KNP23/s76YPyeRhE6P+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js" integrity="sha512-8dQZtymfQeDiZ4bBCFhrKZhDcZir15MqnEDBRiR6ReIVHLcdnCyJrhPIS0QifLGuMkFZsw9QMNeD9JtiLwieTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        
-    
+
+
     <script type="text/javascript">
         var selectedProduct = null;
 
@@ -131,14 +145,16 @@
                     // Process the data (the service details) received from the API
                     console.log(data);
                     selectedProduct = data;
-                    
+
                     $("#product-thumbnail").attr('src', data.thumbnail);
                     $("#product-name").text(data.name);
                     $("#product-description").text(data.description);
-                    $("#product-price").text(`₱${data.price}`);
+                    $("#product-price").text(`Price: ₱${data.price}`);
+                    $("#product-stock").text(`Stock: ${data.stock}`);
                     $("input[name='product_id']").val(data.id);
                     var quantityInput = document.getElementById("quantity");
                     quantityInput.value = 1;
+                    $("#quantity").attr('max', data.stock);
                     updateTotalPrice(data.price);
                     $('input[name="discount"]').val(data.discount);
                     $('input[name="price"]').val(data.price);
@@ -149,13 +165,14 @@
             });
         }
 
+
         function updateTotalPrice(basePrice){
             let quantity = $('#quantity').val();
             let total = `₱${basePrice * quantity}`;
             $('#total-price').text(`Total Price: ${total}`);
             $('input[name="price"]').val(total);
         }
-        
+
         $(document).ready(function(){
 
             var quantityInput = document.getElementById("quantity");
@@ -171,12 +188,15 @@
                     updateTotalPrice(selectedProduct.price);
                 }
             });
-            
+
             const myModal = document.getElementById('exampleModal')
 
             myModal.addEventListener('shown.bs.modal', (event) => {
+
+
                 let id = event.relatedTarget.getAttribute('data-product');
                 getProductInfo(id);
+
             })
 
             const container = document.getElementById('lightgallery');
@@ -189,7 +209,7 @@
                     // ... other settings
                 });
 
-            
+
 
             // $('#lightgallery').justifiedGallery({
             //     captions: false,
@@ -206,7 +226,7 @@
             //     });
             // });
 
-            
+
 
 
             // jQuery("#animated-thumbnails-gallery")
@@ -237,7 +257,7 @@
 
         });
     </script>
-    
+
 
 
 {% endblock %}

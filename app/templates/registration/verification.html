@@ -1,0 +1,60 @@
+{% extends 'base.html' %} {% load static %} {% block mycss %} {{ block.super }}
+<link rel="stylesheet" href="{% static 'css/common.css' %}" />
+{% endblock mycss %} {% load crispy_forms_tags %} {% block content %}
+
+<section id="verification" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-8  mx-auto">
+        <div class="card  text-center">
+          <div class="card-header bg-warning text-black ">
+            <h4><i class="fas fa-sign-in-alt"></i> Verification</h4>
+          </div>
+          <div class="card-body " id="registerForm">
+            <p>Email: {{ user_email }}</p>
+            <form method="post">
+                {% csrf_token %}
+                {{ verification_form.as_p }}
+                <input type="submit" value="Submit">
+            </form>
+            <!-- Button to trigger resend verification code -->
+            <button id="resendVerificationCode" class="btn btn-primary mt-3">Resend Verification Code</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  document.getElementById('resendVerificationCode').addEventListener('click', function() {
+      // Disable the button
+      this.disabled = true;
+
+      fetch('{% url "resend_verification" %}', {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json',
+              'X-CSRFToken': '{{ csrf_token }}'
+          },
+          body: JSON.stringify({})  // Add data if needed
+      })
+      .then(response => {
+          // Handle response
+          console.log('Verification code resent successfully.');
+
+          // Enable the button after a delay (e.g., 60 seconds)
+          setTimeout(() => {
+              this.disabled = false;
+          }, 60000); // 60 seconds in milliseconds
+      })
+      .catch(error => {
+          // Handle error
+          console.error('Error resending verification code:', error);
+
+          // Enable the button on error
+          this.disabled = false;
+      });
+  });
+</script>
+
+{% endblock %}

@@ -26,7 +26,8 @@ class AppointmentTable(tables.Table):
     
     def render_status(self, value, record):
         return AppointmentActions(record.status).label
-    
+
+
 class OrderTable(tables.Table):
 
     class Meta:

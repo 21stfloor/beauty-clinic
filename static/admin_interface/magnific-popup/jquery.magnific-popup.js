@@ -1507,7 +1507,7 @@
                 }
             },
 
-            // Get element postion relative to viewport
+            // Get element position relative to viewport
             _getOffset: function(isLarge) {
                 var el;
                 if(isLarge) {
@@ -1808,7 +1808,7 @@
                 _mfpTrigger('LazyLoad', item);
 
                 if(item.type === 'image') {
-                    item.img = $('<img class="mfp-img" />').on('load.mfploader', function() {
+                    item.img = $('<img class="mfp-img">').on('load.mfploader', function() {
                         item.hasSize = true;
                     }).on('error.mfploader', function() {
                         item.hasSize = true;

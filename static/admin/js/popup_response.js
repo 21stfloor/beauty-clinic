@@ -3,6 +3,7 @@
     'use strict';
 
     var windowRef = window;
+    var windowRefProxy;
     var windowName, widgetName;
     var openerRef = windowRef.opener;
     if (!openerRef) {
@@ -14,12 +15,14 @@
             // django < 3.1 compatibility
             widgetName = openerRef.id_to_windowname(widgetName);
         }
-        windowRef = {
+        windowRefProxy = {
             name: widgetName,
+            location: windowRef.location,
             close: function() {
                 openerRef.dismissRelatedObjectModal();
             }
         };
+        windowRef = windowRefProxy;
     }
 
     // default django popup_response.js
@@ -38,10 +41,6 @@
         default:
             if (typeof(openerRef.dismissAddRelatedObjectPopup) === 'function') {
                 openerRef.dismissAddRelatedObjectPopup(windowRef, initData.value, initData.obj);
-            }
-            else if (typeof(openerRef.dismissAddAnotherPopup) === 'function') {
-                // django 1.7 compatibility
-                openerRef.dismissAddAnotherPopup(windowRef, initData.value, initData.obj);
             }
             break;
     }

@@ -12,13 +12,14 @@ from django.utils.html import format_html
 
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ('name', 'description', 'category', 'price', 'thumb')
+    list_display = ('name', 'description', 'category', 'price', 'stock', 'thumb')
+    list_editable = ('price', 'stock')
 
     def thumb(self, obj):
         return format_html("<img src='{}'  width='48' height='48' />".format(obj.thumbnail.url))
     thumb.allow_tags = True
     thumb.__name__ = 'Thumbnail'
-    
+
 @admin.register(Service)
 class ServiceAdmin(admin.ModelAdmin):
     list_display = ('name', 'description', 'thumb')
@@ -78,8 +79,8 @@ models = app_config.get_models()
 # for model in models:
 #     try:
 #         admin.site.register(model)
-#     except admin.sites.AlreadyRegistered: 
-#         pass 
+#     except admin.sites.AlreadyRegistered:
+#         pass
 
 admin.site.unregister((         Group ))
 

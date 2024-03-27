@@ -26,15 +26,130 @@
 {% block content %}
     <div class="container-fluid bg-light p-4">
         <div class="row">
-            
-            <h1>My Orders</h1>
+            <h1>Cart</h1>
             <div class="table-responsive">
-                {% render_table table %}
-            </div>
+                <table class="table table-bordered table-responsive">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Order ID</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Product</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Discount</th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col">Action</th>
+                            <!-- Add more table headers based on your Order model fields -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for order in orders %}
+                            <tr id="orderRow_{{ order.id }}">
+                                <th scope="row">{{ forloop.counter }}</th>
+                                <td>{{ order.id }}</td>
+                                <td>{{ order.date }}</td>
+                                <td>{{ order.product }}</td>
+                                <td>{{ order.price }}</td>
+                                <td>{{ order.discount }}</td>
+                                <td>{{ order.quantity }}</td>
+                                <td>
+                                    <!-- Delete button -->
+                                    <button type="button" onclick="deleteOrder({{ order.id }})">Delete</button>
+                                </td>
+                                <!-- Add more table cells based on your Order model fields -->
+                            </tr>
+                        {% empty %}
+                            <tr>
+                                <td colspan="3">No orders available</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>  
         </div>
-        
-        
-    </div>
+      
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                
+                </div>
+                <div class="col-md-auto">
+                  
+                </div>
+                <div class="col align-self-end">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title align-text-right">Total: ₱{{ total_price }}</h3>
+                            <h5 class="card-text">Discount: {{ total_discount }}%</h5>
+                            <h5 class="card-text">Quantity: {{ total_quantity }}pcs</h5>
+                        </div>
+                        <div class="card-footer ">
+                            <div class="align-self-end">
+                            <form method="post" action="{% url 'checkout' %}">
+                                {% csrf_token %}
+                                <!-- Other form fields and elements -->
+                                {% if orders %}
+                                    <button type="submit">Check Out</button>
+                                {% else %}
+                                    <button type="submit" disabled>Check Out</button>
+                                {% endif %}
+                            </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <script>
+
+            var totalPrice = parseFloat(document.getElementById('total_price').innerText.replace('₱', '')); // Example: Replace 'total_price' with your HTML element ID
+            var totalQuantity = parseInt(document.getElementById('total_quantity').innerText); // Example: Replace 'total_quantity' with your HTML element ID
+            var currentDate = new Date().toISOString(); // Get the current date in ISO format
+            var discount = parseFloat(document.getElementById('discount').innerText.replace('%', '')); // Example: Replace 'discount' with your HTML element ID
+
+            $.ajax({
+                type: 'POST',
+                url: '{% url "checkout" %}' + selectedId + '/',
+                data: {
+                    total_price: totalPrice,
+                    total_quantity: totalQuantity,
+                    date: currentDate,
+                    discount: discount,
+                },
+                beforeSend: function(xhr, settings) {
+                    xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
+                },
+                success: function(response) {
+                    // Handle success response
+                },
+                error: function(xhr, status, error) {
+                    // Handle error response
+                }
+            });
+        </script>
+
+        <script>
+            function deleteOrder(orderId) {
+                // Use AJAX to send a request to delete the order
+                $.ajax({
+                    type: 'POST',
+                    url: `/delete_order/${orderId}/`, // Replace with your delete order URL
+                    data: {
+                        csrfmiddlewaretoken: "{{ csrf_token }}"
+                    },
+                    success: function(response) {
+                        // Handle success response by removing the deleted row from the table
+                        window.location.reload();
+                    },
+                    error: function(xhr, status, error) {
+                        // Handle error response
+                        console.error(error);
+                    }
+                });
+            }        
+        </script>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="{% static 'js/moment.min.js' %}"></script>

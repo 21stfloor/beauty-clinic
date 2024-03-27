@@ -55,16 +55,16 @@ class ServiceSerializer(serializers.ModelSerializer):
     class Meta:
         model = Service
         fields = '__all__'
-    
+
 class ProductSerializer(serializers.ModelSerializer):
     class Meta:
         model = Product
-        fields = '__all__'
+        fields = ['id', 'name', 'description', 'price', 'discount', 'stock']
 
 class OrderSerializer(serializers.ModelSerializer):
     class Meta:
         model = Order
-        fields = ['customer', 'price', 'discount', 'payment_method', 'date', 'product', 'quantity']  # List the fields you want to include
+        fields = ['customer', 'price', 'discount', 'payment_method', 'date', 'product', 'quantity', 'ordered']  # List the fields you want to include
 
     def create(self, validated_data):
         # You can perform additional actions here if needed

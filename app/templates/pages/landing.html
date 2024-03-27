@@ -10,12 +10,12 @@
 {% block content %}
 <div class="row h-100">
     <!-- <div class="bg-main "></div> -->
-    
+
         <h1 class="display-4">Welcome to {{ site_title }}</h1>
         <p class="lead">Experience the world of beauty, wellness, and confidence</p>
-        
-      
-    
+
+
+
       <section class="container my-1">
         <div class="row p-5">
           {% for service in services %}
@@ -40,8 +40,8 @@
       </section>
 
 
-      
-    
+
+
       <section class="container bg-light py-5 text-center">
         <img src="{% static 'logo/logo.png' %}" alt="Logo" class="img-fluid d-inline-block align-text-top w-25 mb-3">
         <br>
@@ -51,7 +51,7 @@
         <a href="{% url 'login' %}" class="btn btn-primary btn-lg">Book an Appointment now!</a>
         {% endif %}
       </section>
-    
+
       <section class="container my-5">
         <div class="row p-5">
           {% for product in products %}

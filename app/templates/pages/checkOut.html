@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% load render_table from django_tables2 %}
+{% load django_bootstrap5  %}
+{% load crispy_forms_tags %}
+
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/css/lightgallery-bundle.css" />
+    <style>
+        thead{
+            background-color: white;
+        }
+        .table-container{
+            background-color: white;
+        }
+        /* .bg-main{
+            display: none;
+        } */
+    </style>
+    
+{% endblock %}
+
+
+{% block content %}
+    <div class="container-fluid bg-light p-4">
+        <div class="row">
+            <h1>Order</h1>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Discount</th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col">Price</th>
+                            
+                            
+                            <!-- Add more table headers based on your Order model fields -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for checkout_item in checkout_history_data %}
+                            <tr>
+                                <th >{{ checkout_item.id }}</th>
+                                <td>{{ checkout_item.date_of_checkout }}</td>
+                                <td>{{ checkout_item.discount }}</td>
+                                <td>{{ checkout_item.total_quantity }}</td>
+                                <td>{{ checkout_item.total_price }}</td>
+                                <!-- Add more table cells based on your CheckoutHistory model fields -->
+                            </tr>
+                        {% empty %}
+                            <tr>
+                                <td colspan="6">No checkout history available</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>  
+        </div>
+            
+        </div>
+       
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="{% static 'js/moment.min.js' %}"></script>
+
+    
+    
+{% endblock %}
+
+{% block end_body %}
+    
+{% endblock %}

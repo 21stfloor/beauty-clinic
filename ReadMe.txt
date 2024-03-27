@@ -9,11 +9,6 @@ Download and install XAMPP https://sourceforge.net/projects/xampp/files/XAMPP%20
 
 
 Use Command Prompt:
-
-Django 4.1.3 - Framework run this command ->  pip install Django
-
-
-Use Command Prompt:
 Setup Web Source code
 python --version //To check if the python was properly installed
 python -m venv venv //Creates a virtual environment folder,
@@ -21,6 +16,7 @@ cd venv/Scripts -> Enter
 activate -> Enter
 cd ../.. -> Enter
 pip install -r requirements.txt //this will install all dependencies
+Django 4.1.3 - Framework run this command ->  pip install Django
 
 Open xampp 
 Start Mysql and Apache

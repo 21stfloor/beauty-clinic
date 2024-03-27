@@ -24,6 +24,8 @@ from django.conf import settings
 from django.contrib.auth.views import LogoutView
 
 
+
+
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'customer', views.CustomerViewSet)
 router.register(r'upload_customer_image', views.UploadCustomerImageViewSet)
@@ -40,28 +42,37 @@ urlpatterns = [
         views.MyLoginView.as_view(),
         name='login',
     ),
+
     path(
         'accounts/logout/',
         LogoutView.as_view(),
         name='logout',
     ),
     # path('products', views.ProductsAndOrderView.as_view(), name='products'),
-    
+
     path('products/', views.ProductsAndOrderView.as_view(), name='products'),
+    path('checkout-history/', views.checkout_page, name='checkout_history'),
+    path('checkout/', views.checkout, name='checkout'),
+    path('resend-verification/', views.resend_verification_code, name='resend_verification'),
+    path('predict_sales/', views.predict_sales, name='predict_sales'),
+    path('delete_order/<int:order_id>/', views.delete_order, name='delete_order'),
+    path('visualizeDataset/', views.visualizeDataset , name='visualizeDataset'),
 
     # URL pattern for creating an order
     path('create-order/', views.CreateOrderAPIView.as_view(), name='create_order'),
-    
+
     path('services', views.services, name='services'),
     path('orders', views.OrdertListView.as_view(), name='orders'),
     path('about', views.about, name='about'),
     path("accounts/register", views.register_request, name="register"),
+    path('verify/', views.verification_page, name='verification_page'),
     path('video_call/<str:message_gc_id>/',
          views.video_call, name='video-call'),
     # path('chat/<str:message_gc_id>/', views.chat),
     url(r'^api/customerlist', views.customer_list),
     url(r'^api/veterinarylist', views.veterinary_list),
     url(r'^chaining/', include('smart_selects.urls')),
+
     path('chart-data/', views.ServiceAppointmentCount.as_view(), name='chart-data'),
     path('gender-data/', views.GenderDistributionView.as_view(), name='gender-data'),
     path('service/<int:pk>/', views.ServiceDetailView.as_view(), name='service-detail'),

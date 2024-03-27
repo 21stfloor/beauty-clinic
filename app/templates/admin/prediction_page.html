@@ -1,0 +1,190 @@
+{% extends 'base.html' %} {% load static %} {% block mycss %} {{ block.super }}
+<link rel="stylesheet" href="{% static 'css/common.css' %}" />
+{% endblock mycss %} {% load crispy_forms_tags %} {% block content %}
+    <!-- Include Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <section id="verification" class="py-5">
+  <div class="container pb-5">
+    <h1>Sales Prediction</h1>
+     <div class="form-group">
+    <label for="futureYearDropdown">Select Year:</label>
+    <select class="form-control" id="futureYearDropdown" onchange="updateFutureChart()">
+      <option value="" disabled selected>Select Year</option>
+    </select>
+    </div>
+    <!-- Display the sales data using Chart.js -->
+    <canvas id="salesChart" width="800" height="400"></canvas>
+  </div>
+  <div class="container" >
+    <div class="row">
+      <div class="col">
+    <h2>Annual Sales Data</h2>
+    <table class="table">
+        <thead>
+          <tr class="table-success">
+                <th>Order Date</th>
+                <th>Total Revenue</th>
+            </tr>
+        </thead>
+        <tbody id="annualSalesTableBody">
+            <!-- Table content will be dynamically generated here -->
+        </tbody>
+    </table>
+      </div>
+      <div class="col">
+  <h2>Predicted Sales</h2>
+  <table class="table">
+      <thead>
+        <tr class="table-danger">
+              <th>Order Date</th>
+              <th>Total Revenue</th>
+          </tr>
+      </thead>
+      <tbody id="PredictedSalesTableBody">
+          <!-- Table content will be dynamically generated here -->
+      </tbody>
+  </table>
+</div>
+</div>
+</div>
+</section>
+<script>
+  // Parse the sales data from the Django template context
+  var historicalSalesData = JSON.parse('{{ annual_sales_data|safe }}');
+  var futureSalesData = JSON.parse('{{ future_sales|safe }}');
+
+  // Extract labels (years) and sales values for historical data
+  var historicalYears = historicalSalesData.map(item => item.Year);
+  var historicalSales = historicalSalesData.map(item => item.Total_Revenue);
+
+  // Extract labels (years) and sales values for future data
+  var futureYears = futureSalesData.map(item => item.year);
+  var futureSales = futureSalesData.map(item => item.sales);
+
+  // Combine historical and future data
+  var allYears = historicalYears.concat(futureYears);
+  var allSales = historicalSales.concat(futureSales);
+
+  // Sort data based on years
+  var sortedData = allYears.map((year, index) => ({ year, sales: allSales[index] }));
+  sortedData.sort((a, b) => a.year - b.year);
+
+  // Get the chart canvas
+  var ctx = document.getElementById('salesChart').getContext('2d');
+
+  // Create a line chart with two datasets
+  var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: sortedData.map(item => item.year),
+      datasets: [
+        {
+          label: 'Actual Sales',
+          data: historicalSales,
+          borderColor: 'rgba(75, 192, 192, 1)',
+          fill: false
+        },
+        {
+          label: 'Predicted Sales',
+          data: sortedData.map(item => item.sales),
+          borderColor: 'rgba(255, 99, 132, 1)', // Adjust color as needed
+          fill: false
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Sales Prediction'
+      },
+      scales: {
+        xAxes: [{
+          type: 'linear',
+          position: 'bottom',
+          ticks: {
+            stepSize: 1
+          }
+        }],
+        yAxes: [{
+          scaleLabel: {
+            display: true,
+            labelString: 'Total Revenue'
+          }
+        }]
+      }
+    }
+  });
+
+
+</script>
+
+<script>
+  // Parse the JSON data
+  var annualSalesData = JSON.parse('{{ annual_sales_data|safe }}');
+
+  // Get the table body element
+  var tableBody = document.getElementById('annualSalesTableBody');
+
+  // Iterate through the data and create table rows
+  annualSalesData.forEach(function(record) {
+      var row = document.createElement('tr');
+
+      var orderDateCell = document.createElement('td');
+      orderDateCell.textContent = record.Year;
+      row.appendChild(orderDateCell);
+
+      var totalRevenueCell = document.createElement('td');
+      totalRevenueCell.textContent = record.Total_Revenue.toLocaleString(); // Format to two decimal places
+      row.appendChild(totalRevenueCell);
+
+      tableBody.appendChild(row);
+  });
+var futuresales = JSON.parse('{{ future_sales|safe }}');
+
+// Get the table body element
+var tableBody2 = document.getElementById('PredictedSalesTableBody');
+var futureYearDropdown = document.getElementById("futureYearDropdown");
+// Iterate through the data and create table rows
+futuresales.forEach(function(record) {
+    var row = document.createElement('tr');
+    var option = document.createElement("option");
+    var orderDateCell = document.createElement('td');
+
+    orderDateCell.textContent = record.year;
+    row.appendChild(orderDateCell);
+
+    option.value = record.year;
+    option.text = record.year;
+    futureYearDropdown.appendChild(option);
+
+    var totalRevenueCell = document.createElement('td');
+    totalRevenueCell.textContent = record.sales.toLocaleString(); // Format to two decimal places
+    row.appendChild(totalRevenueCell);
+
+    tableBody2.appendChild(row);
+});
+
+  function updateFutureChart() {
+    // Get the selected year from the dropdown
+    var selectedYear = document.getElementById("futureYearDropdown").value;
+
+    // Filter the future data based on the selected year
+    var filteredFutureData = futureSalesData.filter(item => item.year <= selectedYear);
+
+    // Extract labels (years) and sales values for filtered future data
+    var filteredFutureYears = filteredFutureData.map(item => item.year);
+    var filteredFutureSales = filteredFutureData.map(item => item.sales);
+
+    // Update the chart data
+    myChart.data.labels = historicalYears.concat(filteredFutureYears);
+    myChart.data.datasets[1].data = historicalSales.concat(filteredFutureSales);
+
+    // Update the chart
+    myChart.update();
+  }
+
+
+
+</script>
+
+{% endblock %}

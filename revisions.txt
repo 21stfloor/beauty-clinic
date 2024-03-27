@@ -1,0 +1,6 @@
+predict from system instead of excel - 1000
+services instead of revenue - 300
+pie chart gender count - 300
+
+
+encoding - 1300

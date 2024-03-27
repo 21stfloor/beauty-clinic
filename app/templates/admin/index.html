@@ -1,7 +1,8 @@
 {% extends "admin/base_site.html" %}
 {% load i18n static %}
 
-{% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% static "admin/css/dashboard.css" %}">{% endblock %}
+{% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css"
+    href="{% static "admin/css/dashboard.css" %}">{% endblock %}
 
 {% block coltype %}colMS{% endblock %}
 
@@ -13,8 +14,8 @@
 
 {% block content %}
 <div id="content-main">
-  {% include "admin/app_list.html" with app_list=app_list show_changelinks=True %}
-</div>
+    {% include "admin/app_list.html" with app_list=app_list show_changelinks=True %}
+  </div>
 {% endblock %}
 
 {% block sidebar %}
@@ -22,40 +23,42 @@
     <div class="module" id="recent-actions-module">
         <h2>{% translate 'Recent actions' %}</h2>
         <h3>{% translate 'My actions' %}</h3>
-            {% load log %}
-            {% get_admin_log 10 as admin_log for_user user %}
-            {% if not admin_log %}
-            <p>{% translate 'None available' %}</p>
-            {% else %}
-            <ul class="actionlist">
+        {% load log %}
+        {% get_admin_log 10 as admin_log for_user user %}
+        {% if not admin_log %}
+        <p>{% translate 'None available' %}</p>
+        {% else %}
+        <ul class="actionlist">
             {% for entry in admin_log %}
-            <li class="{% if entry.is_addition %}addlink{% endif %}{% if entry.is_change %}changelink{% endif %}{% if entry.is_deletion %}deletelink{% endif %}">
+            <li
+                class="{% if entry.is_addition %}addlink{% endif %}{% if entry.is_change %}changelink{% endif %}{% if entry.is_deletion %}deletelink{% endif %}">
                 {% if entry.is_deletion or not entry.get_admin_url %}
-                    {{ entry.object_repr }}
+                {{ entry.object_repr }}
                 {% else %}
-                    <a href="{{ entry.get_admin_url }}">{{ entry.object_repr }}</a>
+                <a href="{{ entry.get_admin_url }}">{{ entry.object_repr }}</a>
                 {% endif %}
                 <br>
                 {% if entry.content_type %}
-                    <span class="mini quiet">{% filter capfirst %}{{ entry.content_type.name }}{% endfilter %}</span>
+                <span class="mini quiet">{% filter capfirst %}{{
+                    entry.content_type.name }}{% endfilter %}</span>
                 {% else %}
-                    <span class="mini quiet">{% translate 'Unknown content' %}</span>
+                <span class="mini quiet">{% translate 'Unknown content'
+                    %}</span>
                 {% endif %}
             </li>
             {% endfor %}
-            </ul>
-            {% endif %}
+        </ul>
+        {% endif %}
 
-        
     </div>
-    
+
 </div>
 {% endblock %}
 
 {% block rightbar %}
 
 <div class="row mr-auto p-5">
-                   
+
     <div class="col-8 p-5">
         <canvas id="myChart"></canvas>
     </div>
@@ -69,17 +72,17 @@
 
 </div>
 
-
 {% endblock %}
 
-
 {% block scripts %}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <script>
     // Function to make the AJAX call and create the chart
-    function fetchDataAndCreateChart() {
+    function fetchDataAndCreateChartOld() {
         const chartDataURL = "{% url 'chart-data' %}";
 
         fetch(chartDataURL)
@@ -136,8 +139,9 @@
 
 
     // Call the function to fetch data and create the chart
-    fetchDataAndCreateChart();
+    fetchDataAndCreateChartOld();
 </script>
+
 <script>
 
 const chartDataURL = "{% url 'gender-data' %}";
@@ -151,12 +155,12 @@ fetch(chartDataURL)
             labels: ['Male', 'Female', 'Other'],
             datasets: [{
                 data: data,
-                backgroundColor: [                    
+                backgroundColor: [
                     'rgba(54, 162, 235, 0.6)',
                     'rgba(255, 99, 132, 0.6)',
                     'rgba(255, 206, 86, 0.6)',
                 ],
-                borderColor: [                    
+                borderColor: [
                     'rgba(54, 162, 235, 1)',
                     'rgba(255, 99, 132, 1)',
                     'rgba(255, 206, 86, 1)',
@@ -182,12 +186,11 @@ fetch(chartDataURL)
 
     })
     .catch(error => console.error('Error:', error));
-    
+
 </script>
 
 <script>
-    
-    $(document).ready(function () {
+$(document).ready(function () {
             $.ajax({
                 url: '/get-order-data/', // Replace with the URL for the new view
                 method: 'GET',
@@ -200,7 +203,7 @@ fetch(chartDataURL)
             });
         });
 
-        function createChart(data) {
+function createChart(data) {
             var ctx = document.getElementById('salesChart').getContext('2d');
 
             var chartData = data.data;
@@ -242,15 +245,14 @@ fetch(chartDataURL)
             });
         }
 
-        function getRandomColor() {
-            var letters = '0123456789ABCDEF';
-            var color = '#';
-            for (var i = 0; i < 6; i++) {
-                color += letters[Math.floor(Math.random() * 16)];
-            }
-            return color;
-        }
+function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
 </script>
-
 
 {% endblock %}
