@@ -69,6 +69,8 @@ import json
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.pipeline import make_pipeline
 import mysql.connector
+from django.conf import settings
+
 
 query_watch = None
 from django.contrib.auth.decorators import login_required
@@ -626,10 +628,10 @@ def predict_sales_new(request):
 
 def predict_sales(request):
     connection = mysql.connector.connect(
-        host='localhost',
-        user='root',
-        password='',
-        database='beauty-clinic'
+        host=settings.DATABASES['default']['HOST'],
+        user=settings.DATABASES['default']['USER'],
+        password=settings.DATABASES['default']['PASSWORD'],
+        database=settings.DATABASES['default']['NAME']
     )
 
     cursor = connection.cursor()
@@ -694,11 +696,11 @@ def visualizeDataset(request):
     try:
         # Connect to the database
         connection = mysql.connector.connect(
-        host='localhost',
-        user='root',
-        password='',
-        database='beauty-clinic'
-    )
+            host=settings.DATABASES['default']['HOST'],
+            user=settings.DATABASES['default']['USER'],
+            password=settings.DATABASES['default']['PASSWORD'],
+            database=settings.DATABASES['default']['NAME']
+        )
 
         # Create a cursor
         cursor = connection.cursor()

@@ -4,16 +4,7 @@ from django.dispatch import receiver
 from .models import Appointment, CustomUser, Order
 import mysql.connector
 from datetime import datetime
-
-# @receiver(user_logged_in, sender=CustomUser)
-# def archive_on_admin_login(sender, request, user, **kwargs):
-#     if user.is_superuser:  # Check if the user is an admin user
-#         appointments_to_archive = Appointment.objects.filter(archive=True)
-#         for appointment in appointments_to_archive:
-#             appointment.archived = True
-#             appointment.save()
-            # ArchivedFile.archive_appointment(appointment)
-
+from django.conf import settings
 
 @receiver(post_save, sender=Order)
 def update_dataset(sender, instance, created, **kwargs):
@@ -26,10 +17,10 @@ def update_dataset(sender, instance, created, **kwargs):
 
 def update_dataset_with_raw_sql(product_name, quantity, price, discount, date):
     connection = mysql.connector.connect(
-        host='localhost',
-        user='root',
-        password='',
-        database='beauty-clinic'
+        host=settings.DATABASES['default']['HOST'],
+        user=settings.DATABASES['default']['USER'],
+        password=settings.DATABASES['default']['PASSWORD'],
+        database=settings.DATABASES['default']['NAME']
     )
 
     cursor = connection.cursor()
